@@ -173,7 +173,8 @@
 					class="side-nav-menu-item side-nav-has-menu active side-nav-opened">
 					<a class="side-nav-menu-link media align-items-center" href="#"
 					data-target="#subUsers"> <span
-						class="side-nav-menu-icon d-flex mr-3"> <i class="gd-infinite"></i>
+						class="side-nav-menu-icon d-flex mr-3"> <i
+							class="gd-infinite"></i>
 					</span> <span class="side-nav-fadeout-on-closed media-body">회계 관리</span> <span
 						class="side-nav-control-icon d-flex"> <i
 							class="gd-angle-right side-nav-fadeout-on-closed"></i>
@@ -243,9 +244,8 @@
 											<div class="tab-pane fade p-4 show active"
 												id="pills-result-1" role="tabpanel"
 												aria-labelledby="pills-result-tab-1">
-												제 1기 2021.03.31 현재<br>
-												<br>
-												<table class="table">
+												제 1기 2021.03.31 현재<br> <br>
+												<table class="table" style="text-align: center">
 													<thead>
 														<tr>
 															<th class="font-weight-semi-bold border-top-0 py-2">과목</th>
@@ -312,9 +312,8 @@
 
 											<div class="tab-pane fade p-4" id="pills-html-1"
 												role="tabpanel" aria-labelledby="pills-html-tab-1">
-												2021.03.31 ~ 2021.12.31(단위 : 천원) <br>
-												<br>
-												<table class="table">
+												2021.03.31 ~ 2021.12.31(단위 : 천원) <br> <br>
+												<table class="table" style="text-align: center">
 													<thead>
 														<tr>
 															<th class="font-weight-semi-bold border-top-0 py-2"
@@ -324,26 +323,26 @@
 													</thead>
 													<tbody>
 														<tr>
-															<td class="py-3">영업손익</td>
+															<td class="py-3" rowspan="5" style="vertical-align: middle">영업손익</td>
 															<td class="py-3">매출액</td>
 															<td class="py-3">0</td>
 														</tr>
 														<tr>
-															<td class="py-3"></td>
+															
 															<td class="py-3">매출원가</td>
 															<td class="py-3">0</td>
 														<tr>
-															<td class="py-3"></td>
+															
 															<td class="py-3">매출총이익</td>
 															<td class="py-3">0</td>
 														</tr>
 														<tr>
-															<td class="py-3"></td>
+															
 															<td class="py-3">판매비와 관리비</td>
 															<td class="py-3">0</td>
 														</tr>
 														<tr>
-															<td class="py-3"></td>
+															
 															<td class="py-3">영업이익</td>
 															<td class="py-3">0</td>
 														</tr>

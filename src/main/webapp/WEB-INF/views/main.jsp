@@ -31,7 +31,7 @@
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#gg">
                   <span class="side-nav-menu-icon d-flex mr-3">
-                    <i class="gd-panel"></i>
+                    <i class="gd-themify-favicon"></i>
                   </span>
                     <span class="side-nav-fadeout-on-closed media-body">인사 관리</span>
                     <span class="side-nav-control-icon d-flex">
@@ -64,12 +64,12 @@
                 <!-- End UI Components: subComponents -->
             </li>
             <!-- End UI Components -->
-			 <!-- Authentication -->
+          <!-- Authentication -->
             <li class="side-nav-menu-item side-nav-has-menu">
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#subPages">
               <span class="side-nav-menu-icon d-flex mr-3">
-                <i class="gd-lock"></i>
+                <i class="gd-timer"></i>
               </span>
                     <span class="side-nav-fadeout-on-closed media-body">근태 관리</span>
                     <span class="side-nav-control-icon d-flex">
@@ -95,7 +95,7 @@
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#subComponents">
                   <span class="side-nav-menu-icon d-flex mr-3">
-                    <i class="gd-panel"></i>
+                    <i class="gd-money"></i>
                   </span>
                     <span class="side-nav-fadeout-on-closed media-body">출고관리</span>
                     <span class="side-nav-control-icon d-flex">
@@ -106,7 +106,7 @@
 
                 <!-- UI Components: subComponents -->
                 <ul id="subComponents" class="side-nav-menu side-nav-menu-second-level mb-0">
-                	<li class="side-nav-menu-item">
+                   <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/client">거래처 조회</a>
                     </li>
                     <li class="side-nav-menu-item">
@@ -146,7 +146,7 @@
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#asd">
                   <span class="side-nav-menu-icon d-flex mr-3">
-                    <i class="gd-brush-alt"></i>
+                    <i class="gd-shopping-cart"></i>
                   </span>
                     <span class="side-nav-fadeout-on-closed media-body">매입 관리</span>
                     <span class="side-nav-control-icon d-flex">
@@ -157,7 +157,7 @@
 
                 <!-- Utils: subUtils -->
                 <ul id="asd" class="side-nav-menu side-nav-menu-second-level mb-0">
-                	<li class="side-nav-menu-item">
+                   <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/client2">거래처 조회</a>
                     </li>
                     <li class="side-nav-menu-item">
@@ -196,7 +196,7 @@
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#zxc">
                   <span class="side-nav-menu-icon d-flex mr-3">
-                    <i class="gd-panel"></i>
+                    <i class="gd-truck"></i>
                   </span>
                     <span class="side-nav-fadeout-on-closed media-body">물류 관리</span>
                     <span class="side-nav-control-icon d-flex">
@@ -207,7 +207,7 @@
 
                 <!-- UI Components: subComponents -->
                 <ul id="zxc" class="side-nav-menu side-nav-menu-second-level mb-0">
-                	<li class="side-nav-menu-item">
+                   <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/accountinquiry">거래처 조회</a>
                     </li>
                     <li class="side-nav-menu-item">

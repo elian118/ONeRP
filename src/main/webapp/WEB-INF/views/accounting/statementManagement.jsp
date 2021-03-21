@@ -173,7 +173,8 @@
 					class="side-nav-menu-item side-nav-has-menu active side-nav-opened">
 					<a class="side-nav-menu-link media align-items-center" href="#"
 					data-target="#subUsers"> <span
-						class="side-nav-menu-icon d-flex mr-3"> <i class="gd-infinite"></i>
+						class="side-nav-menu-icon d-flex mr-3"> <i
+							class="gd-infinite"></i>
 					</span> <span class="side-nav-fadeout-on-closed media-body">회계 관리</span> <span
 						class="side-nav-control-icon d-flex"> <i
 							class="gd-angle-right side-nav-fadeout-on-closed"></i>
@@ -204,10 +205,11 @@
 			<div class="py-4 px-3 px-md-4">
 				<div class="card">
 					<div class="card-body">
-					<nav aria-label="breadcrumb">
+						<nav aria-label="breadcrumb">
 							<ol class="breadcrumb">
 								<li class="breadcrumb-item"><a href="#">회계 관리</a></li>
-								<li class="breadcrumb-item active" aria-current="page">전표 관리</li>
+								<li class="breadcrumb-item active" aria-current="page">전표
+									관리</li>
 							</ol>
 						</nav>
 						<div class="row">
@@ -258,32 +260,33 @@
 														<div class="collapse multi-collapse"
 															id="multiCollapseExample1">
 															<div class="bg-white p-4">
-																<table class="table table-bordered">
+																<table class="table table-bordered"
+																	style="text-align: center">
 																	<tbody>
 																		<tr>
-																			<td colspan="4" align="center">입금전표</td>
+																			<th colspan="4">입금전표</th>
 																		</tr>
 																		<tr>
-																			<td colspan="1" align="center">NO.</td>
-																			<td colspan="3" align="center">1234</td>
+																			<th colspan="1">NO.</th>
+																			<td colspan="3">1234</td>
 																		</tr>
 																		<tr>
-																			<td scope="col">과목</td>
+																			<th scope="col">과목</th>
 																			<td scope="col">복리후생비</td>
-																			<td scope="col">항목</td>
+																			<th scope="col">항목</th>
 																			<td scope="col">식대</td>
 																		</tr>
 																		<tr>
-																			<td colspan="2" align="center">연결ID</td>
+																			<th colspan="2">연결ID</th>
 																			<td colspan="2">음?</td>
 
 																		</tr>
 																		<tr>
-																			<td colspan="2" align="center">계정ID</td>
+																			<th colspan="2">계정ID</th>
 																			<td colspan="2">??</td>
 																		</tr>
 																		<tr>
-																			<td colspan="3" align="center">적요</td>
+																			<th colspan="3">적요</th>
 																			<th>금액</th>
 
 																		</tr>
@@ -309,7 +312,7 @@
 														</div>
 													</div>
 
-													<table class="table">
+													<table class="table" style="text-align: center">
 														<thead>
 															<tr>
 																<th class="font-weight-semi-bold border-top-0 py-2">전표번호</th>
@@ -391,32 +394,33 @@
 														<div class="collapse multi-collapse"
 															id="multiCollapseExample2">
 															<div class="bg-white p-4">
-																<table class="table table-bordered">
+																<table class="table table-bordered"
+																	style="text-align: center">
 																	<tbody>
 																		<tr>
-																			<td colspan="4" align="center">입금전표</td>
+																			<th colspan="4">입금전표</th>
 																		</tr>
 																		<tr>
-																			<td colspan="1" align="center">NO.</td>
-																			<td colspan="3" align="center">1234</td>
+																			<th colspan="1">NO.</th>
+																			<td colspan="3">1234</td>
 																		</tr>
 																		<tr>
-																			<td scope="col">과목</td>
+																			<th scope="col">과목</th>
 																			<td scope="col">복리후생비</td>
-																			<td scope="col">항목</td>
+																			<th scope="col">항목</th>
 																			<td scope="col">식대</td>
 																		</tr>
 																		<tr>
-																			<td colspan="2" align="center">연결ID</td>
+																			<th colspan="2">연결ID</th>
 																			<td colspan="2">음?</td>
 
 																		</tr>
 																		<tr>
-																			<td colspan="2" align="center">계정ID</td>
+																			<th colspan="2">계정ID</th>
 																			<td colspan="2">??</td>
 																		</tr>
 																		<tr>
-																			<td colspan="3" align="center">적요</td>
+																			<th colspan="3">적요</th>
 																			<th>금액</th>
 
 																		</tr>
@@ -445,7 +449,7 @@
 															</div>
 														</div>
 													</div>
-													<table class="table">
+													<table class="table" style="text-align: center">
 														<thead>
 															<tr>
 																<th class="font-weight-semi-bold border-top-0 py-2">전표번호</th>
@@ -496,32 +500,33 @@
 														<div class="collapse multi-collapse"
 															id="multiCollapseExample3">
 															<div class="bg-white p-4">
-																<table class="table table-bordered">
+																<table class="table table-bordered"
+																	style="text-align: center">
 																	<tbody>
 																		<tr>
-																			<td colspan="4" align="center">입금전표</td>
+																			<th colspan="4">입금전표</th>
 																		</tr>
 																		<tr>
-																			<td colspan="1" align="center">NO.</td>
-																			<td colspan="3" align="center">0987</td>
+																			<th colspan="1">NO.</th>
+																			<td colspan="3">1234</td>
 																		</tr>
 																		<tr>
-																			<td scope="col">과목</td>
+																			<th scope="col">과목</th>
 																			<td scope="col">복리후생비</td>
-																			<td scope="col">항목</td>
+																			<th scope="col">항목</th>
 																			<td scope="col">식대</td>
 																		</tr>
 																		<tr>
-																			<td colspan="2" align="center">연결ID</td>
+																			<th colspan="2">연결ID</th>
 																			<td colspan="2">음?</td>
 
 																		</tr>
 																		<tr>
-																			<td colspan="2" align="center">계정ID</td>
+																			<th colspan="2">계정ID</th>
 																			<td colspan="2">??</td>
 																		</tr>
 																		<tr>
-																			<td colspan="3" align="center">적요</td>
+																			<th colspan="3">적요</th>
 																			<th>금액</th>
 
 																		</tr>
@@ -546,7 +551,7 @@
 															</div>
 														</div>
 													</div>
-													<table class="table">
+													<table class="table" style="text-align: center">
 														<thead>
 															<tr>
 																<th class="font-weight-semi-bold border-top-0 py-2">전표번호</th>
@@ -575,11 +580,11 @@
 															<tr>
 																<td class="py-3">
 																	<p>
-																	<a class="btn" data-toggle="collapse"
-																		href="#multiCollapseExample31" role="button"
-																		aria-expanded="false"
-																		aria-controls="multiCollapseExample1">0988</a>
-																</p>
+																		<a class="btn" data-toggle="collapse"
+																			href="#multiCollapseExample31" role="button"
+																			aria-expanded="false"
+																			aria-controls="multiCollapseExample1">0988</a>
+																	</p>
 																</td>
 																<td class="py-3">출금전표</td>
 																<td class="py-3">Thornton</td>
@@ -606,10 +611,11 @@
 													<div id="tabsContent2" class="card-body tab-content p-0">
 														<div class="tab-pane fade show active" id="tabs2-tab3"
 															role="tabpanel">
-															<table class="table table-bordered">
+															<table class="table table-bordered"
+																style="text-align: center">
 																<tbody>
 																	<tr>
-																		<td scope="col" colspan="4" align="center">출금전표</td>
+																		<th scope="col" colspan="4">입금전표</th>
 																	</tr>
 																	<tr>
 																		<th scope="col">과목</th>
@@ -665,10 +671,11 @@
 														</div>
 
 														<div class="tab-pane fade" id="tabs2-tab4" role="tabpanel">
-															<table class="table table-bordered">
+															<table class="table table-bordered"
+																style="text-align: center">
 																<tbody>
 																	<tr>
-																		<td scope="col" colspan="4" align="center">출금전표</td>
+																		<th scope="col" colspan="4">출금전표</th>
 																	</tr>
 																	<tr>
 																		<th scope="col">과목</th>
