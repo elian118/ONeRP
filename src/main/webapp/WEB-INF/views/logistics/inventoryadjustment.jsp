@@ -281,6 +281,12 @@
 			<div class="py-4 px-3 px-md-4">
 				<div class="card">
 					<div class="card-body">
+					<nav aria-label="breadcrumb">
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a href="#">물류 관리</a></li>
+								<li class="breadcrumb-item active" aria-current="page">재고 조정</li>
+							</ol>
+						</nav>
 						<div class="row">
 
 							<div class="col-xl-12">
