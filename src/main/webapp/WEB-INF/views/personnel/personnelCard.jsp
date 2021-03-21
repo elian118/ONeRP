@@ -272,7 +272,7 @@
     <!-- End Sidebar Nav -->
 
 
-   <!-- 인사카드 관리 시작 -->
+      <!-- 인사카드 관리 시작 -->
     <div class="content">
 			<div class="py-4 px-3 px-md-4">
 				<div class="card">
@@ -300,35 +300,36 @@
 												id="pills-html-tab-1" data-toggle="pill"
 												href="#pills-html-1" role="tab" aria-controls="pills-html-1"
 												aria-selected="false">인사카드 등록 </a></li>
+
 											<li class="nav-item border-bottom border-xl-bottom-0"><a
 												class="nav-link d-flex align-items-center py-2 px-3"
-												id="pills-html-tab-1" data-toggle="pill"
-												href="#pills-html-1" role="tab" aria-controls="pills-html-1"
+												id="pills-html-tab-2" data-toggle="pill"
+												href="#pills-html-2" role="tab" aria-controls="pills-html-2"
 												aria-selected="false">휴직자 </a></li>
 											<li class="nav-item border-bottom border-xl-bottom-0"><a
 												class="nav-link d-flex align-items-center py-2 px-3"
-												id="pills-html-tab-1" data-toggle="pill"
-												href="#pills-html-1" role="tab" aria-controls="pills-html-1"
+												id="pills-html-tab-3" data-toggle="pill"
+												href="#pills-html-3" role="tab" aria-controls="pills-html-3"
 												aria-selected="false">퇴직자 </a></li>
-
-											
 										</ul>
 										<!-- End Nav Classic -->
-										
+
 										<!-- Tab Content -->
 										<div class="tab-content bg-lighter" id="pills-tabContent-1">
 											<div class="tab-pane fade p-4 show active"
 												id="pills-result-1" role="tabpanel"
 												aria-labelledby="pills-result-tab-1">
-										
-										<!-- 검색창 시작 -->		
+												
+												
+										 <!-- 검색창 시작 -->		
 									   	  <div class="input-group">
 										    <div class="input-group-append">
 										      <i class="gd-search icon-text icon-text-sm"></i>
 										    </div>
 										    <input class="form-control form-control-icon-text" placeholder="사원명/사번 검색" type="text">
 										  </div>
-										  <!-- 검색창 끝 -->		
+										  <!-- 검색창 끝 -->	
+										  	
 										<br>
 										
 												<table class="table">
@@ -343,22 +344,25 @@
 													</thead>
 													<tbody>
 														<tr>
-															<td class="py-3">1</td>
-															<td class="py-3">직급</td>
-															<td class="py-3">Otto</td>
-															<td class="py-3">@mdo</td>
+															<td class="py-3">001</td>
+															<td class="py-3">영업부</td>
+															<td class="py-3">대리</td>
+															<td class="py-3">유재석</td>
+															<td class="py-3">2005-11-23</td>
 														</tr>
 														<tr>
-															<td class="py-3">2</td>
-															<td class="py-3">휴가</td>
-															<td class="py-3">Thornton</td>
-															<td class="py-3">@fat</td>
+															<td class="py-3">002</td>
+															<td class="py-3">회계부</td>
+															<td class="py-3">팀장</td>
+															<td class="py-3">강호동</td>
+															<td class="py-3">2013-04-15</td>
 														</tr>
 														<tr>
-															<td class="py-3">3</td>
-															<td class="py-3">급여</td>
-															<td class="py-3">the Bird</td>
-															<td class="py-3">@twitter</td>
+															<td class="py-3">003</td>
+															<td class="py-3">경리부</td>
+															<td class="py-3">사원</td>
+															<td class="py-3">이상순</td>
+															<td class="py-3">2018-09-24</td>
 														</tr>
 													</tbody>
 												</table>
@@ -366,54 +370,148 @@
 
 											<div class="tab-pane fade p-4" id="pills-html-1"
 												role="tabpanel" aria-labelledby="pills-html-tab-1">
-											
-											<form>
-												<table class="table table-bordered">
-																<tbody>
-																	<tr>
-																		<td scope="col" colspan="4" align="center">인사카드</td>
-																	</tr>
-																	<tr>
-																		<th scope="col">사번</th>
-																		<td scope="col"><input id="text" type="text" class="form-control" name="password" required=""></td>
-																		<th scope="col">사원명</th>
-																		<td scope="col"><input id="text" type="text" class="form-control" name="password" required=""></td>
-																	</tr>
-																	<tr>
-																		<th colspan="3" align="center"></th>
-																		<th></th>
+												<form>
+												<table class="table">
+											<tbody>
+												<tr>
+													<td scope="col" colspan="4" align="center">인사카드</td>
+												</tr>
+												<tr>
+													<th scope="col">사번</th>
+													<td scope="col"><input id="text" type="text" class="form-control" name="password" required=""></td>
+													<th scope="col">사원명</th>
+													<td scope="col"><input id="text" type="text" class="form-control" name="password" required=""></td>
+												</tr>
+												<tr>
+													<th colspan="3" align="center"></th>
+													<th></th>
 
-																	</tr>
-																	<tr>
-																		<td colspan="3"><input id="text" type="text" class="form-control" name="password" required=""></td>
-																		<td><input id="text" type="text" class="form-control" name="text" required=""></td>
-																	</tr>
-																	<tr>
-																		<td colspan="3"><input id="text" type="text" class="form-control" name="password" required=""></td>
-																		<td><input id="text" type="text" class="form-control" name="text" required=""></td>
-																	</tr>
-																	<tr>
-																		<td colspan="3"><input id="text" type="text" class="form-control" name="password" required=""></td>
-																		<td><input id="text" type="text" class="form-control" name="text" required=""></td>
-																	</tr>
-																	<tr>
-																		<th colspan="3"></th>
-																		<td><input id="text" type="text" class="form-control" name="text" required=""></td>
-																	</tr>
-																</tbody>
-															</table>
-															<button type="button" class="btn btn-outline-dark" style=ෆ̈float: right;ෆ̈>등록하기</button>
+												</tr>
+												<tr>
+													<td colspan="3"><input id="text" type="text" class="form-control" name="password" required=""></td>
+													<td><input id="text" type="text" class="form-control" name="text" required=""></td>
+												</tr>
+												<tr>
+													<td colspan="3"><input id="text" type="text" class="form-control" name="password" required=""></td>
+													<td><input id="text" type="text" class="form-control" name="text" required=""></td>
+												</tr>
+												<tr>
+													<td colspan="3"><input id="text" type="text" class="form-control" name="password" required=""></td>
+													<td><input id="text" type="text" class="form-control" name="text" required=""></td>
+												</tr>
+												<tr>
+													<th colspan="3"></th>
+													<td><input id="text" type="text" class="form-control" name="text" required=""></td>
+												</tr>
+											</tbody>
+										</table>
+										<button type="button" class="btn btn-outline-dark" style=ෆ̈float: right;ෆ̈>등록하기</button>
 											</form>
-											
 											</div>
+											<div class="tab-pane fade p-4" id="pills-html-2"
+												role="tabpanel" aria-labelledby="pills-html-tab-2">
+												
+										  <!-- 검색창 시작 -->		
+									   	  <div class="input-group">
+										    <div class="input-group-append">
+										      <i class="gd-search icon-text icon-text-sm"></i>
+										    </div>
+										    <input class="form-control form-control-icon-text" placeholder="사원명/사번 검색" type="text">
+										  </div>
+										  <!-- 검색창 끝 -->	
+										  	
+											<br>
+										
+												<table class="table">
+													<thead>
+														<tr>
+															<th class="font-weight-semi-bold border-top-0 py-2">&nbsp;&nbsp; 사번</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">부서명</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">직급</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">사원명</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">휴직일</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td class="py-3">001</td>
+															<td class="py-3">영업부</td>
+															<td class="py-3">대리</td>
+															<td class="py-3">유재석</td>
+															<td class="py-3">2005-11-23</td>
+														</tr>
+														<tr>
+															<td class="py-3">002</td>
+															<td class="py-3">회계부</td>
+															<td class="py-3">팀장</td>
+															<td class="py-3">강호동</td>
+															<td class="py-3">2013-04-15</td>
+														</tr>
+														<tr>
+															<td class="py-3">003</td>
+															<td class="py-3">경리부</td>
+															<td class="py-3">사원</td>
+															<td class="py-3">이상순</td>
+															<td class="py-3">2018-09-24</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+											<div class="tab-pane fade p-4" id="pills-html-3"
+												role="tabpanel" aria-labelledby="pills-html-tab-3">
+											<form>
 											
-											
-											
-							
-									
+											<!-- 검색창 시작 -->		
+									   	  <div class="input-group">
+										    <div class="input-group-append">
+										      <i class="gd-search icon-text icon-text-sm"></i>
+										    </div>
+										    <input class="form-control form-control-icon-text" placeholder="사원명/사번 검색" type="text">
+										  </div>
+										  <!-- 검색창 끝 -->	
+										  	
+											<br>
+										
+												<table class="table">
+													<thead>
+														<tr>
+															<th class="font-weight-semi-bold border-top-0 py-2">&nbsp;&nbsp; 사번</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">부서명</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">직급</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">사원명</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">퇴직일</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td class="py-3">001</td>
+															<td class="py-3">영업부</td>
+															<td class="py-3">대리</td>
+															<td class="py-3">유재석</td>
+															<td class="py-3">2005-11-23</td>
+														</tr>
+														<tr>
+															<td class="py-3">002</td>
+															<td class="py-3">회계부</td>
+															<td class="py-3">팀장</td>
+															<td class="py-3">강호동</td>
+															<td class="py-3">2013-04-15</td>
+														</tr>
+														<tr>
+															<td class="py-3">003</td>
+															<td class="py-3">경리부</td>
+															<td class="py-3">사원</td>
+															<td class="py-3">이상순</td>
+															<td class="py-3">2018-09-24</td>
+														</tr>
+													</tbody>
+												</table>
+												
+												</div>
+												<br>
+											</form>
 										</div>
 										<!-- End Tab Content -->
-										
 									</div>
 								</div>
 							</div>
@@ -422,7 +520,7 @@
 				</div>
 			</div>
 		</div>
-	<!-- 인사카드 관리 끝-->
+	<!-- 인사코드 관리 끝-->
 </main>
 
 <%@ include file = "../common/footer.jsp" %> 

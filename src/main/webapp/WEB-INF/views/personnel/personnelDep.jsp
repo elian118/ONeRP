@@ -312,26 +312,30 @@
 												<table class="table">
 													<thead>
 														<tr>
-															<th class="font-weight-semi-bold border-top-0 py-2">그룹번호</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">그룹명</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">부서번호</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">부서명</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">접근권한</th>
 															<th class="font-weight-semi-bold border-top-0 py-2">사용상태</th>
 														</tr>
 													</thead>
 													<tbody>
 														<tr>
-															<td class="py-3">1</td>
-															<td class="py-3">직급</td>
-															<td class="py-3">Otto</td>
+															<td class="py-3">01</td>
+															<td class="py-3">영업부</td>
+															<td class="py-3">관리자</td>
+															<td class="py-3">사용</td>
 														</tr>
 														<tr>
-															<td class="py-3">2</td>
-															<td class="py-3">휴가</td>
-															<td class="py-3">Thornton</td>
+															<td class="py-3">02</td>
+															<td class="py-3">인사부</td>
+															<td class="py-3">관리자</td>
+															<td class="py-3">사용</td>
 														</tr>
 														<tr>
-															<td class="py-3">3</td>
-															<td class="py-3">급여</td>
-															<td class="py-3">the Bird</td>
+															<td class="py-3">03</td>
+															<td class="py-3">회계부</td>
+															<td class="py-3">관리자</td>
+															<td class="py-3">사용</td>
 														</tr>
 													</tbody>
 												</table>

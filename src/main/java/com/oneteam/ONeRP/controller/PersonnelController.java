@@ -53,11 +53,5 @@ public class PersonnelController {
 			return "personnel/personnelDep";
 		}
 		
-		// 퇴사/휴직자 관리
-		@RequestMapping("/personnelRetire")
-		public String personnelRetire(HttpServletRequest req, Model model) {
-			logger.info("url ==> 퇴사/휴직자 관리");
 
-			return "personnel/personnelRetire";
-		}
 }

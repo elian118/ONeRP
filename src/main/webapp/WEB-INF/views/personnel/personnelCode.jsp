@@ -330,17 +330,17 @@
 														<tr>
 															<td class="py-3">1</td>
 															<td class="py-3">직급</td>
-															<td class="py-3">Otto</td>
+															<td class="py-3">사용</td>
 														</tr>
 														<tr>
 															<td class="py-3">2</td>
 															<td class="py-3">휴가</td>
-															<td class="py-3">Thornton</td>
+															<td class="py-3">사용</td>
 														</tr>
 														<tr>
 															<td class="py-3">3</td>
 															<td class="py-3">급여</td>
-															<td class="py-3">the Bird</td>
+															<td class="py-3">사용</td>
 														</tr>
 													</tbody>
 												</table>
