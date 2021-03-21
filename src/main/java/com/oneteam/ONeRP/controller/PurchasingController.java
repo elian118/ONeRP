@@ -18,7 +18,7 @@ private static final Logger logger = LoggerFactory.getLogger(PersonnelController
 	public String client2(HttpServletRequest req, Model model) {
 		logger.info("url ==> 거래처");
 	
-		return "purchasing/client";
+		return "purchasing/client2";
 	}
 
 }
