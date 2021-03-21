@@ -207,7 +207,7 @@
 
                 <!-- Users: subUsers -->
                 <ul id="zxc" class="side-nav-menu side-nav-menu-second-level mb-0" style="display: block;">
-                    <li class="side-nav-menu-item active">
+                    <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/accountinquiry">거래처 조회</a>
                     </li>
                     <li class="side-nav-menu-item">
@@ -228,7 +228,7 @@
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/movewarehouse">창고 이동</a>
                     </li>
-                    <li class="side-nav-menu-item">
+                    <li class="side-nav-menu-item active">
                         <a class="side-nav-menu-link" href="${path}/inventoryadjustment">재고 조정</a>
                     </li> 
                 </ul>
@@ -277,193 +277,136 @@
     <!-- End Sidebar Nav -->
 
     <div class="content">
-			<div class="py-4 px-3 px-md-4">
-				<div class="card">
-					<div class="card-body">
-						<div class="row">
+        <div class="py-4 px-3 px-md-4">
+            <div class="card mb-3 mb-md-4">
 
-							<div class="col-xl-12">
+                <div class="card-body">
+                    <!-- Breadcrumb -->
+                    <nav class="d-none d-md-block" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="#">Users</a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">All Users</li>
+                        </ol>
+                    </nav>
+                    <!-- End Breadcrumb -->
 
-								<div id="example" class="mb-9">
-									<h2 class="h4">
-										전표 조회 <a class="anchorjs-link" href="#example"
-											aria-label="Anchor" data-anchorjs-icon="#"></a>
-									</h2>
-									<div class="mb-3">
-										<!-- Nav Classic -->
-										<ul class="nav nav-v2 nav-primary d-block d-xl-flex"
-											id="pills-tab-1" role="tablist">
-											<li class="nav-item border-bottom border-xl-bottom-0"><a
-												class="nav-link d-flex align-items-center py-2 px-3 active"
-												id="pills-result-tab-1" data-toggle="pill"
-												href="#pills-result-1" role="tab"
-												aria-controls="pills-result-1" aria-selected="true">
-													전체 전표 조회</a></li>
-											<li class="nav-item border-bottom border-xl-bottom-0"><a
-												class="nav-link d-flex align-items-center py-2 px-3"
-												id="pills-html-tab-1" data-toggle="pill"
-												href="#pills-html-1" role="tab" aria-controls="pills-html-1"
-												aria-selected="false">미승인 전표 조회 </a></li>
+                    <div class="mb-3 mb-md-4 d-flex justify-content-between">
+                        <div class="h3 mb-0">Users</div>
+                    </div>
 
-											<li class="nav-item border-bottom border-xl-bottom-0"><a
-												class="nav-link d-flex align-items-center py-2 px-3"
-												id="pills-html-tab-2" data-toggle="pill"
-												href="#pills-html-2" role="tab" aria-controls="pills-html-2"
-												aria-selected="false">승인 전표 조회 </a></li>
-											<li class="nav-item border-bottom border-xl-bottom-0"><a
-												class="nav-link d-flex align-items-center py-2 px-3"
-												id="pills-html-tab-3" data-toggle="pill"
-												href="#pills-html-3" role="tab" aria-controls="pills-html-3"
-												aria-selected="false">전표 등록 </a></li>
-										</ul>
-										<!-- End Nav Classic -->
 
-										<!-- Tab Content -->
-										<div class="tab-content bg-lighter" id="pills-tabContent-1">
-											<div class="tab-pane fade p-4 show active"
-												id="pills-result-1" role="tabpanel"
-												aria-labelledby="pills-result-tab-1">
-												<table class="table">
-													<thead>
-														<tr>
-															<th class="font-weight-semi-bold border-top-0 py-2">#</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">First</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Last</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Handle</th>
-														</tr>
-													</thead>
-													<tbody>
-														<tr>
-															<td class="py-3">1</td>
-															<td class="py-3">Mark</td>
-															<td class="py-3">Otto</td>
-															<td class="py-3">@mdo</td>
-														</tr>
-														<tr>
-															<td class="py-3">2</td>
-															<td class="py-3">Jacob</td>
-															<td class="py-3">Thornton</td>
-															<td class="py-3">@fat</td>
-														</tr>
-														<tr>
-															<td class="py-3">3</td>
-															<td class="py-3">Larry</td>
-															<td class="py-3">the Bird</td>
-															<td class="py-3">@twitter</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
+                    <!-- Users -->
+                    <div class="table-responsive-xl">
+                        <table class="table text-nowrap mb-0">
+                            <thead>
+                            <tr>
+                                <th class="font-weight-semi-bold border-top-0 py-2">#</th>
+                                <th class="font-weight-semi-bold border-top-0 py-2">Name</th>
+                                <th class="font-weight-semi-bold border-top-0 py-2">Email</th>
+                                <th class="font-weight-semi-bold border-top-0 py-2">Registration Date</th>
+                                <th class="font-weight-semi-bold border-top-0 py-2">Status</th>
+                                <th class="font-weight-semi-bold border-top-0 py-2">Actions</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td class="py-3">1</td>
+                                <td class="align-middle py-3">
+                                    <div class="d-flex align-items-center">
+                                        <div class="position-relative mr-2">
+                                            <span class="indicator indicator-lg indicator-bordered-reverse indicator-top-left indicator-success rounded-circle"></span>
+                                            <!--img class="avatar rounded-circle" src="#" alt="John Doe"-->
+                                            <span class="avatar-placeholder mr-md-2">J</span>
+                                        </div>
+                                        John Doe
+                                    </div>
+                                </td>
+                                <td class="py-3">john.doe@example.com</td>
+                                <td class="py-3">January 15, 2019</td>
+                                <td class="py-3">
+                                    <span class="badge badge-pill badge-success">Verified</span>
+                                </td>
+                                <td class="py-3">
+                                    <div class="position-relative">
+                                        <a class="link-dark d-inline-block" href="#">
+                                            <i class="gd-pencil icon-text"></i>
+                                        </a>
+                                        <a class="link-dark d-inline-block" href="#">
+                                            <i class="gd-trash icon-text"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="py-3">2</td>
+                                <td class="align-middle py-3">
+                                    <div class="d-flex align-items-center">
+                                        <div class="position-relative mr-2">
+                                            <!--img class="avatar rounded-circle" src="#" alt="John Doe"-->
+                                            <span class="avatar-placeholder mr-md-2">S</span>
+                                        </div>
+                                        Sam Dew
+                                    </div>
+                                </td>
+                                <td class="py-3">sam.dew@example.com</td>
+                                <td class="py-3">January 15, 2019</td>
+                                <td class="py-3">
+                                    <span class="badge badge-pill badge-warning">Pending</span>
+                                </td>
+                                <td class="py-3">
+                                    <div class="position-relative">
+                                        <a class="link-dark d-inline-block" href="#">
+                                            <i class="gd-pencil icon-text"></i>
+                                        </a>
+                                        <a class="link-dark d-inline-block" href="#">
+                                            <i class="gd-trash icon-text"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="py-3">3</td>
+                                <td class="align-middle py-3">
+                                    <div class="d-flex align-items-center">
+                                        <div class="position-relative mr-2">
+                                            <span class="indicator indicator-lg indicator-bordered-reverse indicator-top-left indicator-success rounded-circle"></span>
+                                            <!--img class="avatar rounded-circle" src="#" alt="John Doe"-->
+                                            <span class="avatar-placeholder mr-md-2">A</span>
+                                        </div>
+                                        Anna Doe
+                                    </div>
+                                </td>
+                                <td class="py-3">anna.doe@example.com</td>
+                                <td class="py-3">January 15, 2019</td>
+                                <td class="py-3">
+                                    <span class="badge badge-pill badge-success">Verified</span>
+                                </td>
+                                <td class="py-3">
+                                    <div class="position-relative">
+                                        <a class="link-dark d-inline-block" href="#">
+                                            <i class="gd-pencil icon-text"></i>
+                                        </a>
+                                        <a class="link-dark d-inline-block" href="#">
+                                            <i class="gd-trash icon-text"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <div class="card-footer d-block d-md-flex align-items-center d-print-none">
+                            <div class="d-flex mb-2 mb-md-0">Showing 1 to 8 of 24 Entries</div>
 
-											<div class="tab-pane fade p-4" id="pills-html-1"
-												role="tabpanel" aria-labelledby="pills-html-tab-1">
-												<table class="table">
-													<thead>
-														<tr>
-															<th class="font-weight-semi-bold border-top-0 py-2">#</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">First</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Last</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Handle</th>
-														</tr>
-													</thead>
-													<tbody>
-														<tr>
-															<td class="py-3">1</td>
-															<td class="py-3">Mark</td>
-															<td class="py-3">Otto</td>
-															<td class="py-3">@mdo</td>
-														</tr>
-														<tr>
-															<td class="py-3">2</td>
-															<td class="py-3">Jacob</td>
-															<td class="py-3">Thornton</td>
-															<td class="py-3">@fat</td>
-														</tr>
-														<tr>
-															<td class="py-3">3</td>
-															<td class="py-3">Larry</td>
-															<td class="py-3">the Bird</td>
-															<td class="py-3">@twitter</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
-											<div class="tab-pane fade p-4" id="pills-html-2"
-												role="tabpanel" aria-labelledby="pills-html-tab-2">
-												<table class="table">
-													<thead>
-														<tr>
-															<th class="font-weight-semi-bold border-top-0 py-2">#</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">First</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Last</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Handle</th>
-														</tr>
-													</thead>
-													<tbody>
-														<tr>
-															<td class="py-3">1</td>
-															<td class="py-3">Mark</td>
-															<td class="py-3">Otto</td>
-															<td class="py-3">@mdo</td>
-														</tr>
-														<tr>
-															<td class="py-3">2</td>
-															<td class="py-3">Jacob</td>
-															<td class="py-3">Thornton</td>
-															<td class="py-3">@fat</td>
-														</tr>
-														<tr>
-															<td class="py-3">3</td>
-															<td class="py-3">Larry</td>
-															<td class="py-3">the Bird</td>
-															<td class="py-3">@twitter</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
-											<div class="tab-pane fade p-4" id="pills-html-3"
-												role="tabpanel" aria-labelledby="pills-html-tab-3">
-												<table class="table">
-													<thead>
-														<tr>
-															<th class="font-weight-semi-bold border-top-0 py-2">#</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">First</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Last</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Handle</th>
-														</tr>
-													</thead>
-													<tbody>
-														<tr>
-															<td class="py-3">1</td>
-															<td class="py-3">Mark</td>
-															<td class="py-3">Otto</td>
-															<td class="py-3">@mdo</td>
-														</tr>
-														<tr>
-															<td class="py-3">2</td>
-															<td class="py-3">Jacob</td>
-															<td class="py-3">Thornton</td>
-															<td class="py-3">@fat</td>
-														</tr>
-														<tr>
-															<td class="py-3">3</td>
-															<td class="py-3">Larry</td>
-															<td class="py-3">the Bird</td>
-															<td class="py-3">@twitter</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
-										</div>
-										<!— End Tab Content —>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+                            <nav class="d-flex ml-md-auto d-print-none" aria-label="Pagination"><ul class="pagination justify-content-end font-weight-semi-bold mb-0">				<li class="page-item">				<a id="datatablePaginationPrev" class="page-link" href="#!" aria-label="Previous"><i class="gd-angle-left icon-text icon-text-xs d-inline-block"></i></a>				</li><li class="page-item d-none d-md-block"><a id="datatablePaginationPage0" class="page-link active" href="#!" data-dt-page-to="0">1</a></li><li class="page-item d-none d-md-block"><a id="datatablePagination1" class="page-link" href="#!" data-dt-page-to="1">2</a></li><li class="page-item d-none d-md-block"><a id="datatablePagination2" class="page-link" href="#!" data-dt-page-to="2">3</a></li><li class="page-item">				<a id="datatablePaginationNext" class="page-link" href="#!" aria-label="Next"><i class="gd-angle-right icon-text icon-text-xs d-inline-block"></i></a>				</li>				</ul></nav>
+                        </div>
+                    </div>
+                    <!-- End Users -->
+                </div>
+            </div>
+        </div>
+    </div>
     
     
 </main>
