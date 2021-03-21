@@ -334,19 +334,16 @@
 															<td class="py-3">1</td>
 															<td class="py-3">직급</td>
 															<td class="py-3">Otto</td>
-															<td class="py-3">@mdo</td>
 														</tr>
 														<tr>
 															<td class="py-3">2</td>
 															<td class="py-3">휴가</td>
 															<td class="py-3">Thornton</td>
-															<td class="py-3">@fat</td>
 														</tr>
 														<tr>
 															<td class="py-3">3</td>
 															<td class="py-3">급여</td>
 															<td class="py-3">the Bird</td>
-															<td class="py-3">@twitter</td>
 														</tr>
 													</tbody>
 												</table>
@@ -359,14 +356,12 @@
 														<tr>
 															<td>그룹명 </td>
 															<td><input id="text" type="text" class="form-control" name="password" required=""></td>
+															<td><button type="button" class="btn btn-outline-dark">중복확인</button></td>
 														</tr>
 														<tr>
-															<td> 인사코드 </td>
+															<td> 그룹번호 </td>
 															<td> <input id="text" type="text" class="form-control" name="password" required=""></td>
-														</tr>
-														<tr>
-															<td> 인사코드명 </td>
-															<td> <input id="text" type="text" class="form-control" name="password" required=""></td>
+															<td><button type="button" class="btn btn-outline-dark">중복확인</button></td>
 														</tr>
 														<tr>
 															<td> 사용상태 </td>
@@ -443,10 +438,12 @@
 													<tr>
 														<td> 인사코드 </td>
 														<td> <input id="text" type="text" class="form-control" name="password" required=""></td>
+														<td><button type="button" class="btn btn-outline-dark">중복확인</button></td>
 													</tr>
 													<tr>
 														<td> 인사코드명 </td>
 														<td> <input id="text" type="text" class="form-control" name="password" required=""></td>
+														<td><button type="button" class="btn btn-outline-dark">중복확인</button></td>
 													</tr>
 													<tr>
 														<td> 사용상태 </td>
