@@ -64,7 +64,7 @@
                 <!-- End UI Components: subComponents -->
             </li>
             <!-- End UI Components -->
-			 <!-- Authentication -->
+          <!-- Authentication -->
             <li class="side-nav-menu-item side-nav-has-menu">
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#subPages">
@@ -106,7 +106,7 @@
 
                 <!-- UI Components: subComponents -->
                 <ul id="subComponents" class="side-nav-menu side-nav-menu-second-level mb-0">
-                	<li class="side-nav-menu-item">
+                   <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/client">거래처 조회</a>
                     </li>
                     <li class="side-nav-menu-item">
@@ -157,7 +157,7 @@
 
                 <!-- Utils: subUtils -->
                 <ul id="asd" class="side-nav-menu side-nav-menu-second-level mb-0">
-                	<li class="side-nav-menu-item">
+                   <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/client2">거래처 조회</a>
                     </li>
                     <li class="side-nav-menu-item">
@@ -207,7 +207,7 @@
 
                 <!-- UI Components: subComponents -->
                 <ul id="zxc" class="side-nav-menu side-nav-menu-second-level mb-0">
-                	<li class="side-nav-menu-item">
+                   <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/accountinquiry">거래처 조회</a>
                     </li>
                     <li class="side-nav-menu-item">
@@ -240,7 +240,7 @@
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#subUsers">
                   <span class="side-nav-menu-icon d-flex mr-3">
-                    <i class="gd-user"></i>
+                    <i class="gd-infinite"></i>
                   </span>
                     <span class="side-nav-fadeout-on-closed media-body">회계 관리</span>
                     <span class="side-nav-control-icon d-flex">
@@ -261,7 +261,7 @@
                         <a class="side-nav-menu-link" href="${path}/accountManagement">계정 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="${path}/statementManagement">전표 조회</a>
+                        <a class="side-nav-menu-link" href="${path}/statementManagement">전표 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/bonddebtManagement">채권/채무 조회</a>
@@ -274,117 +274,142 @@
     </aside>
     <!-- End Sidebar Nav -->
 
-		<div class="content">
-			<div class="py-4 px-3 px-md-4">
-				<div class="card">
-					<div class="card-body">
-						<div class="row">
+      <div class="content">
+         <div class="py-4 px-3 px-md-4">
+            <div class="card">
+               <div class="card-body">
+               <nav aria-label="breadcrumb">
+                     <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">회계 관리</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">계좌 관리</li>
+                     </ol>
+                  </nav>
+                  <div class="row">
 
-							<div class="col-xl-12">
+                     <div class="col-xl-12">
 
-								<div id="example" class="mb-9">
-									<h2 class="h4">
-										계좌 관리<a class="anchorjs-link" href="#example"
-											aria-label="Anchor" data-anchorjs-icon="#"></a>
-									</h2>
-									<div class="mb-3">
-										<!-- Nav Classic -->
-										<ul class="nav nav-v2 nav-primary d-block d-xl-flex"
-											id="pills-tab-1" role="tablist">
-											<li class="nav-item border-bottom border-xl-bottom-0"><a
-												class="nav-link d-flex align-items-center py-2 px-3 active"
-												id="pills-result-tab-1" data-toggle="pill"
-												href="#pills-result-1" role="tab"
-												aria-controls="pills-result-1" aria-selected="true">
-													계좌 리스트</a></li>
-											<li class="nav-item border-bottom border-xl-bottom-0"><a
-												class="nav-link d-flex align-items-center py-2 px-3"
-												id="pills-html-tab-1" data-toggle="pill"
-												href="#pills-html-1" role="tab" aria-controls="pills-html-1"
-												aria-selected="false">계좌 등록 </a></li>
-										</ul>
-										<!-- End Nav Classic -->
+                        <div id="example" class="mb-9">
+                           <h2 class="h4">
+                              계좌 관리<a class="anchorjs-link" href="#example"
+                                 aria-label="Anchor" data-anchorjs-icon="#"></a>
+                           </h2>
+                           <div class="mb-3">
+                              <!-- Nav Classic -->
+                              <ul class="nav nav-v2 nav-primary d-block d-xl-flex"
+                                 id="pills-tab-1" role="tablist">
+                                 <li class="nav-item border-bottom border-xl-bottom-0"><a
+                                    class="nav-link d-flex align-items-center py-2 px-3 active"
+                                    id="pills-result-tab-1" data-toggle="pill"
+                                    href="#pills-result-1" role="tab"
+                                    aria-controls="pills-result-1" aria-selected="true">
+                                       계좌 리스트</a></li>
+                                 <li class="nav-item border-bottom border-xl-bottom-0"><a
+                                    class="nav-link d-flex align-items-center py-2 px-3"
+                                    id="pills-html-tab-1" data-toggle="pill"
+                                    href="#pills-html-1" role="tab" aria-controls="pills-html-1"
+                                    aria-selected="false">계좌 등록 </a></li>
+                              </ul>
+                              <!-- End Nav Classic -->
 
-										<!-- Tab Content -->
-										<div class="tab-content bg-lighter" id="pills-tabContent-1">
-											<div class="tab-pane fade p-4 show active"
-												id="pills-result-1" role="tabpanel"
-												aria-labelledby="pills-result-tab-1">
-												<table class="table">
-													<thead>
-														<tr>
-															<th class="font-weight-semi-bold border-top-0 py-2">#</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">First</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Last</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Handle</th>
-														</tr>
-													</thead>
-													<tbody>
-														<tr>
-															<td class="py-3">1</td>
-															<td class="py-3">Mark</td>
-															<td class="py-3">Otto</td>
-															<td class="py-3">@mdo</td>
-														</tr>
-														<tr>
-															<td class="py-3">2</td>
-															<td class="py-3">Jacob</td>
-															<td class="py-3">Thornton</td>
-															<td class="py-3">@fat</td>
-														</tr>
-														<tr>
-															<td class="py-3">3</td>
-															<td class="py-3">Larry</td>
-															<td class="py-3">the Bird</td>
-															<td class="py-3">@twitter</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
+                              <!-- Tab Content -->
+                              <div class="tab-content bg-lighter" id="pills-tabContent-1">
+                                 <div class="tab-pane fade p-4 show active"
+                                    id="pills-result-1" role="tabpanel"
+                                    aria-labelledby="pills-result-tab-1">
+                                    <table class="table">
+                                       <thead>
+                                          <tr>
+                                             <th class="font-weight-semi-bold border-top-0 py-2">계좌명</th>
+                                             <th class="font-weight-semi-bold border-top-0 py-2">계좌번호</th>
+                                             <th class="font-weight-semi-bold border-top-0 py-2">잔액</th>
+                                             <th class="font-weight-semi-bold border-top-0 py-2">개설목적</th>
+                                             <th class="font-weight-semi-bold border-top-0 py-2">사용상태</th>
+                                             <th class="font-weight-semi-bold border-top-0 py-2">등록일</th>
+                                          </tr>
+                                       </thead>
+                                       <tbody>
+                                          <tr>
+                                             <td class="py-3">주계좌</td>
+                                             <td class="py-3">1111-1111-1111</td>
+                                             <td class="py-3">10,000,000,000</td>
+                                             <td class="py-3">주계좌</td>
+                                             <td class="py-3">사용중</td>
+                                             <td class="py-3">21-01-01</td>
+                                          </tr>
+                                          <tr>
+                                             <td class="py-3">급여</td>
+                                             <td class="py-3">2222-2222-2222</td>
+                                             <td class="py-3">10,000,000,000</td>
+                                             <td class="py-3">급여</td>
+                                             <td class="py-3">사용중</td>
+                                             <td class="py-3">21-01-01</td>
+                                          </tr>
+                                          <tr>
+                                             <td class="py-3">세금납부</td>
+                                             <td class="py-3">3333-3333-3333</td>
+                                             <td class="py-3">10,000,000,000</td>
+                                             <td class="py-3">세금납부</td>
+                                             <td class="py-3">사용중</td>
+                                             <td class="py-3">21-01-01</td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </div>
 
-											<div class="tab-pane fade p-4" id="pills-html-1"
-												role="tabpanel" aria-labelledby="pills-html-tab-1">
-												<table class="table">
-													<thead>
-														<tr>
-															<th class="font-weight-semi-bold border-top-0 py-2">#</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">First</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Last</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Handle</th>
-														</tr>
-													</thead>
-													<tbody>
-														<tr>
-															<td class="py-3">1</td>
-															<td class="py-3">Mark</td>
-															<td class="py-3">Otto</td>
-															<td class="py-3">@mdo</td>
-														</tr>
-														<tr>
-															<td class="py-3">2</td>
-															<td class="py-3">Jacob</td>
-															<td class="py-3">Thornton</td>
-															<td class="py-3">@fat</td>
-														</tr>
-														<tr>
-															<td class="py-3">3</td>
-															<td class="py-3">Larry</td>
-															<td class="py-3">the Bird</td>
-															<td class="py-3">@twitter</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
-										</div>
-										<!-- End Tab Content -->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+                                 <div class="tab-pane fade p-4" id="pills-html-1"
+                                    role="tabpanel" aria-labelledby="pills-html-tab-1">
+                                    <table class="table">
+                                       <thead>
+                                          <tr>
+                                             <th class="font-weight-semi-bold border-top-0 py-2" colspan="2">계좌명</th>
+                                             <th class="font-weight-semi-bold border-top-0 py-2" colspan="2"> <input class="form-control" type="text" placeholder="계좌명을 입력하세요"></th>
+                                          </tr>
+                                       </thead>
+                                       <tbody>
+                                          <tr>
+                                             <th class="py-3" colspan="2">계좌번호</th>
+                                             <td class="py-3" colspan="2"> <input class="form-control" type="text"  placeholder="계좌번호를 입력하세요"></td>
+                                          </tr>
+                                          <tr>
+                                             <th class="py-3" colspan="2">잔액</th>
+                                             <td class="py-3" colspan="2"> <input class="form-control" type="text"  disabled></td>
+                                          </tr>
+                                          <tr>
+                                             <th class="py-3" colspan="2">은행</th>
+                                             <td class="py-3" colspan="2"> <input class="form-control" type="text"  placeholder="은행이름을 입력하세요"></td>
+                                          </tr>
+                                          <tr>
+                                             <th class="py-3" colspan="2">개설목적</th>
+                                             <td class="py-3" colspan="2"> <input class="form-control" type="text"  placeholder="개설목적을 입력하세요"></td>
+                                          </tr>
+                                          <tr>
+                                          <th class="py-3" colspan="2">사용상태</th>
+                                          <td>
+                                             <div class="form-check form-check-inline">
+                                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                 <label class="form-check-label" for="inlineRadio1">사용</label>
+                                               </div>
+                                              <div class="form-check form-check-inline">
+                                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                 <label class="form-check-label" for="inlineRadio2">미사용</label>
+                                              </div>
+                                           </td>
+                                          </tr>                                          
+                                       </tbody>
+                                    </table>
+                                    <button type="button" class="btn btn-outline-dark"
+                                                style='float: right;'>등록하기</button>
+                                 </div>
+                              </div>
+                              <!-- End Tab Content -->
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
 </main>
 
 <%@ include file = "../common/footer.jsp" %> 
