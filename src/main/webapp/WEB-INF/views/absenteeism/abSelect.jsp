@@ -42,29 +42,26 @@
 
                 <!-- UI Components: subComponents -->
                 <ul id="gg" class="side-nav-menu side-nav-menu-second-level mb-0">
-                    <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="${path}/personnelcodeManagement">인사코드 관리</a>
+                    <li class="side-nav-menu-item ">
+                        <a class="side-nav-menu-link" href="${path}/personnelCode">인사코드 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">인사발령 관리</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelDep">부서 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">인사카드관리(조회)</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelAppointment">인사 발령</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">급여 관리</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelCard">인사 카드</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">부서 관리</a>
-                    </li>
-                    <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">퇴사/휴직자 관리</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelSalary">급여</a>
                     </li>
                 </ul>
                 <!-- End UI Components: subComponents -->
             </li>
             <!-- End UI Components -->
-			<!-- Users -->
+         <!-- Users -->
             <li class="side-nav-menu-item side-nav-has-menu active side-nav-opened">
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#subPages">
@@ -81,10 +78,10 @@
                 <!-- Users: subUsers -->
                 <ul id="subPages" class="side-nav-menu side-nav-menu-second-level mb-0" style="display: block;">
                     <li class="side-nav-menu-item active">
-                        <a class="side-nav-menu-link" href="${path}/listofemployees">사원목록</a>
+                        <a class="side-nav-menu-link" href="${path}/abSelect">조회</a>
                     </li>
-                    <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="register.html">휴가신청</a>
+                    <li class="side-nav-menu-item ">
+                        <a class="side-nav-menu-link" href="${path}/abApplication">신청</a>
                     </li>
                    
                 </ul>
@@ -107,7 +104,7 @@
 
                 <!-- UI Components: subComponents -->
                 <ul id="subComponents" class="side-nav-menu side-nav-menu-second-level mb-0">
-                	<li class="side-nav-menu-item">
+                   <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/client">거래처 조회</a>
                     </li>
                     <li class="side-nav-menu-item">
@@ -158,7 +155,7 @@
 
                 <!-- Utils: subUtils -->
                 <ul id="asd" class="side-nav-menu side-nav-menu-second-level mb-0">
-                	<li class="side-nav-menu-item">
+                   <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/client2">거래처 조회</a>
                     </li>
                     <li class="side-nav-menu-item">
@@ -208,7 +205,7 @@
 
                 <!-- UI Components: subComponents -->
                 <ul id="zxc" class="side-nav-menu side-nav-menu-second-level mb-0">
-                	<li class="side-nav-menu-item">
+                   <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/accountinquiry">거래처 조회</a>
                     </li>
                     <li class="side-nav-menu-item">
@@ -400,7 +397,7 @@
                         <div class="card-footer d-block d-md-flex align-items-center d-print-none">
                             <div class="d-flex mb-2 mb-md-0">Showing 1 to 8 of 24 Entries</div>
 
-                            <nav class="d-flex ml-md-auto d-print-none" aria-label="Pagination"><ul class="pagination justify-content-end font-weight-semi-bold mb-0">				<li class="page-item">				<a id="datatablePaginationPrev" class="page-link" href="#!" aria-label="Previous"><i class="gd-angle-left icon-text icon-text-xs d-inline-block"></i></a>				</li><li class="page-item d-none d-md-block"><a id="datatablePaginationPage0" class="page-link active" href="#!" data-dt-page-to="0">1</a></li><li class="page-item d-none d-md-block"><a id="datatablePagination1" class="page-link" href="#!" data-dt-page-to="1">2</a></li><li class="page-item d-none d-md-block"><a id="datatablePagination2" class="page-link" href="#!" data-dt-page-to="2">3</a></li><li class="page-item">				<a id="datatablePaginationNext" class="page-link" href="#!" aria-label="Next"><i class="gd-angle-right icon-text icon-text-xs d-inline-block"></i></a>				</li>				</ul></nav>
+                            <nav class="d-flex ml-md-auto d-print-none" aria-label="Pagination"><ul class="pagination justify-content-end font-weight-semi-bold mb-0">            <li class="page-item">            <a id="datatablePaginationPrev" class="page-link" href="#!" aria-label="Previous"><i class="gd-angle-left icon-text icon-text-xs d-inline-block"></i></a>            </li><li class="page-item d-none d-md-block"><a id="datatablePaginationPage0" class="page-link active" href="#!" data-dt-page-to="0">1</a></li><li class="page-item d-none d-md-block"><a id="datatablePagination1" class="page-link" href="#!" data-dt-page-to="1">2</a></li><li class="page-item d-none d-md-block"><a id="datatablePagination2" class="page-link" href="#!" data-dt-page-to="2">3</a></li><li class="page-item">            <a id="datatablePaginationNext" class="page-link" href="#!" aria-label="Next"><i class="gd-angle-right icon-text icon-text-xs d-inline-block"></i></a>            </li>            </ul></nav>
                         </div>
                     </div>
                     <!-- End Users -->
