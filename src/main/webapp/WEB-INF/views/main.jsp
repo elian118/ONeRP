@@ -43,22 +43,22 @@
                 <!-- UI Components: subComponents -->
                 <ul id="gg" class="side-nav-menu side-nav-menu-second-level mb-0">
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="${path}/personnelcodeManagement">인사코드 관리</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelCode">인사코드 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">인사발령 관리</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelAppointment">인사발령 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">인사카드관리(조회)</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelCard">인사카드관리(조회)</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">급여 관리</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelSalary">급여 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">부서 관리</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelDep">부서 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">퇴사/휴직자 관리</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelRetire">퇴사/휴직자 관리</a>
                     </li>
                 </ul>
                 <!-- End UI Components: subComponents -->

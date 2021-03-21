@@ -270,151 +270,512 @@
                 <!-- End UI Components: subComponents -->
             </li>
             <!-- End UI Components -->
-            
-
-            
-
-            
-
         </ul>
     </aside>
     <!-- End Sidebar Nav -->
 
     <div class="content">
-        <div class="py-4 px-3 px-md-4">
-            <div class="card mb-3 mb-md-4">
+			<div class="py-4 px-3 px-md-4">
+				<div class="card">
+					<div class="card-body">
+						<div class="row">
 
-                <div class="card-body">
-                    <!-- Breadcrumb -->
-                    <nav class="d-none d-md-block" aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item">
-                                <a href="#">Users</a>
-                            </li>
-                            <li class="breadcrumb-item active" aria-current="page">All Users</li>
-                        </ol>
-                    </nav>
-                    <!-- End Breadcrumb -->
+							<div class="col-xl-12">
 
-                    <div class="mb-3 mb-md-4 d-flex justify-content-between">
-                        <div class="h3 mb-0">Users</div>
-                    </div>
+								<div id="example" class="mb-9">
+									<h2 class="h4">
+										전표 조회 <a class="anchorjs-link" href="#example"
+											aria-label="Anchor" data-anchorjs-icon="#"></a>
+									</h2>
+									<div class="mb-3">
+										<!-- Nav Classic -->
+										<ul class="nav nav-v2 nav-primary d-block d-xl-flex"
+											id="pills-tab-1" role="tablist">
+											<li class="nav-item border-bottom border-xl-bottom-0"><a
+												class="nav-link d-flex align-items-center py-2 px-3 active"
+												id="pills-result-tab-1" data-toggle="pill"
+												href="#pills-result-1" role="tab"
+												aria-controls="pills-result-1" aria-selected="true"> 전체
+													전표 조회</a></li>
+											<li class="nav-item border-bottom border-xl-bottom-0"><a
+												class="nav-link d-flex align-items-center py-2 px-3"
+												id="pills-html-tab-1" data-toggle="pill"
+												href="#pills-html-1" role="tab" aria-controls="pills-html-1"
+												aria-selected="false">미승인 전표 조회 </a></li>
+
+											<li class="nav-item border-bottom border-xl-bottom-0"><a
+												class="nav-link d-flex align-items-center py-2 px-3"
+												id="pills-html-tab-2" data-toggle="pill"
+												href="#pills-html-2" role="tab" aria-controls="pills-html-2"
+												aria-selected="false">승인 전표 조회 </a></li>
+											<li class="nav-item border-bottom border-xl-bottom-0"><a
+												class="nav-link d-flex align-items-center py-2 px-3"
+												id="pills-html-tab-3" data-toggle="pill"
+												href="#pills-html-3" role="tab" aria-controls="pills-html-3"
+												aria-selected="false">전표 등록 </a></li>
+										</ul>
+										<!-- End Nav Classic -->
+
+										<!-- Tab Content -->
+										<div class="tab-content bg-lighter" id="pills-tabContent-1">
+											<div class="tab-pane fade p-4 show active"
+												id="pills-result-1" role="tabpanel"
+												aria-labelledby="pills-result-tab-1">
+												<div class="row">
+													<div class="col">
+														<div class="collapse multi-collapse"
+															id="multiCollapseExample1">
+															<div class="bg-white p-4">
+																<table class="table table-bordered">
+																	<tbody>
+																		<tr>
+																			<th> 인사코드 그룹명 </th>
+																			<td> 직급 </td>
+																		</tr>
+																		
+																		<tr>
+																			<th> 그룹번호</th>
+																			<td> 1 </td>
+																		</tr>
+																		
+																		<tr>
+																			<th> 사용상태</td>
+																			<td> 사용 </td>
+																		</tr>
+																	</tbody>
+																</table>
+															</div>
+														</div>
+													</div>
+													
+													
+													
+													<table class="table">
+														<thead>
+															<tr>
+																<th class="font-weight-semi-bold border-top-0 py-2">전표번호</th>
+																<th class="font-weight-semi-bold border-top-0 py-2">전표종류</th>
+																<th class="font-weight-semi-bold border-top-0 py-2">연결
+																	ID</th>
+																<th class="font-weight-semi-bold border-top-0 py-2">등록일</th>
+																<th class="font-weight-semi-bold border-top-0 py-2">승인상태</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td class="py-3">
+																	<p>
+																		<a class="btn" data-toggle="collapse"
+																			href="#multiCollapseExample1" role="button"
+																			aria-expanded="false"
+																			aria-controls="multiCollapseExample1">1234</a>
+																	</p>
+																</td>
+																<td class="py-3">입금전표</td>
+																<td class="py-3">Otto</td>
+																<td class="py-3">21-03-21</td>
+																<td class="py-3">대기중</td>
+															</tr>
+															<tr>
+																<td class="py-3">
+																	<p>
+																		<a class="btn" data-toggle="collapse"
+																			href="#multiCollapseExample12" role="button"
+																			aria-expanded="false"
+																			aria-controls="multiCollapseExample1">1235</a>
+																	</p>
+																</td>
+																<td class="py-3">출금전표</td>
+																<td class="py-3">Thornton</td>
+																<td class="py-3">21-03-21</td>
+																<td class="py-3">대기중</td>
+															</tr>
+															<tr>
+																<td class="py-3">
+																	<p>
+																		<a class="btn" data-toggle="collapse"
+																			href="#multiCollapseExample13" role="button"
+																			aria-expanded="false"
+																			aria-controls="multiCollapseExample1">0987</a>
+																	</p>
+																</td>
+																<td class="py-3">입금전표</td>
+																<td class="py-3">Otto</td>
+																<td class="py-3">21-03-21</td>
+																<td class="py-3">승인완료</td>
+															</tr>
+															<tr>
+																<td class="py-3">
+																	<p>
+																		<a class="btn" data-toggle="collapse"
+																			href="#multiCollapseExample14" role="button"
+																			aria-expanded="false"
+																			aria-controls="multiCollapseExample1">0988</a>
+																	</p>
+																</td>
+																<td class="py-3">출금전표</td>
+																<td class="py-3">Thornton</td>
+																<td class="py-3">21-03-21</td>
+																<td class="py-3">승인완료</td>
+															</tr>
+														</tbody>
+													</table>
 
 
-                    <!-- Users -->
-                    <div class="table-responsive-xl">
-                        <table class="table text-nowrap mb-0">
-                            <thead>
-                            <tr>
-                                <th class="font-weight-semi-bold border-top-0 py-2">#</th>
-                                <th class="font-weight-semi-bold border-top-0 py-2">Name</th>
-                                <th class="font-weight-semi-bold border-top-0 py-2">Email</th>
-                                <th class="font-weight-semi-bold border-top-0 py-2">Registration Date</th>
-                                <th class="font-weight-semi-bold border-top-0 py-2">Status</th>
-                                <th class="font-weight-semi-bold border-top-0 py-2">Actions</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td class="py-3">1</td>
-                                <td class="align-middle py-3">
-                                    <div class="d-flex align-items-center">
-                                        <div class="position-relative mr-2">
-                                            <span class="indicator indicator-lg indicator-bordered-reverse indicator-top-left indicator-success rounded-circle"></span>
-                                            <!--img class="avatar rounded-circle" src="#" alt="John Doe"-->
-                                            <span class="avatar-placeholder mr-md-2">J</span>
-                                        </div>
-                                        John Doe
-                                    </div>
-                                </td>
-                                <td class="py-3">john.doe@example.com</td>
-                                <td class="py-3">January 15, 2019</td>
-                                <td class="py-3">
-                                    <span class="badge badge-pill badge-success">Verified</span>
-                                </td>
-                                <td class="py-3">
-                                    <div class="position-relative">
-                                        <a class="link-dark d-inline-block" href="#">
-                                            <i class="gd-pencil icon-text"></i>
-                                        </a>
-                                        <a class="link-dark d-inline-block" href="#">
-                                            <i class="gd-trash icon-text"></i>
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="py-3">2</td>
-                                <td class="align-middle py-3">
-                                    <div class="d-flex align-items-center">
-                                        <div class="position-relative mr-2">
-                                            <!--img class="avatar rounded-circle" src="#" alt="John Doe"-->
-                                            <span class="avatar-placeholder mr-md-2">S</span>
-                                        </div>
-                                        Sam Dew
-                                    </div>
-                                </td>
-                                <td class="py-3">sam.dew@example.com</td>
-                                <td class="py-3">January 15, 2019</td>
-                                <td class="py-3">
-                                    <span class="badge badge-pill badge-warning">Pending</span>
-                                </td>
-                                <td class="py-3">
-                                    <div class="position-relative">
-                                        <a class="link-dark d-inline-block" href="#">
-                                            <i class="gd-pencil icon-text"></i>
-                                        </a>
-                                        <a class="link-dark d-inline-block" href="#">
-                                            <i class="gd-trash icon-text"></i>
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="py-3">3</td>
-                                <td class="align-middle py-3">
-                                    <div class="d-flex align-items-center">
-                                        <div class="position-relative mr-2">
-                                            <span class="indicator indicator-lg indicator-bordered-reverse indicator-top-left indicator-success rounded-circle"></span>
-                                            <!--img class="avatar rounded-circle" src="#" alt="John Doe"-->
-                                            <span class="avatar-placeholder mr-md-2">A</span>
-                                        </div>
-                                        Anna Doe
-                                    </div>
-                                </td>
-                                <td class="py-3">anna.doe@example.com</td>
-                                <td class="py-3">January 15, 2019</td>
-                                <td class="py-3">
-                                    <span class="badge badge-pill badge-success">Verified</span>
-                                </td>
-                                <td class="py-3">
-                                    <div class="position-relative">
-                                        <a class="link-dark d-inline-block" href="#">
-                                            <i class="gd-pencil icon-text"></i>
-                                        </a>
-                                        <a class="link-dark d-inline-block" href="#">
-                                            <i class="gd-trash icon-text"></i>
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-                        <div class="card-footer d-block d-md-flex align-items-center d-print-none">
-                            <div class="d-flex mb-2 mb-md-0">Showing 1 to 8 of 24 Entries</div>
+												</div>
+											</div>
 
-                            <nav class="d-flex ml-md-auto d-print-none" aria-label="Pagination"><ul class="pagination justify-content-end font-weight-semi-bold mb-0">				<li class="page-item">				<a id="datatablePaginationPrev" class="page-link" href="#!" aria-label="Previous"><i class="gd-angle-left icon-text icon-text-xs d-inline-block"></i></a>				</li><li class="page-item d-none d-md-block"><a id="datatablePaginationPage0" class="page-link active" href="#!" data-dt-page-to="0">1</a></li><li class="page-item d-none d-md-block"><a id="datatablePagination1" class="page-link" href="#!" data-dt-page-to="1">2</a></li><li class="page-item d-none d-md-block"><a id="datatablePagination2" class="page-link" href="#!" data-dt-page-to="2">3</a></li><li class="page-item">				<a id="datatablePaginationNext" class="page-link" href="#!" aria-label="Next"><i class="gd-angle-right icon-text icon-text-xs d-inline-block"></i></a>				</li>				</ul></nav>
-                        </div>
-                    </div>
-                    <!-- End Users -->
-                </div>
-            </div>
+											<div class="tab-pane fade p-4" id="pills-html-1"
+												role="tabpanel" aria-labelledby="pills-html-tab-1">
+												<div class="row">
+													<div class="col">
+														<div class="collapse multi-collapse"
+															id="multiCollapseExample2">
+															<div class="bg-white p-4">
+																<table class="table table-bordered">
+																	<tbody>
+																		<tr>
+																			<td colspan="4" align="center">입금전표</td>
+																		</tr>
+																		<tr>
+																			<td colspan="1" align="center">NO.</td>
+																			<td colspan="3" align="center">1234</td>
+																		</tr>
+																		<tr>
+																			<td scope="col">과목</td>
+																			<td scope="col">복리후생비</td>
+																			<td scope="col">항목</td>
+																			<td scope="col">식대</td>
+																		</tr>
+																		<tr>
+																			<td colspan="2" align="center">연결ID</td>
+																			<td colspan="2">음?</td>
 
+																		</tr>
+																		<tr>
+																			<td colspan="2" align="center">계정ID</td>
+																			<td colspan="2">??</td>
+																		</tr>
+																		<tr>
+																			<td colspan="3" align="center">적요</td>
+																			<th>금액</th>
 
-        </div>
+																		</tr>
+																		<tr>
+																			<td colspan="3">회계팀직원 저녁(홍길동외 5인) 5,000원 X 6명</td>
+																			<td>30,000</td>
+																		</tr>
+																		<tr>
+																			<td colspan="3">회계팀직원 저녁(홍길동외 5인) 5,000원 X 6명</td>
+																			<td>30,000</td>
+																		</tr>
+																		<tr>
+																			<td colspan="3">회계팀직원 저녁(홍길동외 5인) 5,000원 X 6명</td>
+																			<td>30,000</td>
+																		</tr>
+																		<tr>
+																			<th colspan="3">합계</th>
+																			<td>30,000</td>
+																		</tr>
+																	</tbody>
+																</table>
+																<button type="button" class="btn btn-outline-dark"
+																	style='float: right;'>승인거부</button>
+																<button type="button" class="btn btn-outline-dark"
+																	style='float: right;'>승인하기</button>
+															</div>
+														</div>
+													</div>
+													<table class="table">
+														<thead>
+															<tr>
+																<th class="font-weight-semi-bold border-top-0 py-2">전표번호</th>
+																<th class="font-weight-semi-bold border-top-0 py-2">전표종류</th>
+																<th class="font-weight-semi-bold border-top-0 py-2">연결
+																	ID</th>
+																<th class="font-weight-semi-bold border-top-0 py-2">등록일</th>
+																<th class="font-weight-semi-bold border-top-0 py-2">승인상태</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td class="py-3">
+																	<p>
+																		<a class="btn" data-toggle="collapse"
+																			href="#multiCollapseExample2" role="button"
+																			aria-expanded="false"
+																			aria-controls="multiCollapseExample1">1234</a>
+																	</p>
+																</td>
+																<td class="py-3">입금전표</td>
+																<td class="py-3">Otto</td>
+																<td class="py-3">21-03-21</td>
+																<td class="py-3">대기중</td>
+															</tr>
+															<tr>
+																<td class="py-3">
+																	<p>
+																		<a class="btn" data-toggle="collapse"
+																			href="#multiCollapseExample21" role="button"
+																			aria-expanded="false"
+																			aria-controls="multiCollapseExample1">1235</a>
+																	</p>
+																</td>
+																<td class="py-3">출금전표</td>
+																<td class="py-3">Thornton</td>
+																<td class="py-3">21-03-21</td>
+																<td class="py-3">대기중</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="tab-pane fade p-4" id="pills-html-2"
+												role="tabpanel" aria-labelledby="pills-html-tab-2">
+												<div class="row">
+													<div class="col">
+														<div class="collapse multi-collapse"
+															id="multiCollapseExample3">
+															<div class="bg-white p-4">
+																<table class="table table-bordered">
+																	<tbody>
+																		<tr>
+																			<td colspan="4" align="center">입금전표</td>
+																		</tr>
+																		<tr>
+																			<td colspan="1" align="center">NO.</td>
+																			<td colspan="3" align="center">0987</td>
+																		</tr>
+																		<tr>
+																			<td scope="col">과목</td>
+																			<td scope="col">복리후생비</td>
+																			<td scope="col">항목</td>
+																			<td scope="col">식대</td>
+																		</tr>
+																		<tr>
+																			<td colspan="2" align="center">연결ID</td>
+																			<td colspan="2">음?</td>
 
-        
-    </div>
+																		</tr>
+																		<tr>
+																			<td colspan="2" align="center">계정ID</td>
+																			<td colspan="2">??</td>
+																		</tr>
+																		<tr>
+																			<td colspan="3" align="center">적요</td>
+																			<th>금액</th>
+
+																		</tr>
+																		<tr>
+																			<td colspan="3">회계팀직원 저녁(홍길동외 5인) 5,000원 X 6명</td>
+																			<td>30,000</td>
+																		</tr>
+																		<tr>
+																			<td colspan="3">회계팀직원 저녁(홍길동외 5인) 5,000원 X 6명</td>
+																			<td>30,000</td>
+																		</tr>
+																		<tr>
+																			<td colspan="3">회계팀직원 저녁(홍길동외 5인) 5,000원 X 6명</td>
+																			<td>30,000</td>
+																		</tr>
+																		<tr>
+																			<th colspan="3">합계</th>
+																			<td>30,000</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</div>
+														</div>
+													</div>
+													<table class="table">
+														<thead>
+															<tr>
+																<th class="font-weight-semi-bold border-top-0 py-2">전표번호</th>
+																<th class="font-weight-semi-bold border-top-0 py-2">전표종류</th>
+																<th class="font-weight-semi-bold border-top-0 py-2">연결
+																	ID</th>
+																<th class="font-weight-semi-bold border-top-0 py-2">등록일</th>
+																<th class="font-weight-semi-bold border-top-0 py-2">승인상태</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td class="py-3">
+																	<p>
+																		<a class="btn" data-toggle="collapse"
+																			href="#multiCollapseExample3" role="button"
+																			aria-expanded="false"
+																			aria-controls="multiCollapseExample1">0987</a>
+																	</p>
+																</td>
+																<td class="py-3">입금전표</td>
+																<td class="py-3">Otto</td>
+																<td class="py-3">21-03-21</td>
+																<td class="py-3">승인완료</td>
+															</tr>
+															<tr>
+																<td class="py-3">
+																	<p>
+																	<a class="btn" data-toggle="collapse"
+																		href="#multiCollapseExample31" role="button"
+																		aria-expanded="false"
+																		aria-controls="multiCollapseExample1">0988</a>
+																</p>
+																</td>
+																<td class="py-3">출금전표</td>
+																<td class="py-3">Thornton</td>
+																<td class="py-3">21-03-21</td>
+																<td class="py-3">승인완료</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="tab-pane fade p-4" id="pills-html-3"
+												role="tabpanel" aria-labelledby="pills-html-tab-3">
+												<div class="px-3">
+													<ul id="tabs2" class="nav nav-tabs nav-v2 nav-primary mb-3"
+														role="tablist">
+														<li class="nav-item"><a
+															class="nav-link px-2 pb-2 active" href="#tabs2-tab3"
+															role="tab" aria-selected="true" data-toggle="tab">입금
+																전표 등록 </a></li>
+														<li class="nav-item ml-4"><a
+															class="nav-link px-2 pb-2" href="#tabs2-tab4" role="tab"
+															aria-selected="false" data-toggle="tab">출금 전표 등록 </a></li>
+													</ul>
+													<div id="tabsContent2" class="card-body tab-content p-0">
+														<div class="tab-pane fade show active" id="tabs2-tab3"
+															role="tabpanel">
+															<table class="table table-bordered">
+																<tbody>
+																	<tr>
+																		<td scope="col" colspan="4" align="center">출금전표</td>
+																	</tr>
+																	<tr>
+																		<th scope="col">과목</th>
+																		<td scope="col"><input id="text" type="text"
+																			class="form-control" name="password" required=""></td>
+																		<th scope="col">항목</th>
+																		<td scope="col"><input id="text" type="text"
+																			class="form-control" name="password" required=""></td>
+																	</tr>
+																	<tr>
+																		<th colspan="3" align="center">연결ID</th>
+																		<td><input id="text" type="text"
+																			class="form-control" name="password" required=""></td>
+
+																	</tr>
+																	<tr>
+																		<th colspan="3" align="center">계정ID</th>
+																		<td><input id="text" type="text"
+																			class="form-control" name="text" required=""></td>
+																	</tr>
+																	<tr>
+																		<th colspan="3" align="center">적요</th>
+																		<th>금액</th>
+
+																	</tr>
+																	<tr>
+																		<td colspan="3"><input id="text" type="text"
+																			class="form-control" name="password" required=""></td>
+																		<td><input id="text" type="text"
+																			class="form-control" name="text" required=""></td>
+																	</tr>
+																	<tr>
+																		<td colspan="3"><input id="text" type="text"
+																			class="form-control" name="password" required=""></td>
+																		<td><input id="text" type="text"
+																			class="form-control" name="text" required=""></td>
+																	</tr>
+																	<tr>
+																		<td colspan="3"><input id="text" type="text"
+																			class="form-control" name="password" required=""></td>
+																		<td><input id="text" type="text"
+																			class="form-control" name="text" required=""></td>
+																	</tr>
+																	<tr>
+																		<th colspan="3">합계</th>
+																		<td><input id="text" type="text"
+																			class="form-control" name="text" required=""></td>
+																	</tr>
+																</tbody>
+															</table>
+															<button type="button" class="btn btn-outline-dark"
+																style='float: right;'>등록하기</button>
+														</div>
+
+														<div class="tab-pane fade" id="tabs2-tab4" role="tabpanel">
+															<table class="table table-bordered">
+																<tbody>
+																	<tr>
+																		<td scope="col" colspan="4" align="center">출금전표</td>
+																	</tr>
+																	<tr>
+																		<th scope="col">과목</th>
+																		<td scope="col"><input id="text" type="text"
+																			class="form-control" name="password" required=""></td>
+																		<th scope="col">항목</th>
+																		<td scope="col"><input id="text" type="text"
+																			class="form-control" name="password" required=""></td>
+																	</tr>
+																	<tr>
+																		<th colspan="3" align="center">연결ID</th>
+																		<td><input id="text" type="text"
+																			class="form-control" name="password" required=""></td>
+
+																	</tr>
+																	<tr>
+																		<th colspan="3" align="center">계정ID</th>
+																		<td><input id="text" type="text"
+																			class="form-control" name="text" required=""></td>
+																	</tr>
+																	<tr>
+																		<th colspan="3" align="center">적요</th>
+																		<th>금액</th>
+
+																	</tr>
+																	<tr>
+																		<td colspan="3"><input id="text" type="text"
+																			class="form-control" name="password" required=""></td>
+																		<td><input id="text" type="text"
+																			class="form-control" name="text" required=""></td>
+																	</tr>
+																	<tr>
+																		<td colspan="3"><input id="text" type="text"
+																			class="form-control" name="password" required=""></td>
+																		<td><input id="text" type="text"
+																			class="form-control" name="text" required=""></td>
+																	</tr>
+																	<tr>
+																		<td colspan="3"><input id="text" type="text"
+																			class="form-control" name="password" required=""></td>
+																		<td><input id="text" type="text"
+																			class="form-control" name="text" required=""></td>
+																	</tr>
+																	<tr>
+																		<th colspan="3">합계</th>
+																		<td><input id="text" type="text"
+																			class="form-control" name="text" required=""></td>
+																	</tr>
+																</tbody>
+															</table>
+															<button type="button" class="btn btn-outline-dark"
+																style=ෆ̈float: right;ෆ̈>등록하기</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!— End Tab Content —>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 </main>
 
 <%@ include file = "../common/footer.jsp" %> 

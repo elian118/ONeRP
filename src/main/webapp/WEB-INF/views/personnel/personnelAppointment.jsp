@@ -305,55 +305,55 @@
 										  <!-- 검색창 끝 -->		
 										  <br>
 										  
-												<table class="table">
-													<thead>
-														<tr>
-															<th class="font-weight-semi-bold border-top-0 py-2">&nbsp;&nbsp; 발령일</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">사번</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">사원명</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">현재부서</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">현재직급</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">이전부서</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">이전직급</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">&nbsp;</th>
-														</tr>
-													</thead>
-													<tbody>
-														<tr>
-															<td class="py-3">2021-03-21</td>
-															<td class="py-3">001</td>
-															<td class="py-3">장그래</td>
-															<td class="py-3">영업부</td>
-															<td class="py-3">대리</td>
-															<td class="py-3">발령대기</td>
-															<td class="py-3">인턴사원</td>
-															<td><button type="button" class="btn btn-outline-dark">발령</button></td>
-														</tr>
-														<tr>
-															<td class="py-3">2021-03-21</td>
-															<td class="py-3">001</td>
-															<td class="py-3">장그래</td>
-															<td class="py-3">영업부</td>
-															<td class="py-3">대리</td>
-															<td class="py-3">발령대기</td>
-															<td class="py-3">인턴사원</td>
-															<td><button type="button" class="btn btn-outline-dark">발령</button></td>
-														</tr>
-														<tr>
-															<td class="py-3">2021-03-21</td>
-															<td class="py-3">001</td>
-															<td class="py-3">장그래</td>
-															<td class="py-3">영업부</td>
-															<td class="py-3">대리</td>
-															<td class="py-3">발령대기</td>
-															<td class="py-3">인턴사원</td>
-															<td><button type="button" class="btn btn-outline-dark">발령</button></td>
-														</tr>
-													</tbody>
-												</table>
+											<table class="table table-striped">
+											    <thead>
+											      <tr>
+											        <th class="font-weight-semi-bold border-top-0 py-2">&nbsp;&nbsp; 발령일</th>
+											        <th class="font-weight-semi-bold border-top-0 py-2">사번</th>
+											        <th class="font-weight-semi-bold border-top-0 py-2">사원명</th>
+											        <th class="font-weight-semi-bold border-top-0 py-2">현재부서</th>
+											        <th class="font-weight-semi-bold border-top-0 py-2">현재직급</th>
+											        <th class="font-weight-semi-bold border-top-0 py-2">이전부서</th>
+											        <th class="font-weight-semi-bold border-top-0 py-2">이전직급</th>
+											        <th class="font-weight-semi-bold border-top-0 py-2">&nbsp;</th>
+											        
+											      </tr>
+											    </thead>
+											    <tbody>
+											      <tr>
+											        <td class="py-3">2021-03-21</td>
+													<td class="py-3">001</td>
+													<td class="py-3">장그래</td>
+													<td class="py-3">영업부</td>
+													<td class="py-3">대리</td>
+													<td class="py-3">발령대기</td>
+													<td class="py-3">인턴사원</td>
+													<td><button type="button" class="btn btn-outline-dark">발령</button></td>
+											      </tr>
+											      <tr>
+											        <td class="py-3">2021-03-21</td>
+													<td class="py-3">001</td>
+													<td class="py-3">장그래</td>
+													<td class="py-3">영업부</td>
+													<td class="py-3">대리</td>
+													<td class="py-3">발령대기</td>
+													<td class="py-3">인턴사원</td>
+													<td><button type="button" class="btn btn-outline-dark">발령</button></td>
+											      </tr>
+											      <tr>
+											        <td class="py-3">2021-03-21</td>
+													<td class="py-3">001</td>
+													<td class="py-3">장그래</td>
+													<td class="py-3">영업부</td>
+													<td class="py-3">대리</td>
+													<td class="py-3">발령대기</td>
+													<td class="py-3">인턴사원</td>
+													<td><button type="button" class="btn btn-outline-dark">발령</button></td>
+											      </tr>
+											    </tbody>
+											  </table>
+											 
 											</div>
-											
-											
 										</div>
 										<!-- End Tab Content -->
 									</div>
