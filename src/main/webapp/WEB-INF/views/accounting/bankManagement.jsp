@@ -64,7 +64,7 @@
                 <!-- End UI Components: subComponents -->
             </li>
             <!-- End UI Components -->
-			 <!-- Authentication -->
+          <!-- Authentication -->
             <li class="side-nav-menu-item side-nav-has-menu">
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#subPages">
@@ -106,7 +106,7 @@
 
                 <!-- UI Components: subComponents -->
                 <ul id="subComponents" class="side-nav-menu side-nav-menu-second-level mb-0">
-                	<li class="side-nav-menu-item">
+                   <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/client">거래처 조회</a>
                     </li>
                     <li class="side-nav-menu-item">
@@ -157,7 +157,7 @@
 
                 <!-- Utils: subUtils -->
                 <ul id="asd" class="side-nav-menu side-nav-menu-second-level mb-0">
-                	<li class="side-nav-menu-item">
+                   <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/client2">거래처 조회</a>
                     </li>
                     <li class="side-nav-menu-item">
@@ -207,7 +207,7 @@
 
                 <!-- UI Components: subComponents -->
                 <ul id="zxc" class="side-nav-menu side-nav-menu-second-level mb-0">
-                	<li class="side-nav-menu-item">
+                   <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/accountinquiry">거래처 조회</a>
                     </li>
                     <li class="side-nav-menu-item">
@@ -240,7 +240,7 @@
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#subUsers">
                   <span class="side-nav-menu-icon d-flex mr-3">
-                    <i class="gd-user"></i>
+                    <i class="gd-infinite"></i>
                   </span>
                     <span class="side-nav-fadeout-on-closed media-body">회계 관리</span>
                     <span class="side-nav-control-icon d-flex">
@@ -254,16 +254,16 @@
                     <li class="side-nav-menu-item ">
                         <a class="side-nav-menu-link" href="${path}/accountingreport">회계보고서</a>
                     </li>
-                    <li class="side-nav-menu-item active">
+                    <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/bankManagement">계좌 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/accountManagement">계정 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="${path}/statementManagement">전표 조회</a>
+                        <a class="side-nav-menu-link" href="${path}/statementManagement">전표 관리</a>
                     </li>
-                    <li class="side-nav-menu-item">
+                    <li class="side-nav-menu-item active">
                         <a class="side-nav-menu-link" href="${path}/bonddebtManagement">채권/채무 조회</a>
                     </li>
                 </ul>
@@ -274,146 +274,128 @@
     </aside>
     <!-- End Sidebar Nav -->
 
-    <div class="content">
-        <div class="py-4 px-3 px-md-4">
-            <div class="card mb-3 mb-md-4">
+      <div class="content">
+         <div class="py-4 px-3 px-md-4">
+            <div class="card">
+               <div class="card-body">
+               <nav aria-label="breadcrumb">
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a href="#">회계 관리</a></li>
+								<li class="breadcrumb-item active" aria-current="page">채권/채무 조회</li>
+							</ol>
+						</nav>
+                  <div class="row">
 
-                <div class="card-body">
-                    <!-- Breadcrumb -->
-                    <nav class="d-none d-md-block" aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item">
-                                <a href="#">Users</a>
-                            </li>
-                            <li class="breadcrumb-item active" aria-current="page">All Users</li>
-                        </ol>
-                    </nav>
-                    <!-- End Breadcrumb -->
+                     <div class="col-xl-12">
 
-                    <div class="mb-3 mb-md-4 d-flex justify-content-between">
-                        <div class="h3 mb-0">Users</div>
-                    </div>
+                        <div id="example" class="mb-9">
+                           <h2 class="h4">
+                              채권/채무 조회 <a class="anchorjs-link" href="#example"
+                                 aria-label="Anchor" data-anchorjs-icon="#"></a>
+                           </h2>
+                           <div class="mb-3">
+                              <!-- Nav Classic -->
+                              <ul class="nav nav-v2 nav-primary d-block d-xl-flex"
+                                 id="pills-tab-1" role="tablist">
+                                 <li class="nav-item border-bottom border-xl-bottom-0"><a
+                                    class="nav-link d-flex align-items-center py-2 px-3 active"
+                                    id="pills-result-tab-1" data-toggle="pill"
+                                    href="#pills-result-1" role="tab"
+                                    aria-controls="pills-result-1" aria-selected="true">전체 채권</a>
+                                 </li>
+                                 <li class="nav-item border-bottom border-xl-bottom-0"><a
+                                    class="nav-link d-flex align-items-center py-2 px-3"
+                                    id="pills-html-tab-1" data-toggle="pill"
+                                    href="#pills-html-1" role="tab" aria-controls="pills-html-1"
+                                    aria-selected="false">전체 채무</a></li>
+                              </ul>
+                              <!-- End Nav Classic -->
 
-
-                    <!-- Users -->
-                    <div class="table-responsive-xl">
-                        <table class="table text-nowrap mb-0">
-                            <thead>
-                            <tr>
-                                <th class="font-weight-semi-bold border-top-0 py-2">#</th>
-                                <th class="font-weight-semi-bold border-top-0 py-2">Name</th>
-                                <th class="font-weight-semi-bold border-top-0 py-2">Email</th>
-                                <th class="font-weight-semi-bold border-top-0 py-2">Registration Date</th>
-                                <th class="font-weight-semi-bold border-top-0 py-2">Status</th>
-                                <th class="font-weight-semi-bold border-top-0 py-2">Actions</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td class="py-3">1</td>
-                                <td class="align-middle py-3">
-                                    <div class="d-flex align-items-center">
-                                        <div class="position-relative mr-2">
-                                            <span class="indicator indicator-lg indicator-bordered-reverse indicator-top-left indicator-success rounded-circle"></span>
-                                            <!--img class="avatar rounded-circle" src="#" alt="John Doe"-->
-                                            <span class="avatar-placeholder mr-md-2">J</span>
-                                        </div>
-                                        John Doe
-                                    </div>
-                                </td>
-                                <td class="py-3">john.doe@example.com</td>
-                                <td class="py-3">January 15, 2019</td>
-                                <td class="py-3">
-                                    <span class="badge badge-pill badge-success">Verified</span>
-                                </td>
-                                <td class="py-3">
-                                    <div class="position-relative">
-                                        <a class="link-dark d-inline-block" href="#">
-                                            <i class="gd-pencil icon-text"></i>
-                                        </a>
-                                        <a class="link-dark d-inline-block" href="#">
-                                            <i class="gd-trash icon-text"></i>
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="py-3">2</td>
-                                <td class="align-middle py-3">
-                                    <div class="d-flex align-items-center">
-                                        <div class="position-relative mr-2">
-                                            <!--img class="avatar rounded-circle" src="#" alt="John Doe"-->
-                                            <span class="avatar-placeholder mr-md-2">S</span>
-                                        </div>
-                                        Sam Dew
-                                    </div>
-                                </td>
-                                <td class="py-3">sam.dew@example.com</td>
-                                <td class="py-3">January 15, 2019</td>
-                                <td class="py-3">
-                                    <span class="badge badge-pill badge-warning">Pending</span>
-                                </td>
-                                <td class="py-3">
-                                    <div class="position-relative">
-                                        <a class="link-dark d-inline-block" href="#">
-                                            <i class="gd-pencil icon-text"></i>
-                                        </a>
-                                        <a class="link-dark d-inline-block" href="#">
-                                            <i class="gd-trash icon-text"></i>
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="py-3">3</td>
-                                <td class="align-middle py-3">
-                                    <div class="d-flex align-items-center">
-                                        <div class="position-relative mr-2">
-                                            <span class="indicator indicator-lg indicator-bordered-reverse indicator-top-left indicator-success rounded-circle"></span>
-                                            <!--img class="avatar rounded-circle" src="#" alt="John Doe"-->
-                                            <span class="avatar-placeholder mr-md-2">A</span>
-                                        </div>
-                                        Anna Doe
-                                    </div>
-                                </td>
-                                <td class="py-3">anna.doe@example.com</td>
-                                <td class="py-3">January 15, 2019</td>
-                                <td class="py-3">
-                                    <span class="badge badge-pill badge-success">Verified</span>
-                                </td>
-                                <td class="py-3">
-                                    <div class="position-relative">
-                                        <a class="link-dark d-inline-block" href="#">
-                                            <i class="gd-pencil icon-text"></i>
-                                        </a>
-                                        <a class="link-dark d-inline-block" href="#">
-                                            <i class="gd-trash icon-text"></i>
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-                        <div class="card-footer d-block d-md-flex align-items-center d-print-none">
-                            <div class="d-flex mb-2 mb-md-0">Showing 1 to 8 of 24 Entries</div>
-
-                            <nav class="d-flex ml-md-auto d-print-none" aria-label="Pagination"><ul class="pagination justify-content-end font-weight-semi-bold mb-0">				<li class="page-item">				<a id="datatablePaginationPrev" class="page-link" href="#!" aria-label="Previous"><i class="gd-angle-left icon-text icon-text-xs d-inline-block"></i></a>				</li><li class="page-item d-none d-md-block"><a id="datatablePaginationPage0" class="page-link active" href="#!" data-dt-page-to="0">1</a></li><li class="page-item d-none d-md-block"><a id="datatablePagination1" class="page-link" href="#!" data-dt-page-to="1">2</a></li><li class="page-item d-none d-md-block"><a id="datatablePagination2" class="page-link" href="#!" data-dt-page-to="2">3</a></li><li class="page-item">				<a id="datatablePaginationNext" class="page-link" href="#!" aria-label="Next"><i class="gd-angle-right icon-text icon-text-xs d-inline-block"></i></a>				</li>				</ul></nav>
+                              <!-- Tab Content -->
+                              <div class="tab-content bg-lighter" id="pills-tabContent-1">
+                                 <div class="tab-pane fade p-4 show active"
+                                    id="pills-result-1" role="tabpanel"
+                                    aria-labelledby="pills-result-tab-1">
+                                    <table class="table">
+                                       <thead>
+                                          <tr>
+                                             <th class="font-weight-semi-bold border-top-0 py-2">거래처명</th>
+                                             <th class="font-weight-semi-bold border-top-0 py-2">금액</th>
+                                             <th class="font-weight-semi-bold border-top-0 py-2">발행일</th>
+                                             <th class="font-weight-semi-bold border-top-0 py-2">상환일</th>
+                                          </tr>
+                                       </thead>
+                                       <tbody>
+                                          <tr>
+                                             <td class="py-3">삼성</td>
+                                             <td class="py-3">100000000</td>
+                                             <td class="py-3">2021-03-21</td>
+                                             <td class="py-3">2021-03-27</td>
+                                          </tr>
+                                          <tr>
+                                             <td class="py-3">LG</td>
+                                             <td class="py-3">50000000</td>
+                                             <td class="py-3">2021-03-21</td>
+                                             <td class="py-3">2021-04-21</td>
+                                          </tr>
+                                          <tr>
+                                             <td class="py-3">애플</td>
+                                             <td class="py-3">250000000</td>
+                                             <td class="py-3">2021-03-21</td>
+                                             <td class="py-3">2022-03-21</td>
+                                          </tr>
+                                       </tbody>
+                                    </table>   
+                                 </div>
+                                    
+                                 <div class="tab-pane fade p-4" id="pills-html-1"
+                                    role="tabpanel" aria-labelledby="pills-html-tab-1">
+                                    <table class="table">
+                                       <thead>
+                                          <tr>
+                                             <th class="font-weight-semi-bold border-top-0 py-2">거래처명</th>
+                                             <th class="font-weight-semi-bold border-top-0 py-2">금액</th>
+                                             <th class="font-weight-semi-bold border-top-0 py-2">발행일</th>
+                                             <th class="font-weight-semi-bold border-top-0 py-2">반환일</th>
+                                          </tr>
+                                       </thead>
+                                       <tbody>
+                                          <tr>
+                                             <td class="py-3">1</td>
+                                             <td class="py-3">Mark</td>
+                                             <td class="py-3">Otto</td>
+                                             <td class="py-3">@mdo</td>
+                                          </tr>
+                                          <tr>
+                                             <td class="py-3">2</td>
+                                             <td class="py-3">Jacob</td>
+                                             <td class="py-3">Thornton</td>
+                                             <td class="py-3">@fat</td>
+                                          </tr>
+                                          <tr>
+                                             <td class="py-3">3</td>
+                                             <td class="py-3">Larry</td>
+                                             <td class="py-3">the Bird</td>
+                                             <td class="py-3">@twitter</td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </div>
+                              </div>
+                              <!-- End Tab Content -->
+                           </div>
                         </div>
-                    </div>
-                    <!-- End Users -->
-                </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-
-
-        </div>
-
-        
-    </div>
+         </div>
+      </div>
 </main>
 
 <%@ include file = "../common/footer.jsp" %> 
-<script src="${project}js/graindashboard.js"></script>
-<script src="${project}js/graindashboard.vendor.js"></script>
+<script src="ෆ{project}js/graindashboard.js"></script>
+<script src="ෆ{project}js/graindashboard.vendor.js"></script>
 
 </body>
 </html>
