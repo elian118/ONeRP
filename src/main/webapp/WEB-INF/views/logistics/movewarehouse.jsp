@@ -207,7 +207,7 @@
 
                 <!-- Users: subUsers -->
                 <ul id="zxc" class="side-nav-menu side-nav-menu-second-level mb-0" style="display: block;">
-                    <li class="side-nav-menu-item active">
+                    <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/accountinquiry">거래처 조회</a>
                     </li>
                     <li class="side-nav-menu-item">
@@ -225,7 +225,7 @@
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/warehouselist">창고 리스트</a>
                     </li>
-                    <li class="side-nav-menu-item">
+                    <li class="side-nav-menu-item active">
                         <a class="side-nav-menu-link" href="${path}/movewarehouse">창고 이동</a>
                     </li>
                     <li class="side-nav-menu-item">
@@ -276,7 +276,7 @@
     </aside>
     <!-- End Sidebar Nav -->
 
-    <div class="content">
+   <div class="content">
 			<div class="py-4 px-3 px-md-4">
 				<div class="card">
 					<div class="card-body">
@@ -286,7 +286,7 @@
 
 								<div id="example" class="mb-9">
 									<h2 class="h4">
-										거래처 조회 <a class="anchorjs-link" href="#example"
+										전표 조회 <a class="anchorjs-link" href="#example"
 											aria-label="Anchor" data-anchorjs-icon="#"></a>
 									</h2>
 									<div class="mb-3">
@@ -298,7 +298,23 @@
 												id="pills-result-tab-1" data-toggle="pill"
 												href="#pills-result-1" role="tab"
 												aria-controls="pills-result-1" aria-selected="true">
-													거래처 조회</a></li>
+													전체 전표 조회</a></li>
+											<li class="nav-item border-bottom border-xl-bottom-0"><a
+												class="nav-link d-flex align-items-center py-2 px-3"
+												id="pills-html-tab-1" data-toggle="pill"
+												href="#pills-html-1" role="tab" aria-controls="pills-html-1"
+												aria-selected="false">미승인 전표 조회 </a></li>
+
+											<li class="nav-item border-bottom border-xl-bottom-0"><a
+												class="nav-link d-flex align-items-center py-2 px-3"
+												id="pills-html-tab-2" data-toggle="pill"
+												href="#pills-html-2" role="tab" aria-controls="pills-html-2"
+												aria-selected="false">승인 전표 조회 </a></li>
+											<li class="nav-item border-bottom border-xl-bottom-0"><a
+												class="nav-link d-flex align-items-center py-2 px-3"
+												id="pills-html-tab-3" data-toggle="pill"
+												href="#pills-html-3" role="tab" aria-controls="pills-html-3"
+												aria-selected="false">전표 등록 </a></li>
 										</ul>
 										<!-- End Nav Classic -->
 
@@ -308,49 +324,132 @@
 												id="pills-result-1" role="tabpanel"
 												aria-labelledby="pills-result-tab-1">
 												<table class="table">
-													<!-- 검색창 시작 -->      
-				                                	<div class="input-group">
-					                                	<div class="input-group-append">
-					                                    <i class="gd-search icon-text icon-text-sm"></i>
-					                                  	</div>
-					                                  	<input class="form-control form-control-icon-text" placeholder="거래처명 검색" type="text" >
-					                                </div>
-					                                <br>
-					                                <!-- 검색창 끝 --> 
 													<thead>
 														<tr>
-															<th class="font-weight-semi-bold border-top-0 py-2">거래처번호</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">거래처명</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">대표자명</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">업태</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">사용상태</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">등록일</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">#</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">First</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">Last</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">Handle</th>
 														</tr>
 													</thead>
 													<tbody>
 														<tr>
-															<td class="py-3">10</td>
-															<td class="py-3">거래처명1</td>
-															<td class="py-3">최유성</td>
-															<td class="py-3">업태1</td>
-															<td class="py-3">사용중</td>
-															<td class="py-3">2017-08-21</td>
+															<td class="py-3">1</td>
+															<td class="py-3">Mark</td>
+															<td class="py-3">Otto</td>
+															<td class="py-3">@mdo</td>
 														</tr>
 														<tr>
-															<td class="py-3">11</td>
-															<td class="py-3">거래처명2</td>
-															<td class="py-3">조명재</td>
-															<td class="py-3">업태2</td>
-															<td class="py-3">사용중</td>
-															<td class="py-3">2018-01-01</td>
+															<td class="py-3">2</td>
+															<td class="py-3">Jacob</td>
+															<td class="py-3">Thornton</td>
+															<td class="py-3">@fat</td>
 														</tr>
 														<tr>
-															<td class="py-3">12</td>
-															<td class="py-3">거래처명3</td>
-															<td class="py-3">김은희</td>
-															<td class="py-3">업태3</td>
-															<td class="py-3">사용중</td>
-															<td class="py-3">2018-02-22</td>
+															<td class="py-3">3</td>
+															<td class="py-3">Larry</td>
+															<td class="py-3">the Bird</td>
+															<td class="py-3">@twitter</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+
+											<div class="tab-pane fade p-4" id="pills-html-1"
+												role="tabpanel" aria-labelledby="pills-html-tab-1">
+												<table class="table">
+													<thead>
+														<tr>
+															<th class="font-weight-semi-bold border-top-0 py-2">#</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">First</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">Last</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">Handle</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td class="py-3">1</td>
+															<td class="py-3">Mark</td>
+															<td class="py-3">Otto</td>
+															<td class="py-3">@mdo</td>
+														</tr>
+														<tr>
+															<td class="py-3">2</td>
+															<td class="py-3">Jacob</td>
+															<td class="py-3">Thornton</td>
+															<td class="py-3">@fat</td>
+														</tr>
+														<tr>
+															<td class="py-3">3</td>
+															<td class="py-3">Larry</td>
+															<td class="py-3">the Bird</td>
+															<td class="py-3">@twitter</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+											<div class="tab-pane fade p-4" id="pills-html-2"
+												role="tabpanel" aria-labelledby="pills-html-tab-2">
+												<table class="table">
+													<thead>
+														<tr>
+															<th class="font-weight-semi-bold border-top-0 py-2">#</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">First</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">Last</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">Handle</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td class="py-3">1</td>
+															<td class="py-3">Mark</td>
+															<td class="py-3">Otto</td>
+															<td class="py-3">@mdo</td>
+														</tr>
+														<tr>
+															<td class="py-3">2</td>
+															<td class="py-3">Jacob</td>
+															<td class="py-3">Thornton</td>
+															<td class="py-3">@fat</td>
+														</tr>
+														<tr>
+															<td class="py-3">3</td>
+															<td class="py-3">Larry</td>
+															<td class="py-3">the Bird</td>
+															<td class="py-3">@twitter</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+											<div class="tab-pane fade p-4" id="pills-html-3"
+												role="tabpanel" aria-labelledby="pills-html-tab-3">
+												<table class="table">
+													<thead>
+														<tr>
+															<th class="font-weight-semi-bold border-top-0 py-2">#</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">First</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">Last</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">Handle</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td class="py-3">1</td>
+															<td class="py-3">Mark</td>
+															<td class="py-3">Otto</td>
+															<td class="py-3">@mdo</td>
+														</tr>
+														<tr>
+															<td class="py-3">2</td>
+															<td class="py-3">Jacob</td>
+															<td class="py-3">Thornton</td>
+															<td class="py-3">@fat</td>
+														</tr>
+														<tr>
+															<td class="py-3">3</td>
+															<td class="py-3">Larry</td>
+															<td class="py-3">the Bird</td>
+															<td class="py-3">@twitter</td>
 														</tr>
 													</tbody>
 												</table>
