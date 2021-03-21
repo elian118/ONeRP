@@ -43,22 +43,22 @@
                 <!-- Users: subUsers -->
                 <ul id="subUsers" class="side-nav-menu side-nav-menu-second-level mb-0" style="display: block;">
                     <li class="side-nav-menu-item active">
-                        <a class="side-nav-menu-link" href="${path}/personnelcodeManagement">인사코드 관리</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelCode">인사코드 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">인사발령 관리</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelAppointment">인사발령 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">인사카드관리(조회)</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelCard">인사카드관리(조회)</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">급여 관리</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelSalary">급여 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">부서 관리</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelDep">부서 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">퇴사/휴직자 관리</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelRetire">퇴사/휴직자 관리</a>
                     </li>
                 </ul>
                 <!-- End Users: subUsers -->
@@ -270,151 +270,216 @@
                 <!-- End UI Components: subComponents -->
             </li>
             <!-- End UI Components -->
-            
-
-            
-
-            
-
-        </ul>
+   </ul>
     </aside>
     <!-- End Sidebar Nav -->
-
+    
+   <!-- 인사코드 관리 시작 -->
     <div class="content">
-        <div class="py-4 px-3 px-md-4">
-            <div class="card mb-3 mb-md-4">
+			<div class="py-4 px-3 px-md-4">
+				<div class="card">
+					<div class="card-body">
+						<div class="row">
+							<div class="col-xl-12">
+								<div id="example" class="mb-9">
+									<h2 class="h4">인사코드 관리 <a class="anchorjs-link" href="#example"aria-label="Anchor" data-anchorjs-icon="#"></a>
+									</h2>
+									
+									<br>
+									
+									<div class="mb-3">
+										<!-- Nav Classic -->
+										<ul class="nav nav-v2 nav-primary d-block d-xl-flex"
+											id="pills-tab-1" role="tablist">
+											<li class="nav-item border-bottom border-xl-bottom-0"><a
+												class="nav-link d-flex align-items-center py-2 px-3 active"
+												id="pills-result-tab-1" data-toggle="pill"
+												href="#pills-result-1" role="tab"
+												aria-controls="pills-result-1" aria-selected="true">
+													인사코드 그룹</a></li>
+											<li class="nav-item border-bottom border-xl-bottom-0"><a
+												class="nav-link d-flex align-items-center py-2 px-3"
+												id="pills-html-tab-1" data-toggle="pill"
+												href="#pills-html-1" role="tab" aria-controls="pills-html-1"
+												aria-selected="false">인사코드 그룹 등록 </a></li>
 
-                <div class="card-body">
-                    <!-- Breadcrumb -->
-                    <nav class="d-none d-md-block" aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item">
-                                <a href="#">Users</a>
-                            </li>
-                            <li class="breadcrumb-item active" aria-current="page">All Users</li>
-                        </ol>
-                    </nav>
-                    <!-- End Breadcrumb -->
+											<li class="nav-item border-bottom border-xl-bottom-0"><a
+												class="nav-link d-flex align-items-center py-2 px-3"
+												id="pills-html-tab-2" data-toggle="pill"
+												href="#pills-html-2" role="tab" aria-controls="pills-html-2"
+												aria-selected="false">인사코드 </a></li>
+											<li class="nav-item border-bottom border-xl-bottom-0"><a
+												class="nav-link d-flex align-items-center py-2 px-3"
+												id="pills-html-tab-3" data-toggle="pill"
+												href="#pills-html-3" role="tab" aria-controls="pills-html-3"
+												aria-selected="false">인사코드 등록 </a></li>
+										</ul>
+										<!-- End Nav Classic -->
 
-                    <div class="mb-3 mb-md-4 d-flex justify-content-between">
-                        <div class="h3 mb-0">Users</div>
-                    </div>
+										<!-- Tab Content -->
+										<div class="tab-content bg-lighter" id="pills-tabContent-1">
+											<div class="tab-pane fade p-4 show active"
+												id="pills-result-1" role="tabpanel"
+												aria-labelledby="pills-result-tab-1">
+												<table class="table">
+													<thead>
+														<tr>
+															<th class="font-weight-semi-bold border-top-0 py-2">그룹번호</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">그룹명</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">사용상태</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td class="py-3">1</td>
+															<td class="py-3">직급</td>
+															<td class="py-3">Otto</td>
+															<td class="py-3">@mdo</td>
+														</tr>
+														<tr>
+															<td class="py-3">2</td>
+															<td class="py-3">휴가</td>
+															<td class="py-3">Thornton</td>
+															<td class="py-3">@fat</td>
+														</tr>
+														<tr>
+															<td class="py-3">3</td>
+															<td class="py-3">급여</td>
+															<td class="py-3">the Bird</td>
+															<td class="py-3">@twitter</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
 
-
-                    <!-- Users -->
-                    <div class="table-responsive-xl">
-                        <table class="table text-nowrap mb-0">
-                            <thead>
-                            <tr>
-                                <th class="font-weight-semi-bold border-top-0 py-2">#</th>
-                                <th class="font-weight-semi-bold border-top-0 py-2">Name</th>
-                                <th class="font-weight-semi-bold border-top-0 py-2">Email</th>
-                                <th class="font-weight-semi-bold border-top-0 py-2">Registration Date</th>
-                                <th class="font-weight-semi-bold border-top-0 py-2">Status</th>
-                                <th class="font-weight-semi-bold border-top-0 py-2">Actions</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td class="py-3">1</td>
-                                <td class="align-middle py-3">
-                                    <div class="d-flex align-items-center">
-                                        <div class="position-relative mr-2">
-                                            <span class="indicator indicator-lg indicator-bordered-reverse indicator-top-left indicator-success rounded-circle"></span>
-                                            <!--img class="avatar rounded-circle" src="#" alt="John Doe"-->
-                                            <span class="avatar-placeholder mr-md-2">J</span>
-                                        </div>
-                                        John Doe
-                                    </div>
-                                </td>
-                                <td class="py-3">john.doe@example.com</td>
-                                <td class="py-3">January 15, 2019</td>
-                                <td class="py-3">
-                                    <span class="badge badge-pill badge-success">Verified</span>
-                                </td>
-                                <td class="py-3">
-                                    <div class="position-relative">
-                                        <a class="link-dark d-inline-block" href="#">
-                                            <i class="gd-pencil icon-text"></i>
-                                        </a>
-                                        <a class="link-dark d-inline-block" href="#">
-                                            <i class="gd-trash icon-text"></i>
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="py-3">2</td>
-                                <td class="align-middle py-3">
-                                    <div class="d-flex align-items-center">
-                                        <div class="position-relative mr-2">
-                                            <!--img class="avatar rounded-circle" src="#" alt="John Doe"-->
-                                            <span class="avatar-placeholder mr-md-2">S</span>
-                                        </div>
-                                        Sam Dew
-                                    </div>
-                                </td>
-                                <td class="py-3">sam.dew@example.com</td>
-                                <td class="py-3">January 15, 2019</td>
-                                <td class="py-3">
-                                    <span class="badge badge-pill badge-warning">Pending</span>
-                                </td>
-                                <td class="py-3">
-                                    <div class="position-relative">
-                                        <a class="link-dark d-inline-block" href="#">
-                                            <i class="gd-pencil icon-text"></i>
-                                        </a>
-                                        <a class="link-dark d-inline-block" href="#">
-                                            <i class="gd-trash icon-text"></i>
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="py-3">3</td>
-                                <td class="align-middle py-3">
-                                    <div class="d-flex align-items-center">
-                                        <div class="position-relative mr-2">
-                                            <span class="indicator indicator-lg indicator-bordered-reverse indicator-top-left indicator-success rounded-circle"></span>
-                                            <!--img class="avatar rounded-circle" src="#" alt="John Doe"-->
-                                            <span class="avatar-placeholder mr-md-2">A</span>
-                                        </div>
-                                        Anna Doe
-                                    </div>
-                                </td>
-                                <td class="py-3">anna.doe@example.com</td>
-                                <td class="py-3">January 15, 2019</td>
-                                <td class="py-3">
-                                    <span class="badge badge-pill badge-success">Verified</span>
-                                </td>
-                                <td class="py-3">
-                                    <div class="position-relative">
-                                        <a class="link-dark d-inline-block" href="#">
-                                            <i class="gd-pencil icon-text"></i>
-                                        </a>
-                                        <a class="link-dark d-inline-block" href="#">
-                                            <i class="gd-trash icon-text"></i>
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-                        <div class="card-footer d-block d-md-flex align-items-center d-print-none">
-                            <div class="d-flex mb-2 mb-md-0">Showing 1 to 8 of 24 Entries</div>
-
-                            <nav class="d-flex ml-md-auto d-print-none" aria-label="Pagination"><ul class="pagination justify-content-end font-weight-semi-bold mb-0">				<li class="page-item">				<a id="datatablePaginationPrev" class="page-link" href="#!" aria-label="Previous"><i class="gd-angle-left icon-text icon-text-xs d-inline-block"></i></a>				</li><li class="page-item d-none d-md-block"><a id="datatablePaginationPage0" class="page-link active" href="#!" data-dt-page-to="0">1</a></li><li class="page-item d-none d-md-block"><a id="datatablePagination1" class="page-link" href="#!" data-dt-page-to="1">2</a></li><li class="page-item d-none d-md-block"><a id="datatablePagination2" class="page-link" href="#!" data-dt-page-to="2">3</a></li><li class="page-item">				<a id="datatablePaginationNext" class="page-link" href="#!" aria-label="Next"><i class="gd-angle-right icon-text icon-text-xs d-inline-block"></i></a>				</li>				</ul></nav>
-                        </div>
-                    </div>
-                    <!-- End Users -->
-                </div>
-            </div>
-
-
-        </div>
-
-        
-    </div>
+											<div class="tab-pane fade p-4" id="pills-html-1"
+												role="tabpanel" aria-labelledby="pills-html-tab-1">
+												<form>
+													<table class="table">
+														<tr>
+															<td>그룹명 </td>
+															<td><input id="text" type="text" class="form-control" name="password" required=""></td>
+														</tr>
+														<tr>
+															<td> 인사코드 </td>
+															<td> <input id="text" type="text" class="form-control" name="password" required=""></td>
+														</tr>
+														<tr>
+															<td> 인사코드명 </td>
+															<td> <input id="text" type="text" class="form-control" name="password" required=""></td>
+														</tr>
+														<tr>
+															<td> 사용상태 </td>
+															<td>	 
+															<div class="form-group">
+															     <select class="form-control" id="exampleFormControlSelect1">
+															       <option>사용</option>
+															       <option>비사용</option>
+															     </select>
+															   </div>
+															 </td>
+														</tr>
+													</table>
+												
+												<div align=center>
+												
+													<button type="button" type="submit" class="btn btn-outline-dark">등록</button>&nbsp;&nbsp;&nbsp;
+													<button type="button" type="reset" class="btn btn-outline-dark">재작성</button>
+												
+												</div>
+												<br>
+											</form>
+											</div>
+											<div class="tab-pane fade p-4" id="pills-html-2"
+												role="tabpanel" aria-labelledby="pills-html-tab-2">
+												<table class="table">
+													<thead>
+														<tr>
+															<th class="font-weight-semi-bold border-top-0 py-2">그룹번호</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">인사코드</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">인사코드명</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">사용상태</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td class="py-3">1</td>
+															<td class="py-3">Mark</td>
+															<td class="py-3">Otto</td>
+															<td class="py-3">@mdo</td>
+														</tr>
+														<tr>
+															<td class="py-3">2</td>
+															<td class="py-3">Jacob</td>
+															<td class="py-3">Thornton</td>
+															<td class="py-3">@fat</td>
+														</tr>
+														<tr>
+															<td class="py-3">3</td>
+															<td class="py-3">Larry</td>
+															<td class="py-3">the Bird</td>
+															<td class="py-3">@twitter</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+											<div class="tab-pane fade p-4" id="pills-html-3"
+												role="tabpanel" aria-labelledby="pills-html-tab-3">
+											<form>
+												<table class="table">
+													<tr>
+														<td>그룹번호 </td>
+														<td>	 
+														<div class="form-group">
+														     <select class="form-control" id="exampleFormControlSelect1">
+														       <option>1</option>
+														       <option>2</option>
+														       <option>3</option>
+														       <option>4</option>
+														     </select>
+														   </div>
+														 </td>
+													</tr>
+													<tr>
+														<td> 인사코드 </td>
+														<td> <input id="text" type="text" class="form-control" name="password" required=""></td>
+													</tr>
+													<tr>
+														<td> 인사코드명 </td>
+														<td> <input id="text" type="text" class="form-control" name="password" required=""></td>
+													</tr>
+													<tr>
+														<td> 사용상태 </td>
+														<td>	 
+														<div class="form-group">
+														     <select class="form-control" id="exampleFormControlSelect1">
+														       <option>사용</option>
+														       <option>비사용</option>
+														     </select>
+														   </div>
+														 </td>
+													</tr>
+												</table>
+												
+												<div align=center>
+												
+													<button type="button" type="submit" class="btn btn-outline-dark">등록</button>&nbsp;&nbsp;&nbsp;
+													<button type="button" type="reset" class="btn btn-outline-dark">재작성</button>
+												
+												</div>
+												<br>
+											</form>
+										</div>
+										<!-- End Tab Content -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- 인사코드 관리 끝-->
 </main>
 
 <%@ include file = "../common/footer.jsp" %> 
