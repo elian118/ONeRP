@@ -359,74 +359,48 @@
 
 											<div class="tab-pane fade p-4" id="pills-html-1"
 												role="tabpanel" aria-labelledby="pills-html-tab-1">
-												
+											
+											<form>
+												<table class="table table-bordered">
+																<tbody>
+																	<tr>
+																		<th scope="col" colspan="4" align="center">인사카드</th>
+																	</tr>
+																	<tr>
+																		<th scope="col">사번</th>
+																		<td scope="col"><input id="text" type="text" class="form-control" name="password" required=""></td>
+																		<th scope="col">사원명</th>
+																		<td scope="col"><input id="text" type="text" class="form-control" name="password" required=""></td>
+																	</tr>
+																	<tr>
+																		<th colspan="3" align="center">적요</th>
+																		<th>금액</th>
+
+																	</tr>
+																	<tr>
+																		<td colspan="3"><input id="text" type="text" class="form-control" name="password" required=""></td>
+																		<td><input id="text" type="text" class="form-control" name="text" required=""></td>
+																	</tr>
+																	<tr>
+																		<td colspan="3"><input id="text" type="text" class="form-control" name="password" required=""></td>
+																		<td><input id="text" type="text" class="form-control" name="text" required=""></td>
+																	</tr>
+																	<tr>
+																		<td colspan="3"><input id="text" type="text" class="form-control" name="password" required=""></td>
+																		<td><input id="text" type="text" class="form-control" name="text" required=""></td>
+																	</tr>
+																	<tr>
+																		<th colspan="3">합계</th>
+																		<td><input id="text" type="text" class="form-control" name="text" required=""></td>
+																	</tr>
+																</tbody>
+															</table>
+															<button type="button" class="btn btn-outline-dark" style=ෆ̈float: right;ෆ̈>등록하기</button>
+											</form>
+											
 											</div>
-											<div class="tab-pane fade p-4" id="pills-html-2"
-												role="tabpanel" aria-labelledby="pills-html-tab-2">
-												<table class="table">
-													<thead>
-														<tr>
-															<th class="font-weight-semi-bold border-top-0 py-2">그룹번호</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">인사코드</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">인사코드명</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">사용상태</th>
-														</tr>
-													</thead>
-													<tbody>
-														<tr>
-															<td class="py-3">1</td>
-															<td class="py-3">Mark</td>
-															<td class="py-3">Otto</td>
-															<td class="py-3">@mdo</td>
-														</tr>
-														<tr>
-															<td class="py-3">2</td>
-															<td class="py-3">Jacob</td>
-															<td class="py-3">Thornton</td>
-															<td class="py-3">@fat</td>
-														</tr>
-														<tr>
-															<td class="py-3">3</td>
-															<td class="py-3">Larry</td>
-															<td class="py-3">the Bird</td>
-															<td class="py-3">@twitter</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
-											<div class="tab-pane fade p-4" id="pills-html-3"
-												role="tabpanel" aria-labelledby="pills-html-tab-3">
-												<table class="table">
-													<thead>
-														<tr>
-															<th class="font-weight-semi-bold border-top-0 py-2">#</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">First</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Last</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Handle</th>
-														</tr>
-													</thead>
-													<tbody>
-														<tr>
-															<td class="py-3">1</td>
-															<td class="py-3">Mark</td>
-															<td class="py-3">Otto</td>
-															<td class="py-3">@mdo</td>
-														</tr>
-														<tr>
-															<td class="py-3">2</td>
-															<td class="py-3">Jacob</td>
-															<td class="py-3">Thornton</td>
-															<td class="py-3">@fat</td>
-														</tr>
-														<tr>
-															<td class="py-3">3</td>
-															<td class="py-3">Larry</td>
-															<td class="py-3">the Bird</td>
-															<td class="py-3">@twitter</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
+							
+									
 										</div>
 										<!-- End Tab Content -->
 									</div>
