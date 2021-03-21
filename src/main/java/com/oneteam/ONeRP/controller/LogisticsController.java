@@ -84,5 +84,13 @@ public class LogisticsController {
 			return "logistics/test";
 		}
 		
+		// 재고조정
+		@RequestMapping("/test2")
+		public String test2(HttpServletRequest req, Model model) {
+			logger.info("url ==> test2");
+			
+			return "logistics/test2";
+		}
+		
 		
 }
