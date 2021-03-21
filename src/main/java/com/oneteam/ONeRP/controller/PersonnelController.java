@@ -8,16 +8,56 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-//인사관리
+//인사팀
 @Controller
 public class PersonnelController {
 	private static final Logger logger = LoggerFactory.getLogger(PersonnelController.class);
 	
-	// 인사관리 
-		@RequestMapping("/personnelcodeManagement")
-		public String personnelcodeManagement(HttpServletRequest req, Model model) {
-			logger.info("url ==> 인사관리");
+		// 인사 코드관리
+		@RequestMapping("/personnelCode")
+		public String personnelCode(HttpServletRequest req, Model model) {
+			logger.info("url ==> 인사 코드관리");
 
-			return "personnel/personnelcodeManagement";
+			return "personnel/personnelCode";
+		}
+		
+		// 인사 발령관리
+		@RequestMapping("/personnelAppointment")
+		public String personnelAppointment(HttpServletRequest req, Model model) {
+			logger.info("url ==> 인사 발령관리");
+
+			return "personnel/personnelAppointment";
+		}
+		
+		// 인사카드 관리
+		@RequestMapping("/personnelCard")
+		public String personnelCard(HttpServletRequest req, Model model) {
+			logger.info("url ==> 인사카드 관리");
+
+			return "personnel/personnelCard";
+		}
+		
+		// 급여 관리
+		@RequestMapping("/personnelSalary")
+		public String personnelSalary(HttpServletRequest req, Model model) {
+			logger.info("url ==> 급여 관리");
+
+			return "personnel/personnelSalary";
+		}
+		
+		// 부서 관리
+		@RequestMapping("/personnelDep")
+		public String personnelDep(HttpServletRequest req, Model model) {
+			logger.info("url ==> 부서 관리");
+
+			return "personnel/personnelDep";
+		}
+		
+		// 퇴사/휴직자 관리
+		@RequestMapping("/personnelRetire")
+		public String personnelRetire(HttpServletRequest req, Model model) {
+			logger.info("url ==> 퇴사/휴직자 관리");
+
+			return "personnel/personnelRetire";
 		}
 }
