@@ -807,6 +807,21 @@
 
 </main>
 
+<!-- 버튼 클릭 펼치기 -->
+  <button class="btn btn-outline-dark" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    	신규 등록
+  </button>
+	<div class="collapse" id="collapseExample">
+  <div class="bg-white p-4">
+    <table class="table">
+    	<tr>
+    		<td>테스트</td>
+    	</tr>
+    </table>
+  </div>
+</div>
+<!-- 버튼 클릭 펼치기 -->
+
 <%@ include file = "../common/footer.jsp" %> 
 <script src="${project}js/graindashboard.js"></script>
 <script src="${project}js/graindashboard.vendor.js"></script>

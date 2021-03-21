@@ -405,15 +405,61 @@
 										<!-- 신규등록버튼종료 -->
 									</div>
 
+									<!-- 신규등록 -->
 									<div class="tab-pane fade p-4" id="pills-html-1"
 										role="tabpanel" aria-labelledby="pills-html-tab-1">
-										
-										?????????????????
-										
-										
+										<table class="table">
+											<tr>
+												<th>출발창고명</th>
+												<td>
+													<select class="custom-select custom-select-lg">
+   														<option>양품창고</option>
+   														<option>불량품창고</option>
+   														<option>출고대기창고</option>
+ 													</select>
+												</td>
+											</tr>
+											<tr>
+												<th>도착창고명</th>
+												<td>
+													<select class="custom-select custom-select-lg">
+   														<option>양품창고</option>
+   														<option>불량품창고</option>
+   														<option>출고대기창고</option>
+ 													</select>
+												</td>
+											</tr>
+											<tr>
+												<th>상품명</th>
+												<td>
+													<select class="custom-select custom-select-lg">
+   														<option>상품01</option>
+   														<option>상품02</option>
+   														<option>상품03</option>
+ 													</select>
+												</td>
+											</tr>	
+											<tr>
+												<th>수량</th>	
+												<td>
+													<input class="form-control form-control-icon-text" placeholder="수량" type="text">
+												</td>
+											</tr>
+											<tr>
+												<th>담당자명</th>	
+												<td>
+													<input class="form-control form-control-icon-text" type="text" value="최유성" readonly>
+												</td>
+											</tr>
+											<tr align="center">
+												<th colspan="2">
+													<input type="submit" class="btn btn-outline-dark" value="확인" >
+													<input type="reset" class="btn btn-outline-dark" value="취소" >
+												</th>
+											</tr>	
+										</table>
 									</div>
-									
-									
+									<!-- 신규등록 끝 -->
 								</div>
 								<!— End Tab Content —>
 							</div>
