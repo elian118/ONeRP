@@ -110,7 +110,7 @@
                         <a class="side-nav-menu-link" href="${path}/client">거래처</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="avatars.html">상품</a>
+                        <a class="side-nav-menu-link" href="${path}/salesproduct">상품</a>
                     </li>
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="avatars.html">재고 현황</a>
@@ -291,7 +291,7 @@
 					<div class="card-body">
 					<nav aria-label="breadcrumb">
 							<ol class="breadcrumb">
-								<li class="breadcrumb-item"><a href="#">물류 관리</a></li>
+								<li class="breadcrumb-item"><a href="#">출고 관리</a></li>
 								<li class="breadcrumb-item active" aria-current="page">거래처</li>
 							</ol>
 						</nav>

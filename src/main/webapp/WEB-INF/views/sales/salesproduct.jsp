@@ -109,7 +109,7 @@
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/client">거래처</a>
                     </li>
-                    <li class="side-nav-menu-item">
+                    <li class="side-nav-menu-item active">
                         <a class="side-nav-menu-link" href="${path}/salesproduct">상품</a>
                     </li>
                     <li class="side-nav-menu-item">
@@ -162,7 +162,7 @@
 
                 <!-- Utils: subUtils -->
                 <ul id="asd" class="side-nav-menu side-nav-menu-second-level mb-0">
-                	<li class="side-nav-menu-item active">
+                	<li class="side-nav-menu-item">
                        <a class="side-nav-menu-link" href="${path}/client2">거래처</a>
                     </li>
                     <li class="side-nav-menu-item">
@@ -291,8 +291,8 @@
 					<div class="card-body">
 					<nav aria-label="breadcrumb">
 							<ol class="breadcrumb">
-								<li class="breadcrumb-item"><a href="#">매입 관리</a></li>
-								<li class="breadcrumb-item active" aria-current="page">거래처</li>
+								<li class="breadcrumb-item"><a href="#">출고 관리</a></li>
+								<li class="breadcrumb-item active" aria-current="page">상품</li>
 							</ol>
 						</nav>
 						<div class="row">
@@ -301,7 +301,7 @@
 
 								<div id="example" class="mb-9">
 									<h2 class="h4">
-										거래처 <a class="anchorjs-link" href="#example"
+										상품 <a class="anchorjs-link" href="#example"
 											aria-label="Anchor" data-anchorjs-icon="#"></a>
 									</h2>
 									<div class="mb-3">
@@ -312,12 +312,12 @@
 												class="nav-link d-flex align-items-center py-2 px-3 active"
 												id="pills-result-tab-1" data-toggle="pill"
 												href="#pills-result-1" role="tab"
-												aria-controls="pills-result-1" aria-selected="true"> 구매 거래처 관리 </a></li>
+												aria-controls="pills-result-1" aria-selected="true"> 상품 관리 </a></li>
 											<li class="nav-item border-bottom border-xl-bottom-0"><a
 												class="nav-link d-flex align-items-center py-2 px-3"
 												id="pills-html-tab-1" data-toggle="pill"
 												href="#pills-html-1" role="tab" aria-controls="pills-html-1"
-												aria-selected="false"> 구매 거래처 등록 </a></li>
+												aria-selected="false"> 상품 등록 </a></li>
 										</ul>
 										<!-- End Nav Classic -->
 
@@ -331,7 +331,7 @@
 				                                	<div class="input-group-append">
 				                                    <i class="gd-search icon-text icon-text-sm"></i>
 				                                  	</div>
-				                                  	<input class="form-control form-control-icon-text" placeholder="거래처명 검색" type="text" >
+				                                  	<input class="form-control form-control-icon-text" placeholder="상품명 검색" type="text" >
 				                                </div>
 				                                <br>
 				                                <!-- 검색창 끝 --> 
@@ -345,30 +345,19 @@
 																<table class="table table-bordered" style="text-align:center">
 																	<tbody>
 																		<tr>
-																			<td colspan="4" align="center">
-																			<input class="form-control" type="text" placeholder="거래처명1">
-																			</td>
+																			<td colspan="4" align="center">상품명1</td>
 																		</tr>
 																		<tr>
 																			<th colspan="1" align="center">NO.</td>
-																			<td colspan="3" align="center">10</td>
+																			<td colspan="3" align="center">100001</td>
 																		</tr>
 																		<tr>
-																			<th scope="col">사업자등록번호</td>
-																			<td scope="col"><input class="form-control" type="text" placeholder="사업자 등록번호"></td>
-																			<th scope="col">대표자명</td>
+																			<th scope="col">구매단가</td>
+																			<td scope="col"><input class="form-control" type="text" placeholder="구매단가"></td>
+																			<th scope="col">판매단가</td>
 																			<td scope="col">
-																				<input class="form-control" type="text" placeholder="대표자명">
+																				<input class="form-control" type="text" placeholder="판매단가">
 																			</td>
-																		</tr>
-																		<tr>
-																			<th colspan="2" align="center">업태</td>
-																			<td colspan="2"><input class="form-control" type="text" placeholder="업태1"></td>
-
-																		</tr>
-																		<tr>
-																			<th colspan="2" align="center">주요거래품목</td>
-																			<td colspan="2"><input class="form-control" type="text" placeholder="품목1"></td>
 																		</tr>
 																		<tr>
 																			<th colspan="2" align="center">사용상태</td>
@@ -384,12 +373,8 @@
 																			</td>
 																		</tr>
 																		<tr>
-																			<th colspan="2">회사규모</th>
-																			<td colspan="2"><input class="form-control" type="text" placeholder="회사규모"></td>
-																		</tr>
-																		<tr>
 																			<th colspan="2">등록일</th>
-																			<td colspan="2">2015-01-01</td>
+																			<td colspan="2">2017-08-30</td>
 																		</tr>
 																		
 																		<tr>
@@ -407,10 +392,10 @@
 													<table class="table" style="text-align:center">
 														<thead>
 															<tr>
-																<th class="font-weight-semi-bold border-top-0 py-2">거래처번호</th>
-																<th class="font-weight-semi-bold border-top-0 py-2">거래처명</th>
-																<th class="font-weight-semi-bold border-top-0 py-2">대표자명</th>
-																<th class="font-weight-semi-bold border-top-0 py-2">업태</th>
+																<th class="font-weight-semi-bold border-top-0 py-2">상품번호</th>
+																<th class="font-weight-semi-bold border-top-0 py-2">상품명</th>
+																<th class="font-weight-semi-bold border-top-0 py-2">구매단가</th>
+																<th class="font-weight-semi-bold border-top-0 py-2">판매단가</th>
 																<th class="font-weight-semi-bold border-top-0 py-2">사용상태</th>
 																<th class="font-weight-semi-bold border-top-0 py-2">등록일</th>
 																<th class="font-weight-semi-bold border-top-0 py-2">수정</th>
@@ -418,12 +403,12 @@
 														</thead>
 														<tbody>
 															<tr>
-																<td class="py-3">10</td>
-																<td class="py-3">거래처명1</td>
-																<td class="py-3">최유성</td>
-																<td class="py-3">업태1</td>
+																<td class="py-3">100001</td>
+																<td class="py-3">상품명1</td>
+																<td class="py-3">10000</td>
+																<td class="py-3">15000</td>
 																<td class="py-3">사용중</td>
-																<td class="py-3">2017-08-21</td>
+																<td class="py-3">2017-08-30</td>
 																<td class="py-3">
 																	<a class="btn" data-toggle="collapse"
 																		href="#multiCollapseExample1" role="button"
@@ -434,12 +419,12 @@
 																</td>
 															</tr>
 															<tr>
-																<td class="py-3">11</td>
-																<td class="py-3">거래처명2</td>
-																<td class="py-3">조명재</td>
-																<td class="py-3">업태2</td>
+																<td class="py-3">100002</td>
+																<td class="py-3">상품명2</td>
+																<td class="py-3">9000</td>
+																<td class="py-3">13000</td>
 																<td class="py-3">사용중</td>
-																<td class="py-3">2018-01-01</td>
+																<td class="py-3">2017-09-12</td>
 																<td class="py-3">
 																	<a class="btn" data-toggle="collapse"
 																		href="#multiCollapseExample12" role="button"
@@ -450,12 +435,12 @@
 																</td>
 															</tr>
 															<tr>
-																<td class="py-3">12</td>
-																<td class="py-3">거래처명3</td>
-																<td class="py-3">김은희</td>
-																<td class="py-3">업태3</td>
+																<td class="py-3">100003</td>
+																<td class="py-3">상품명3</td>
+																<td class="py-3">22000</td>
+																<td class="py-3">30000</td>
 																<td class="py-3">사용중</td>
-																<td class="py-3">2018-02-22</td>
+																<td class="py-3">2017-09-17</td>
 																<td class="py-3">
 																	<a class="btn" data-toggle="collapse"
 																		href="#multiCollapseExample13" role="button"
@@ -470,6 +455,11 @@
 
 
 												</div>
+												<div class="card-footer d-block d-md-flex align-items-center d-print-none">
+					                            <div class="d-flex mb-2 mb-md-0">Showing 1 to 8 of 24 Entries</div>
+					
+					                            <nav class="d-flex ml-md-auto d-print-none" aria-label="Pagination"><ul class="pagination justify-content-end font-weight-semi-bold mb-0">				<li class="page-item">				<a id="datatablePaginationPrev" class="page-link" href="#!" aria-label="Previous"><i class="gd-angle-left icon-text icon-text-xs d-inline-block"></i></a>				</li><li class="page-item d-none d-md-block"><a id="datatablePaginationPage0" class="page-link active" href="#!" data-dt-page-to="0">1</a></li><li class="page-item d-none d-md-block"><a id="datatablePagination1" class="page-link" href="#!" data-dt-page-to="1">2</a></li><li class="page-item d-none d-md-block"><a id="datatablePagination2" class="page-link" href="#!" data-dt-page-to="2">3</a></li><li class="page-item">				<a id="datatablePaginationNext" class="page-link" href="#!" aria-label="Next"><i class="gd-angle-right icon-text icon-text-xs d-inline-block"></i></a>				</li>				</ul></nav>
+					                        </div>
 											</div>
 
 											<div class="tab-pane fade p-4" id="pills-html-1"
@@ -478,27 +468,18 @@
 													<table class="table" style="text-align:center">
 														<tbody>
 																		<tr>
-																			<th colspan="1">거래처명</th>
+																			<th colspan="1">상품명</th>
 																			<td colspan="3" align="center">
-																			<input class="form-control" type="text" placeholder="거래처명을 입력하세요.">
+																			<input class="form-control" type="text" placeholder="상품명을 입력하세요.">
 																			</td>
 																		</tr>
 																		<tr>
-																			<th scope="col">사업자등록번호</td>
-																			<td scope="col"><input class="form-control" type="text" placeholder="사업자 등록번호를 입력하세요."></td>
-																			<th scope="col">대표자명</td>
+																			<th scope="col">구매단가</td>
+																			<td scope="col"><input class="form-control" type="text" placeholder="구매단가를 입력하세요."></td>
+																			<th scope="col">판매단가</td>
 																			<td scope="col">
-																				<input class="form-control" type="text" placeholder="대표자명을 입력하세요.">
+																				<input class="form-control" type="text" placeholder="판매단가를 입력하세요.">
 																			</td>
-																		</tr>
-																		<tr>
-																			<th colspan="2" align="center">업태</td>
-																			<td colspan="2"><input class="form-control" type="text" placeholder="업태를 입력하세요."></td>
-
-																		</tr>
-																		<tr>
-																			<th colspan="2" align="center">주요거래품목</td>
-																			<td colspan="2"><input class="form-control" type="text" placeholder="주요거래품목을 입력하세요."></td>
 																		</tr>
 																		<tr>
 																			<th colspan="2" align="center">사용상태</td>
@@ -514,17 +495,13 @@
 																			</td>
 																		</tr>
 																		<tr>
-																			<th colspan="2">회사규모</th>
-																			<td colspan="2"><input class="form-control" type="text" placeholder="회사규모를 입력하세요."></td>
-																		</tr>
-																		<tr>
 																			<th colspan="2">등록일</th>
 																			<td colspan="2"><input class="form-control" type="text" placeholder="등록일을 입력하세요."></td>
 																		</tr>
 																		
 																		<tr>
 																			<td colspan="4" align="center">
-																				<button type="button" class="btn btn-outline-dark">거래처 등록</button>
+																				<button type="button" class="btn btn-outline-dark">상품 등록</button>
 																				<input type="reset" class="btn btn-outline-dark">
 																			</td>
 																		</tr>

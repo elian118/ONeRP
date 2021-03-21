@@ -20,4 +20,12 @@ private static final Logger logger = LoggerFactory.getLogger(PersonnelController
 	
 		return "sales/client";
 	}
+	
+	// 상품
+	@RequestMapping("/salesproduct")
+	public String salesproduct(HttpServletRequest req, Model model) {
+		logger.info("url ==> 상품");
+		
+		return "sales/salesproduct";
+	}
 }

@@ -21,4 +21,11 @@ private static final Logger logger = LoggerFactory.getLogger(PersonnelController
 		return "purchasing/client2";
 	}
 
+	// 상품
+	@RequestMapping("/purchproduct")
+	public String purchproduct(HttpServletRequest req, Model model) {
+		logger.info("url ==> 상품");
+		
+		return "purchasing/purchproduct";
+	}
 }
