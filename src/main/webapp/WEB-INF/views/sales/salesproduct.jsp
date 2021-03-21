@@ -90,23 +90,23 @@
                 <!-- End Pages: subPages -->
             </li>
             <!-- End Authentication -->
-            <!-- Users -->
-            <li class="side-nav-menu-item side-nav-has-menu active side-nav-opened">
+            <!-- UI Components -->
+            <li class="side-nav-menu-item side-nav-has-menu">
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#subComponents">
                   <span class="side-nav-menu-icon d-flex mr-3">
-                    <i class="gd-user"></i>
+                    <i class="gd-panel"></i>
                   </span>
-                    <span class="side-nav-fadeout-on-closed media-body">출고 관리</span>
+                    <span class="side-nav-fadeout-on-closed media-body">출고관리</span>
                     <span class="side-nav-control-icon d-flex">
                 <i class="gd-angle-right side-nav-fadeout-on-closed"></i>
               </span>
                     <span class="side-nav__indicator side-nav-fadeout-on-closed"></span>
                 </a>
 
-                <!-- Users: subUsers -->
+                <!-- UI Components: subComponents -->
                 <ul id="subComponents" class="side-nav-menu side-nav-menu-second-level mb-0" style="display: block;">
-                    <li class="side-nav-menu-item">
+                	<li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/client">거래처</a>
                     </li>
                     <li class="side-nav-menu-item active">
@@ -136,15 +136,10 @@
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="collapse.html">수금 상황</a>
                     </li>
-                   
+                    
                 </ul>
-                <!-- End Users: subUsers -->
+                <!-- End UI Components: subComponents -->
             </li>
-            <!-- End Users -->
-            
-                    
-                    
-                
             <!-- End UI Components -->
             <!-- Utils -->
             <li class="side-nav-menu-item side-nav-has-menu">
@@ -163,7 +158,7 @@
                 <!-- Utils: subUtils -->
                 <ul id="asd" class="side-nav-menu side-nav-menu-second-level mb-0">
                 	<li class="side-nav-menu-item">
-                       <a class="side-nav-menu-link" href="${path}/client2">거래처</a>
+                        <a class="side-nav-menu-link" href="${path}/client2">거래처</a>
                     </li>
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/purchproduct">상품</a>
@@ -195,7 +190,7 @@
                 </ul>
                 <!-- End Utils: subUtils -->
             </li>
-            <!-- End Utils -->
+            <!-- End Users -->
              <!-- UI Components -->
             <li class="side-nav-menu-item side-nav-has-menu">
                 <a class="side-nav-menu-link media align-items-center" href="#"
@@ -245,7 +240,7 @@
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#subUsers">
                   <span class="side-nav-menu-icon d-flex mr-3">
-                    <i class="gd-panel"></i>
+                    <i class="gd-user"></i>
                   </span>
                     <span class="side-nav-fadeout-on-closed media-body">회계 관리</span>
                     <span class="side-nav-control-icon d-flex">
@@ -275,12 +270,6 @@
                 <!-- End UI Components: subComponents -->
             </li>
             <!-- End UI Components -->
-            
-
-            
-
-            
-
         </ul>
     </aside>
     <!-- End Sidebar Nav -->

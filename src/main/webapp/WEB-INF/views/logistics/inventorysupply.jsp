@@ -107,10 +107,10 @@
                 <!-- UI Components: subComponents -->
                 <ul id="subComponents" class="side-nav-menu side-nav-menu-second-level mb-0">
                 	<li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="avatars.html">거래처</a>
+                        <a class="side-nav-menu-link" href="${path}/client">거래처</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="avatars.html">상품</a>
+                        <a class="side-nav-menu-link" href="${path}/salesproduct">상품</a>
                     </li>
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="avatars.html">재고 현황</a>
@@ -157,11 +157,11 @@
 
                 <!-- Utils: subUtils -->
                 <ul id="asd" class="side-nav-menu side-nav-menu-second-level mb-0">
-                	<li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="avatars.html">거래처</a>
+                	<li class="side-nav-menu-item active">
+                        <a class="side-nav-menu-link" href="${path}/client2">거래처</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="avatars.html">상품</a>
+                        <a class="side-nav-menu-link" href="${path}/purchproduct">상품</a>
                     </li>
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="avatars.html">재고 현황</a>
@@ -196,7 +196,7 @@
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#zxc">
                   <span class="side-nav-menu-icon d-flex mr-3">
-                    <i class="gd-user"></i>
+                    <i class="gd-panel"></i>
                   </span>
                     <span class="side-nav-fadeout-on-closed media-body">물류 관리</span>
                     <span class="side-nav-control-icon d-flex">
@@ -242,7 +242,7 @@
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#gg">
                   <span class="side-nav-menu-icon d-flex mr-3">
-                    <i class="gd-panel"></i>
+                    <i class="gd-user"></i>
                   </span>
                     <span class="side-nav-fadeout-on-closed media-body">회계 관리</span>
                     <span class="side-nav-control-icon d-flex">
