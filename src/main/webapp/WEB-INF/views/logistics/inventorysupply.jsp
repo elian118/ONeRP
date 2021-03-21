@@ -280,13 +280,19 @@
 			<div class="py-4 px-3 px-md-4">
 				<div class="card">
 					<div class="card-body">
+					<nav aria-label="breadcrumb">
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a href="#">물류 관리</a></li>
+								<li class="breadcrumb-item active" aria-current="page">재고 수불부</li>
+							</ol>
+						</nav>
 						<div class="row">
 
 							<div class="col-xl-12">
 
 								<div id="example" class="mb-9">
 									<h2 class="h4">
-										전표 조회 <a class="anchorjs-link" href="#example"
+										재고 수불부<a class="anchorjs-link" href="#example"
 											aria-label="Anchor" data-anchorjs-icon="#"></a>
 									</h2>
 									<div class="mb-3">
@@ -298,23 +304,7 @@
 												id="pills-result-tab-1" data-toggle="pill"
 												href="#pills-result-1" role="tab"
 												aria-controls="pills-result-1" aria-selected="true">
-													전체 전표 조회</a></li>
-											<li class="nav-item border-bottom border-xl-bottom-0"><a
-												class="nav-link d-flex align-items-center py-2 px-3"
-												id="pills-html-tab-1" data-toggle="pill"
-												href="#pills-html-1" role="tab" aria-controls="pills-html-1"
-												aria-selected="false">미승인 전표 조회 </a></li>
-
-											<li class="nav-item border-bottom border-xl-bottom-0"><a
-												class="nav-link d-flex align-items-center py-2 px-3"
-												id="pills-html-tab-2" data-toggle="pill"
-												href="#pills-html-2" role="tab" aria-controls="pills-html-2"
-												aria-selected="false">승인 전표 조회 </a></li>
-											<li class="nav-item border-bottom border-xl-bottom-0"><a
-												class="nav-link d-flex align-items-center py-2 px-3"
-												id="pills-html-tab-3" data-toggle="pill"
-												href="#pills-html-3" role="tab" aria-controls="pills-html-3"
-												aria-selected="false">전표 등록 </a></li>
+													재고 수불부 검색</a></li>
 										</ul>
 										<!-- End Nav Classic -->
 
@@ -326,30 +316,42 @@
 												<table class="table">
 													<thead>
 														<tr>
-															<th class="font-weight-semi-bold border-top-0 py-2">#</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">First</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Last</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Handle</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">기준일자</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">
+																<input class="form-control" type="text" placeholder="">
+															</th>
+															<th> ~ </th>
+															<th class="font-weight-semi-bold border-top-0 py-2">
+																<input class="form-control" type="text" placeholder="">
+															</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">
+															<select class="custom-select">
+															    <option>금일</option>
+															    <option>금주</option>
+															    <option>금월</option>
+															    <option>금년</option>
+															    <option>1분기</option>
+															    <option>2분기</option>
+															    <option>3분기</option>
+															    <option>4분기</option>
+															    <option>전반기</option>
+															    <option>후반기</option>
+															</select>
+															</th>
 														</tr>
 													</thead>
 													<tbody>
 														<tr>
-															<td class="py-3">1</td>
-															<td class="py-3">Mark</td>
-															<td class="py-3">Otto</td>
-															<td class="py-3">@mdo</td>
-														</tr>
-														<tr>
-															<td class="py-3">2</td>
-															<td class="py-3">Jacob</td>
-															<td class="py-3">Thornton</td>
-															<td class="py-3">@fat</td>
-														</tr>
-														<tr>
-															<td class="py-3">3</td>
-															<td class="py-3">Larry</td>
-															<td class="py-3">the Bird</td>
-															<td class="py-3">@twitter</td>
+															<td>
+																<!-- 검색창 시작 -->      
+							                                	<div class="input-group">
+								                                	<div class="input-group-append">
+								                                    <i class="gd-search icon-text icon-text-sm"></i>
+								                                  	</div>
+								                                  	<input class="form-control form-control-icon-text" placeholder="상품명 검색" type="text" >
+								                                </div>
+															</td>
+															<td class="py-3">상품명1</td>
 														</tr>
 													</tbody>
 												</table>
