@@ -364,7 +364,7 @@
 												<table class="table table-bordered">
 																<tbody>
 																	<tr>
-																		<th scope="col" colspan="4" align="center">인사카드</th>
+																		<td scope="col" colspan="4" align="center">인사카드</td>
 																	</tr>
 																	<tr>
 																		<th scope="col">사번</th>
@@ -373,8 +373,8 @@
 																		<td scope="col"><input id="text" type="text" class="form-control" name="password" required=""></td>
 																	</tr>
 																	<tr>
-																		<th colspan="3" align="center">적요</th>
-																		<th>금액</th>
+																		<th colspan="3" align="center"></th>
+																		<th></th>
 
 																	</tr>
 																	<tr>
@@ -390,7 +390,7 @@
 																		<td><input id="text" type="text" class="form-control" name="text" required=""></td>
 																	</tr>
 																	<tr>
-																		<th colspan="3">합계</th>
+																		<th colspan="3"></th>
 																		<td><input id="text" type="text" class="form-control" name="text" required=""></td>
 																	</tr>
 																</tbody>
