@@ -285,7 +285,7 @@
 
 								<div id="example" class="mb-9">
 									<h2 class="h4">
-										전표 조회 <a class="anchorjs-link" href="#example"
+										재고 현황 <a class="anchorjs-link" href="#example"
 											aria-label="Anchor" data-anchorjs-icon="#"></a>
 									</h2>
 									<div class="mb-3">
@@ -297,23 +297,7 @@
 												id="pills-result-tab-1" data-toggle="pill"
 												href="#pills-result-1" role="tab"
 												aria-controls="pills-result-1" aria-selected="true">
-													전체 전표 조회</a></li>
-											<li class="nav-item border-bottom border-xl-bottom-0"><a
-												class="nav-link d-flex align-items-center py-2 px-3"
-												id="pills-html-tab-1" data-toggle="pill"
-												href="#pills-html-1" role="tab" aria-controls="pills-html-1"
-												aria-selected="false">미승인 전표 조회 </a></li>
-
-											<li class="nav-item border-bottom border-xl-bottom-0"><a
-												class="nav-link d-flex align-items-center py-2 px-3"
-												id="pills-html-tab-2" data-toggle="pill"
-												href="#pills-html-2" role="tab" aria-controls="pills-html-2"
-												aria-selected="false">승인 전표 조회 </a></li>
-											<li class="nav-item border-bottom border-xl-bottom-0"><a
-												class="nav-link d-flex align-items-center py-2 px-3"
-												id="pills-html-tab-3" data-toggle="pill"
-												href="#pills-html-3" role="tab" aria-controls="pills-html-3"
-												aria-selected="false">전표 등록 </a></li>
+													재고 현황</a></li>
 										</ul>
 										<!-- End Nav Classic -->
 
@@ -325,130 +309,46 @@
 												<table class="table">
 													<thead>
 														<tr>
-															<th class="font-weight-semi-bold border-top-0 py-2">#</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">First</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Last</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Handle</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">상품번호</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">상품명</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">창고이름</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">구매단가</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">판매단가</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">재고수량</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">사용상태</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">등록일자</th>
 														</tr>
 													</thead>
 													<tbody>
 														<tr>
-															<td class="py-3">1</td>
-															<td class="py-3">Mark</td>
-															<td class="py-3">Otto</td>
-															<td class="py-3">@mdo</td>
+															<td class="py-3">100001</td>
+															<td class="py-3">상품명1</td>
+															<td class="py-3">양품창고</td>
+															<td class="py-3">10000</td>
+															<td class="py-3">15000</td>
+															<td class="py-3">100</td>
+															<td class="py-3">사용중</td>
+															<td class="py-3">2017-09-02</td>
 														</tr>
 														<tr>
-															<td class="py-3">2</td>
-															<td class="py-3">Jacob</td>
-															<td class="py-3">Thornton</td>
-															<td class="py-3">@fat</td>
+															<td class="py-3">100001</td>
+															<td class="py-3">상품명1</td>
+															<td class="py-3">불량품창고</td>
+															<td class="py-3">10000</td>
+															<td class="py-3">15000</td>
+															<td class="py-3">0</td>
+															<td class="py-3">사용중</td>
+															<td class="py-3">2017-09-02</td>
 														</tr>
 														<tr>
-															<td class="py-3">3</td>
-															<td class="py-3">Larry</td>
-															<td class="py-3">the Bird</td>
-															<td class="py-3">@twitter</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
-
-											<div class="tab-pane fade p-4" id="pills-html-1"
-												role="tabpanel" aria-labelledby="pills-html-tab-1">
-												<table class="table">
-													<thead>
-														<tr>
-															<th class="font-weight-semi-bold border-top-0 py-2">#</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">First</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Last</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Handle</th>
-														</tr>
-													</thead>
-													<tbody>
-														<tr>
-															<td class="py-3">1</td>
-															<td class="py-3">Mark</td>
-															<td class="py-3">Otto</td>
-															<td class="py-3">@mdo</td>
-														</tr>
-														<tr>
-															<td class="py-3">2</td>
-															<td class="py-3">Jacob</td>
-															<td class="py-3">Thornton</td>
-															<td class="py-3">@fat</td>
-														</tr>
-														<tr>
-															<td class="py-3">3</td>
-															<td class="py-3">Larry</td>
-															<td class="py-3">the Bird</td>
-															<td class="py-3">@twitter</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
-											<div class="tab-pane fade p-4" id="pills-html-2"
-												role="tabpanel" aria-labelledby="pills-html-tab-2">
-												<table class="table">
-													<thead>
-														<tr>
-															<th class="font-weight-semi-bold border-top-0 py-2">#</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">First</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Last</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Handle</th>
-														</tr>
-													</thead>
-													<tbody>
-														<tr>
-															<td class="py-3">1</td>
-															<td class="py-3">Mark</td>
-															<td class="py-3">Otto</td>
-															<td class="py-3">@mdo</td>
-														</tr>
-														<tr>
-															<td class="py-3">2</td>
-															<td class="py-3">Jacob</td>
-															<td class="py-3">Thornton</td>
-															<td class="py-3">@fat</td>
-														</tr>
-														<tr>
-															<td class="py-3">3</td>
-															<td class="py-3">Larry</td>
-															<td class="py-3">the Bird</td>
-															<td class="py-3">@twitter</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
-											<div class="tab-pane fade p-4" id="pills-html-3"
-												role="tabpanel" aria-labelledby="pills-html-tab-3">
-												<table class="table">
-													<thead>
-														<tr>
-															<th class="font-weight-semi-bold border-top-0 py-2">#</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">First</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Last</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">Handle</th>
-														</tr>
-													</thead>
-													<tbody>
-														<tr>
-															<td class="py-3">1</td>
-															<td class="py-3">Mark</td>
-															<td class="py-3">Otto</td>
-															<td class="py-3">@mdo</td>
-														</tr>
-														<tr>
-															<td class="py-3">2</td>
-															<td class="py-3">Jacob</td>
-															<td class="py-3">Thornton</td>
-															<td class="py-3">@fat</td>
-														</tr>
-														<tr>
-															<td class="py-3">3</td>
-															<td class="py-3">Larry</td>
-															<td class="py-3">the Bird</td>
-															<td class="py-3">@twitter</td>
+															<td class="py-3">100001</td>
+															<td class="py-3">상품명1</td>
+															<td class="py-3">출고대기창고</td>
+															<td class="py-3">10000</td>
+															<td class="py-3">15000</td>
+															<td class="py-3">0</td>
+															<td class="py-3">사용중</td>
+															<td class="py-3">2017-09-02</td>
 														</tr>
 													</tbody>
 												</table>
