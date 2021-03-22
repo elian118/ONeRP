@@ -113,7 +113,7 @@
                         <a class="side-nav-menu-link" href="${path}/salesproduct">상품</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="#">재고 현황</a>
+                        <a class="side-nav-menu-link" href="${path}/salesInvenStatus">재고 현황</a>
                     </li>
                     <li class="side-nav-menu-item active">
                         <a class="side-nav-menu-link" href="${path}/salesStatus">판매 현황</a>
@@ -148,7 +148,7 @@
                         <a class="side-nav-menu-link" href="${path}/purchproduct">상품</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="#">재고 현황</a>
+                        <a class="side-nav-menu-link" href="${path}/purInvenStatus">재고 현황</a>
                     </li>
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/purStatus">구매 현황</a>

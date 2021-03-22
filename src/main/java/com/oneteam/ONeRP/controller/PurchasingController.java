@@ -28,6 +28,14 @@ private static final Logger logger = LoggerFactory.getLogger(PurchasingControlle
 		
 		return "purchasing/purchproduct";
 	}
+
+	// 재고 현황
+	@RequestMapping("/purInvenStatus")
+	public String purInvenStatus(HttpServletRequest req, Model model) {
+		logger.info("url ==> 매입관리 > 재고 현황");
+		
+		return "purchasing/purInvenStatus";
+	}
 	
 	// 구매 현황
 	@RequestMapping("/purStatus")

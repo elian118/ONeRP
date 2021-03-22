@@ -29,6 +29,14 @@ private static final Logger logger = LoggerFactory.getLogger(SalesController.cla
 		return "sales/salesproduct";
 	}
 	
+	// 재고 현황
+	@RequestMapping("/salesInvenStatus")
+	public String salesInvenStatus(HttpServletRequest req, Model model) {
+		logger.info("url ==> 매입관리 > 재고 현황");
+		
+		return "sales/salesInvenStatus";
+	}
+	
 	// 판매 현황
 	@RequestMapping("/salesStatus")
 	public String salesStatus(HttpServletRequest req, Model model) {
