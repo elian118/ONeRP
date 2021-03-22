@@ -285,23 +285,12 @@
             <div class="card mb-3 mb-md-4">
 
                 <div class="card-body">
-                    <!-- Breadcrumb -->
-                    <nav class="d-none d-md-block" aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item">
-                                <a href="#">Users</a>
-                            </li>
-                            <li class="breadcrumb-item active" aria-current="page">All Users</li>
-                        </ol>
-                    </nav>
-                    <!-- End Breadcrumb -->
-
                     <div class="mb-3 mb-md-4 d-flex justify-content-between">
-                        <div class="h3 mb-0">Users</div>
+                        <div class="h3 mb-0">MAIN</div>
                     </div>
 
 
-                    메인!!!!!!!!!!!!!!!!!!!!!!
+                    메인 
                 </div>
             </div>
 
