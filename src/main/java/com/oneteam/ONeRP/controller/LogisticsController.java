@@ -13,10 +13,10 @@ public class LogisticsController {
 	private static final Logger logger = LoggerFactory.getLogger(LogisticsController.class);
 	
 	// 물류관리
-		@RequestMapping("/accountinquiry")
-		public String accountinquiry(HttpServletRequest req, Model model) {
-			logger.info("url ==> 인사관리");
+	@RequestMapping("/accountinquiry")
+	public String accountinquiry(HttpServletRequest req, Model model) {
+		logger.info("url ==> 인사관리");
 
-			return "logistics/accountinquiry";
-		}
+		return "logistics/accountinquiry";
+	}
 }
