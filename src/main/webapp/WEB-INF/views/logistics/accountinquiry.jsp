@@ -313,53 +313,122 @@
 											<div class="tab-pane fade p-4 show active"
 												id="pills-result-1" role="tabpanel"
 												aria-labelledby="pills-result-tab-1">
-												<table class="table">
-													<!-- 검색창 시작 -->      
-				                                	<div class="input-group">
-					                                	<div class="input-group-append">
-					                                    <i class="gd-search icon-text icon-text-sm"></i>
-					                                  	</div>
-					                                  	<input class="form-control form-control-icon-text" placeholder="거래처명 검색" type="text" >
-					                                </div>
-					                                <br>
-					                                <!-- 검색창 끝 --> 
-													<thead>
-														<tr>
-															<th class="font-weight-semi-bold border-top-0 py-2">거래처번호</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">거래처명</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">대표자명</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">업태</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">사용상태</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">등록일</th>
-														</tr>
-													</thead>
-													<tbody>
-														<tr>
-															<td class="py-3">10</td>
-															<td class="py-3">거래처명1</td>
-															<td class="py-3">최유성</td>
-															<td class="py-3">업태1</td>
-															<td class="py-3">사용중</td>
-															<td class="py-3">2017-08-21</td>
-														</tr>
-														<tr>
-															<td class="py-3">11</td>
-															<td class="py-3">거래처명2</td>
-															<td class="py-3">조명재</td>
-															<td class="py-3">업태2</td>
-															<td class="py-3">사용중</td>
-															<td class="py-3">2018-01-01</td>
-														</tr>
-														<tr>
-															<td class="py-3">12</td>
-															<td class="py-3">거래처명3</td>
-															<td class="py-3">김은희</td>
-															<td class="py-3">업태3</td>
-															<td class="py-3">사용중</td>
-															<td class="py-3">2018-02-22</td>
-														</tr>
-													</tbody>
-												</table>
+												<!-- 검색창 시작 -->      
+			                                	<div class="input-group">
+				                                	<div class="input-group-append">
+				                                    <i class="gd-search icon-text icon-text-sm"></i>
+				                                  	</div>
+				                                  	<input class="form-control form-control-icon-text" placeholder="거래처명 검색" type="text" >
+				                                </div>
+				                                <br>
+				                                <!-- 검색창 끝 --> 
+												<div class="row">
+													<div class="col">
+														<div class="collapse multi-collapse"
+															id="multiCollapseExample1">
+															<div class="bg-white p-4">
+																<table class="table table-bordered" style="text-align:center">
+																	<tbody>
+																		<tr>
+																			<td colspan="4" align="center"> 거래처명1 </td>
+																		</tr>
+																		<tr>
+																			<th colspan="1" align="center">NO.</td>
+																			<td colspan="3" align="center">10</td>
+																		</tr>
+																		<tr>
+																			<th scope="col">사업자등록번호</td>
+																			<td scope="col">1234567890</td>
+																			<th scope="col">대표자명</td>
+																			<td scope="col"> 최유성 </td>
+																		</tr>
+																		<tr>
+																			<th colspan="2" align="center">업태</td>
+																			<td colspan="2">업태1</td>
+
+																		</tr>
+																		<tr>
+																			<th colspan="2" align="center">주요거래품목</td>
+																			<td colspan="2">품목1</td>
+																		</tr>
+																		<tr>
+																			<th colspan="2" align="center">사용상태</td>
+																			<td colspan="2" align="center">사용중</td>
+																		</tr>
+																		<tr>
+																			<th colspan="2">회사규모</th>
+																			<td colspan="2">n명</td>
+																		</tr>
+																		<tr>
+																			<th colspan="2">등록일</th>
+																			<td colspan="2">2017-08-21</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</div>
+														</div>
+													</div>
+
+													<table class="table">
+														<thead>
+															<tr>
+																<th class="font-weight-semi-bold border-top-0 py-2">거래처번호</th>
+																<th class="font-weight-semi-bold border-top-0 py-2">거래처명</th>
+																<th class="font-weight-semi-bold border-top-0 py-2">대표자명</th>
+																<th class="font-weight-semi-bold border-top-0 py-2">업태</th>
+																<th class="font-weight-semi-bold border-top-0 py-2">사용상태</th>
+																<th class="font-weight-semi-bold border-top-0 py-2">등록일</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td class="py-3">10</td>
+																<td class="py-3">
+																	<p>
+																		<a class="btn" data-toggle="collapse"
+																			href="#multiCollapseExample1" role="button"
+																			aria-expanded="false"
+																			aria-controls="multiCollapseExample1">거래처명1</a>
+																	</p>
+																</td>
+																<td class="py-3">최유성</td>
+																<td class="py-3">업태1</td>
+																<td class="py-3">사용중</td>
+																<td class="py-3">2017-08-21</td>
+															</tr>
+															<tr>
+																<td class="py-3">11</td>
+																<td class="py-3">
+																	<p>
+																		<a class="btn" data-toggle="collapse"
+																			href="#multiCollapseExample12" role="button"
+																			aria-expanded="false"
+																			aria-controls="multiCollapseExample1">거래처명2</a>
+																	</p>
+																</td>
+																<td class="py-3">조명재</td>
+																<td class="py-3">업태2</td>
+																<td class="py-3">사용중</td>
+																<td class="py-3">2018-01-01</td>
+															</tr>
+															<tr>
+																<td class="py-3">12</td>
+																<td class="py-3">
+																	<p>
+																		<a class="btn" data-toggle="collapse"
+																			href="#multiCollapseExample13" role="button"
+																			aria-expanded="false"
+																			aria-controls="multiCollapseExample1">거래처명3</a>
+																	</p>
+																</td>
+																<td class="py-3">김은희</td>
+																<td class="py-3">업태3</td>
+																<td class="py-3">사용중</td>
+																<td class="py-3">2018-02-22</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
 											</div>
 										</div>
 										<!— End Tab Content —>
