@@ -243,7 +243,7 @@
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#subUsers">
                   <span class="side-nav-menu-icon d-flex mr-3">
-                    <i class="gd-panel"></i>
+                    <i class="gd-infinite"></i>
                   </span>
                     <span class="side-nav-fadeout-on-closed media-body">회계 관리</span>
                     <span class="side-nav-control-icon d-flex">
@@ -264,7 +264,7 @@
                         <a class="side-nav-menu-link" href="${path}/accountManagement">계정 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="${path}/statementManagement">전표 조회</a>
+                        <a class="side-nav-menu-link" href="${path}/statementManagement">전표 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/bonddebtManagement">채권/채무 조회</a>
