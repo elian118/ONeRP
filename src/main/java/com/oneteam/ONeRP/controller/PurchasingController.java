@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 //물류 관리
 @Controller
 public class PurchasingController {
-private static final Logger logger = LoggerFactory.getLogger(PersonnelController.class);
+private static final Logger logger = LoggerFactory.getLogger(PurchasingController.class);
 	
 	// 거래처 
 	@RequestMapping("/client2")
