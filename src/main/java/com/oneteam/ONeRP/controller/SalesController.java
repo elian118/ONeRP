@@ -28,4 +28,22 @@ private static final Logger logger = LoggerFactory.getLogger(SalesController.cla
 		
 		return "sales/salesproduct";
 	}
+	
+	// 판매 현황
+	@RequestMapping("/salesStatus")
+	public String salesStatus(HttpServletRequest req, Model model) {
+		logger.info("url ==> 판매현황");
+		
+		return "sales/salesStatus";
+	}
+	
+	// 출고 현황
+	@RequestMapping("/releaseStatus")
+	public String releaseStatus(HttpServletRequest req, Model model) {
+		logger.info("url ==> 출고현황");
+		
+		return "sales/releaseStatus";
+	}
+	
+	
 }

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-//물류 관리
+// 매입 관리
 @Controller
 public class PurchasingController {
 private static final Logger logger = LoggerFactory.getLogger(PurchasingController.class);
@@ -27,5 +27,21 @@ private static final Logger logger = LoggerFactory.getLogger(PurchasingControlle
 		logger.info("url ==> 상품");
 		
 		return "purchasing/purchproduct";
+	}
+	
+	// 구매 현황
+	@RequestMapping("/purStatus")
+	public String purStatus(HttpServletRequest req, Model model) {
+		logger.info("url ==> 구매 현황");
+		
+		return "purchasing/purStatus";
+	}
+	
+	// 입고 현황
+	@RequestMapping("/receiveStatus")
+	public String receiveStatus(HttpServletRequest req, Model model) {
+		logger.info("url ==> 입고 현황");
+		
+		return "purchasing/receiveStatus";
 	}
 }
