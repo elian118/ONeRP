@@ -26,39 +26,22 @@
     <aside id="sidebar" class="js-custom-scroll side-nav">
         <ul id="sideNav" class="side-nav-menu side-nav-menu-top-level mb-0">          
 
-             <!-- UI Components -->
-            <li class="side-nav-menu-item side-nav-has-menu">
-                <a class="side-nav-menu-link media align-items-center" href="#"
-                   data-target="#gg">
-                  <span class="side-nav-menu-icon d-flex mr-3">
-                    <i class="gd-panel"></i>
-                  </span>
-                    <span class="side-nav-fadeout-on-closed media-body">인사 관리</span>
-                    <span class="side-nav-control-icon d-flex">
-                <i class="gd-angle-right side-nav-fadeout-on-closed"></i>
-              </span>
-                    <span class="side-nav__indicator side-nav-fadeout-on-closed"></span>
-                </a>
-
-                <!-- UI Components: subComponents -->
+             <!-- UI Components: subComponents -->
                 <ul id="gg" class="side-nav-menu side-nav-menu-second-level mb-0">
-                    <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="${path}/personnelcodeManagement">인사코드 관리</a>
+                    <li class="side-nav-menu-item ">
+                        <a class="side-nav-menu-link" href="${path}/personnelCode">인사코드 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">인사발령 관리</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelDep">부서 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">인사카드관리(조회)</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelAppointment">인사 발령</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">급여 관리</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelCard">인사 카드</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">부서 관리</a>
-                    </li>
-                    <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">퇴사/휴직자 관리</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelSalary">급여</a>
                     </li>
                 </ul>
                 <!-- End UI Components: subComponents -->
@@ -81,10 +64,10 @@
                 <!-- Pages: subPages -->
                 <ul id="subPages" class="side-nav-menu side-nav-menu-second-level mb-0">
                     <li class="side-nav-menu-item">
-                         <a class="side-nav-menu-link" href="${path}/listofemployees">사원목록</a>
+                         <a class="side-nav-menu-link" href="${path}/abSelect">조회</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="register.html">휴가신청</a>
+                        <a class="side-nav-menu-link" href="${path}/abApplication">신청</a>
                     </li>
                 </ul>
                 <!-- End Pages: subPages -->

@@ -33,7 +33,7 @@
                   <span class="side-nav-menu-icon d-flex mr-3">
                     <i class="gd-user"></i>
                   </span>
-                    <span class="side-nav-fadeout-on-closed media-body">인사관리</span>
+                    <span class="side-nav-fadeout-on-closed media-body">인사 관리</span>
                     <span class="side-nav-control-icon d-flex">
                 <i class="gd-angle-right side-nav-fadeout-on-closed"></i>
               </span>
@@ -42,23 +42,20 @@
 
                 <!-- Users: subUsers -->
                 <ul id="subUsers" class="side-nav-menu side-nav-menu-second-level mb-0" style="display: block;">
-                    <li class="side-nav-menu-item ">
+                    <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/personnelCode">인사코드 관리</a>
-                    </li>
-                    <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="${path}/personnelAppointment">인사발령 관리</a>
-                    </li>
-                    <li class="side-nav-menu-item active">
-                        <a class="side-nav-menu-link" href="${path}/personnelCard">인사카드관리(조회)</a>
-                    </li>
-                    <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="${path}/personnelSalary">급여 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/personnelDep">부서 관리</a>
                     </li>
+                    <li class="side-nav-menu-item ">
+                        <a class="side-nav-menu-link" href="${path}/personnelAppointment">인사 발령</a>
+                    </li>
+                    <li class="side-nav-menu-item active">
+                        <a class="side-nav-menu-link" href="${path}/personnelCard">인사 카드</a>
+                    </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="${path}/personnelRetire">퇴사/휴직자 관리</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelSalary">급여</a>
                     </li>
                 </ul>
                 <!-- End Users: subUsers -->
@@ -81,10 +78,10 @@
                 <!-- Pages: subPages -->
                 <ul id="subPages" class="side-nav-menu side-nav-menu-second-level mb-0">
                     <li class="side-nav-menu-item">
-                         <a class="side-nav-menu-link" href="${path}/listofemployees">사원목록</a>
+                         <a class="side-nav-menu-link" href="${path}/abSelect">조회</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="register.html">휴가신청</a>
+                        <a class="side-nav-menu-link" href="${path}/abApplication">신청</a>
                     </li>
                 </ul>
                 <!-- End Pages: subPages -->
@@ -303,6 +300,16 @@
 												id="pills-html-tab-1" data-toggle="pill"
 												href="#pills-html-1" role="tab" aria-controls="pills-html-1"
 												aria-selected="false">인사카드 등록 </a></li>
+											<li class="nav-item border-bottom border-xl-bottom-0"><a
+												class="nav-link d-flex align-items-center py-2 px-3"
+												id="pills-html-tab-1" data-toggle="pill"
+												href="#pills-html-1" role="tab" aria-controls="pills-html-1"
+												aria-selected="false">휴직자 </a></li>
+											<li class="nav-item border-bottom border-xl-bottom-0"><a
+												class="nav-link d-flex align-items-center py-2 px-3"
+												id="pills-html-tab-1" data-toggle="pill"
+												href="#pills-html-1" role="tab" aria-controls="pills-html-1"
+												aria-selected="false">퇴직자 </a></li>
 
 											
 										</ul>
@@ -399,10 +406,14 @@
 											</form>
 											
 											</div>
+											
+											
+											
 							
 									
 										</div>
 										<!-- End Tab Content -->
+										
 									</div>
 								</div>
 							</div>
