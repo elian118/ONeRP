@@ -275,7 +275,7 @@
     <!-- End Sidebar Nav -->
     
     
-     <!-- 근태 조회 시작 -->
+  <!-- 근태 조회 시작 -->
     <div class="content">
 			<div class="py-4 px-3 px-md-4">
 				<div class="card">
@@ -289,14 +289,30 @@
 									<br>
 									
 									<div class="mb-3">
-										
+										<!-- Nav Classic -->
+										<ul class="nav nav-v2 nav-primary d-block d-xl-flex"
+											id="pills-tab-1" role="tablist">
+											<li class="nav-item border-bottom border-xl-bottom-0"><a
+												class="nav-link d-flex align-items-center py-2 px-3 active"
+												id="pills-result-tab-1" data-toggle="pill"
+												href="#pills-result-1" role="tab"
+												aria-controls="pills-result-1" aria-selected="true">
+													출퇴근 </a></li>
+											<li class="nav-item border-bottom border-xl-bottom-0"><a
+												class="nav-link d-flex align-items-center py-2 px-3"
+												id="pills-html-tab-1" data-toggle="pill"
+												href="#pills-html-1" role="tab" aria-controls="pills-html-1"
+												aria-selected="false">근퇴 조회 </a></li>
+
+										</ul>
+										<!-- End Nav Classic -->
+
 										<!-- Tab Content -->
 										<div class="tab-content bg-lighter" id="pills-tabContent-1">
 											<div class="tab-pane fade p-4 show active"
 												id="pills-result-1" role="tabpanel"
 												aria-labelledby="pills-result-tab-1">
-											
-										<!-- 검색창 시작 -->		
+										 <!-- 검색창 시작 -->		
 									   	  <div class="input-group">
 										    <div class="input-group-append">
 										      <i class="gd-search icon-text icon-text-sm"></i>
@@ -313,8 +329,10 @@
 											        <th class="font-weight-semi-bold border-top-0 py-2">사원명</th>
 											        <th class="font-weight-semi-bold border-top-0 py-2">부서명</th>
 											        <th class="font-weight-semi-bold border-top-0 py-2">직급</th>
-											        <th class="font-weight-semi-bold border-top-0 py-2">휴가 유형</th>
-											        <th class="font-weight-semi-bold border-top-0 py-2">신청일</th>
+											        <th class="font-weight-semi-bold border-top-0 py-2">출근시간</th>
+											        <th class="font-weight-semi-bold border-top-0 py-2">퇴근시간</th>
+											        <th class="font-weight-semi-bold border-top-0 py-2">야간근무</th>
+											        <th class="font-weight-semi-bold border-top-0 py-2"></th>
 											        <th class="font-weight-semi-bold border-top-0 py-2">처리 상태</th>
 											        
 											      </tr>
@@ -327,6 +345,8 @@
 													<td class="py-3">대리</td>
 													<td class="py-3">연차</td>
 											        <td class="py-3">2021-03-21</td>
+											        <td class="py-3">2021-03-22</td>
+											        <td class="py-3">2021-03-25</td>
 													<td class="py-3">완료</td>
 											      </tr>
 											      <tr>
@@ -336,6 +356,8 @@
 													<td class="py-3">팀장</td>
 													<td class="py-3">병가</td>
 											        <td class="py-3">2021-03-19</td>
+											        <td class="py-3">2021-03-24</td>
+											        <td class="py-3">2021-03-26</td>
 													<td class="py-3">완료</td>
 											      </tr>
 											      
@@ -343,7 +365,66 @@
 											  </table>
 											 
 											</div>
-										</div>
+
+											<div class="tab-pane fade p-4" id="pills-html-1"
+												role="tabpanel" aria-labelledby="pills-html-tab-1">
+												<form>
+													<!-- 검색창 시작 -->		
+									   	  <div class="input-group">
+										    <div class="input-group-append">
+										      <i class="gd-search icon-text icon-text-sm"></i>
+										    </div>
+										    <input class="form-control form-control-icon-text" placeholder="사원명/사번 검색" type="text" >
+										  </div>
+										  <!-- 검색창 끝 -->		
+										  <br>
+										  
+											<table class="table table-striped" style="text-align:center">
+											    <thead>
+											      <tr>
+											        <th class="font-weight-semi-bold border-top-0 py-2">사번</th>
+											        <th class="font-weight-semi-bold border-top-0 py-2">사원명</th>
+											        <th class="font-weight-semi-bold border-top-0 py-2">부서명</th>
+											        <th class="font-weight-semi-bold border-top-0 py-2">직급</th>
+											        <th class="font-weight-semi-bold border-top-0 py-2">근태 유형</th>
+											        <th class="font-weight-semi-bold border-top-0 py-2">신청일</th>
+											        <th class="font-weight-semi-bold border-top-0 py-2">시작일</th>
+											        <th class="font-weight-semi-bold border-top-0 py-2">종료일</th>
+											        <th class="font-weight-semi-bold border-top-0 py-2">처리 상태</th>
+											        
+											      </tr>
+											    </thead>
+											    <tbody>
+											      <tr>
+											      	<td class="py-3">001</td>
+											      	<td class="py-3">장그래</td>
+											      	<td class="py-3">영업부</td>
+													<td class="py-3">대리</td>
+													<td class="py-3">연차</td>
+											        <td class="py-3">2021-03-21</td>
+											        <td class="py-3">2021-03-22</td>
+											        <td class="py-3">2021-03-25</td>
+													<td class="py-3">완료</td>
+											      </tr>
+											      <tr>
+											        <td class="py-3">012</td>
+											      	<td class="py-3">김은희</td>
+											      	<td class="py-3">회계부</td>
+													<td class="py-3">팀장</td>
+													<td class="py-3">병가</td>
+											        <td class="py-3">2021-03-19</td>
+											        <td class="py-3">2021-03-24</td>
+											        <td class="py-3">2021-03-26</td>
+													<td class="py-3">완료</td>
+											      </tr>
+											      
+											    </tbody>
+											  </table>
+											 
+												<br>
+											</form>
+											</div>
+											
 										<!-- End Tab Content -->
 									</div>
 								</div>
@@ -353,7 +434,7 @@
 				</div>
 			</div>
 		</div>
-	<!-- 근태 조회 끝-->
+	<!-- 부서 관리 끝-->
 </main>
 
 <%@ include file = "../common/footer.jsp" %> 

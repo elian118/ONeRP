@@ -282,7 +282,7 @@
 						<div class="row">
 							<div class="col-xl-12">
 								<div id="example" class="mb-9">
-									<h2 class="h4">휴가 신청 <a class="anchorjs-link" href="#example"aria-label="Anchor" data-anchorjs-icon="#"></a>
+									<h2 class="h4">근태 신청 <a class="anchorjs-link" href="#example"aria-label="Anchor" data-anchorjs-icon="#"></a>
 									</h2>
 									
 									<br>
@@ -299,6 +299,7 @@
 														<tr>
 															<td>사원명 </td>
 															<td><input id="text" type="text" class="form-control" name="password" required=""></td>
+															<td><button type="button"  class="btn btn-outline-dark">사원확인</button></td>
 														</tr>
 														<tr>
 															<td>부서명</td>
@@ -313,7 +314,7 @@
 															 </td>
 														</tr>
 														<tr>
-															<td> 휴가 유형</td>
+															<td> 근태 유형</td>
 															<td>	 
 															<div class="form-group">
 															     <select class="form-control" id="exampleFormControlSelect1">

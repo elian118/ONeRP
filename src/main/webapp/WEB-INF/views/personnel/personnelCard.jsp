@@ -370,42 +370,30 @@
 
 											<div class="tab-pane fade p-4" id="pills-html-1"
 												role="tabpanel" aria-labelledby="pills-html-tab-1">
-												<form>
-												<table class="table" style="text-align:center">
-											<tbody>
+											
+											<h3><center><label>인사카드</label></center></h3>
+											
+											<br>
+											
+											<form>
+											<table class="table" style="text-align:center">
 												<tr>
-													<td scope="col" colspan="4" align="center">인사카드</td>
+													<th>사번</th>
+													<td><input type="text" class="form-control"></td>
+													<td><button type="button" class="btn btn-outline-dark">중복확인</button></td>
 												</tr>
 												<tr>
-													<th scope="col">사번</th>
-													<td scope="col"><input id="text" type="text" class="form-control" name="password" required=""></td>
-													<th scope="col">사원명</th>
-													<td scope="col"><input id="text" type="text" class="form-control" name="password" required=""></td>
+													<th>사원명</th>
+													<td><input type="text" class="form-control"></td>
 												</tr>
-												<tr>
-													<th colspan="3" align="center"></th>
-													<th></th>
-
+																								<tr>
+													<th>사원명</th>
+													<td><input type="text" class="form-control"></td>
 												</tr>
-												<tr>
-													<td colspan="3"><input id="text" type="text" class="form-control" name="password" required=""></td>
-													<td><input id="text" type="text" class="form-control" name="text" required=""></td>
-												</tr>
-												<tr>
-													<td colspan="3"><input id="text" type="text" class="form-control" name="password" required=""></td>
-													<td><input id="text" type="text" class="form-control" name="text" required=""></td>
-												</tr>
-												<tr>
-													<td colspan="3"><input id="text" type="text" class="form-control" name="password" required=""></td>
-													<td><input id="text" type="text" class="form-control" name="text" required=""></td>
-												</tr>
-												<tr>
-													<th colspan="3"></th>
-													<td><input id="text" type="text" class="form-control" name="text" required=""></td>
-												</tr>
-											</tbody>
+												
+												
 										</table>
-										<button type="button" class="btn btn-outline-dark" style=ෆ̈float: right;ෆ̈>등록하기</button>
+										<button type="button" type="submit" class="btn btn-outline-dark">등록</button>
 											</form>
 											</div>
 											<div class="tab-pane fade p-4" id="pills-html-2"
