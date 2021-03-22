@@ -1,7 +1,7 @@
 *.properties
 
 ### Java ###
-# Compiled class file
+# Complied class file
 *.class
 .classpath
 .project
@@ -10,5 +10,4 @@
 
 # Log file
 *.log
-
 target/
