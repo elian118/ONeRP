@@ -13,15 +13,23 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class AccountController {
 
 	private static final Logger logger = LoggerFactory.getLogger(AccountController.class);
-	
-	// 메인화면 
+
+	// 메인화면
 	@RequestMapping("/")
 	public String main(HttpServletRequest req, Model model) {
 		logger.info("url ==> 인사관리");
 
 		return "main";
 	}
-		
+
+	// 메인화면
+	@RequestMapping("/main.do")
+	public String main2(HttpServletRequest req, Model model) {
+		logger.info("url ==> 인사관리");
+
+		return "main";
+	}
+
 	// 회계보고서
 	@RequestMapping("/accountingreport")
 	public String Accountingreport(HttpServletRequest req, Model model) {
@@ -29,21 +37,23 @@ public class AccountController {
 
 		return "accounting/accountingreport";
 	}
-	
-	// 계좌 관리 
+
+	// 계좌 관리
 	@RequestMapping("/bankManagement")
 	public String BankManagement(HttpServletRequest req, Model model) {
 		logger.info("url ==> 계좌 관리");
 
 		return "accounting/bankManagement";
 	}
-	// 계정 관리 
+
+	// 계정 관리
 	@RequestMapping("/accountManagement")
 	public String AccountManagement(HttpServletRequest req, Model model) {
 		logger.info("url ==> 계정 관리");
 
 		return "accounting/accountManagement";
 	}
+
 	// 전표 관리
 	@RequestMapping("/statementManagement")
 	public String StatementManagement(HttpServletRequest req, Model model) {
@@ -51,6 +61,7 @@ public class AccountController {
 
 		return "accounting/statementManagement";
 	}
+
 	// 채권/채무 관리 bonddebtManagement
 	@RequestMapping("/bonddebtManagement")
 	public String BonddebtManagement(HttpServletRequest req, Model model) {
@@ -59,4 +70,3 @@ public class AccountController {
 		return "accounting/bonddebtManagement";
 	}
 }
-
