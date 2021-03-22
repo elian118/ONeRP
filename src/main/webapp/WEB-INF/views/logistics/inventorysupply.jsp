@@ -352,6 +352,12 @@
 								                                </div>
 															</td>
 														</tr>
+														<tr align="center">
+															<td colspan="5">
+																<input type="button" class="btn btn-outline-dark" value="확인" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+																<input type="button" class="btn btn-outline-dark" value="출력" >
+															</td>
+														</tr>
 													</tbody>
 												</table>
 											</div>
@@ -383,12 +389,21 @@
 															<td>창고이동</td>
 															<td>0</td>
 															<td>10</td>
-															<td>90</td>
+															<td>80</td>
 														</tr>
 													</table>
 													<br>
 													<table class="table">
-														<!-- 나중에 추가해야 할 부분 -->
+														<tr align="center">
+															<td>총 수량증가</td>
+															<td>총 수량감소</td>
+															<td>총 재고수량</td>
+														</tr>
+														<tr align="center">
+															<td>0</td>
+															<td>20</td>
+															<td>80</td>
+														</tr>
 													</table>
 												</div>
 											</div>
