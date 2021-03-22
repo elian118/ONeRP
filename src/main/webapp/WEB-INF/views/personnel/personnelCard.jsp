@@ -332,10 +332,10 @@
 										  	
 										<br>
 										
-												<table class="table">
+												<table class="table" style="text-align:center">
 													<thead>
 														<tr>
-															<th class="font-weight-semi-bold border-top-0 py-2">&nbsp;&nbsp; 사번</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">사번</th>
 															<th class="font-weight-semi-bold border-top-0 py-2">부서명</th>
 															<th class="font-weight-semi-bold border-top-0 py-2">직급</th>
 															<th class="font-weight-semi-bold border-top-0 py-2">사원명</th>
@@ -371,7 +371,7 @@
 											<div class="tab-pane fade p-4" id="pills-html-1"
 												role="tabpanel" aria-labelledby="pills-html-tab-1">
 												<form>
-												<table class="table">
+												<table class="table" style="text-align:center">
 											<tbody>
 												<tr>
 													<td scope="col" colspan="4" align="center">인사카드</td>
@@ -422,10 +422,10 @@
 										  	
 											<br>
 										
-												<table class="table">
+												<table class="table" style="text-align:center">
 													<thead>
 														<tr>
-															<th class="font-weight-semi-bold border-top-0 py-2">&nbsp;&nbsp; 사번</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">사번</th>
 															<th class="font-weight-semi-bold border-top-0 py-2">부서명</th>
 															<th class="font-weight-semi-bold border-top-0 py-2">직급</th>
 															<th class="font-weight-semi-bold border-top-0 py-2">사원명</th>
@@ -472,10 +472,10 @@
 										  	
 											<br>
 										
-												<table class="table">
+												<table class="table" style="text-align:center">
 													<thead>
 														<tr>
-															<th class="font-weight-semi-bold border-top-0 py-2">&nbsp;&nbsp; 사번</th>
+															<th class="font-weight-semi-bold border-top-0 py-2">사번</th>
 															<th class="font-weight-semi-bold border-top-0 py-2">부서명</th>
 															<th class="font-weight-semi-bold border-top-0 py-2">직급</th>
 															<th class="font-weight-semi-bold border-top-0 py-2">사원명</th>

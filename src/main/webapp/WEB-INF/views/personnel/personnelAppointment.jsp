@@ -314,15 +314,16 @@
 										    <div class="input-group-append">
 										      <i class="gd-search icon-text icon-text-sm"></i>
 										    </div>
+										    
 										    <input class="form-control form-control-icon-text" placeholder="사원명/사번 검색" type="text" >
 										  </div>
 										  <!-- 검색창 끝 -->		
 										  <br>
 										  
-											<table class="table table-striped">
+											<table class="table table-striped" style="text-align:center">
 											    <thead>
 											      <tr>
-											        <th class="font-weight-semi-bold border-top-0 py-2">&nbsp;&nbsp; 발령일</th>
+											        <th class="font-weight-semi-bold border-top-0 py-2">발령일</th>
 											        <th class="font-weight-semi-bold border-top-0 py-2">사번</th>
 											        <th class="font-weight-semi-bold border-top-0 py-2">사원명</th>
 											        <th class="font-weight-semi-bold border-top-0 py-2">현재부서</th>
@@ -368,8 +369,9 @@
 
 											<div class="tab-pane fade p-4" id="pills-html-1"
 												role="tabpanel" aria-labelledby="pills-html-tab-1">
-												<form>
-													<!-- 검색창 시작 -->		
+												
+										<form>
+										<!-- 검색창 시작 -->		
 									   	  <div class="input-group">
 										    <div class="input-group-append">
 										      <i class="gd-search icon-text icon-text-sm"></i>
@@ -379,10 +381,10 @@
 										  <!-- 검색창 끝 -->		
 										  <br>
 										  
-											<table class="table table-striped">
+											<table class="table table-striped" style="text-align:center">
 											    <thead>
 											      <tr>
-											        <th class="font-weight-semi-bold border-top-0 py-2">&nbsp;&nbsp; 발령일</th>
+											        <th class="font-weight-semi-bold border-top-0 py-2">발령일</th>
 											        <th class="font-weight-semi-bold border-top-0 py-2">사번</th>
 											        <th class="font-weight-semi-bold border-top-0 py-2">사원명</th>
 											        <th class="font-weight-semi-bold border-top-0 py-2">현재부서</th>

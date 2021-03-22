@@ -309,7 +309,7 @@
 											<div class="tab-pane fade p-4 show active"
 												id="pills-result-1" role="tabpanel"
 												aria-labelledby="pills-result-tab-1">
-												<table class="table">
+												<table class="table" style="text-align:center">
 													<thead>
 														<tr>
 															<th class="font-weight-semi-bold border-top-0 py-2">부서번호</th>
@@ -344,7 +344,7 @@
 											<div class="tab-pane fade p-4" id="pills-html-1"
 												role="tabpanel" aria-labelledby="pills-html-tab-1">
 												<form>
-													<table class="table">
+													<table class="table" style="text-align:center">
 														<tr>
 															<td>부서번호 </td>
 															<td><input id="text" type="text" class="form-control" name="password" required=""></td>
@@ -388,88 +388,7 @@
 												<br>
 											</form>
 											</div>
-											<div class="tab-pane fade p-4" id="pills-html-2"
-												role="tabpanel" aria-labelledby="pills-html-tab-2">
-												<table class="table">
-													<thead>
-														<tr>
-															<th class="font-weight-semi-bold border-top-0 py-2">그룹번호</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">인사코드</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">인사코드명</th>
-															<th class="font-weight-semi-bold border-top-0 py-2">사용상태</th>
-														</tr>
-													</thead>
-													<tbody>
-														<tr>
-															<td class="py-3">1</td>
-															<td class="py-3">Mark</td>
-															<td class="py-3">Otto</td>
-															<td class="py-3">@mdo</td>
-														</tr>
-														<tr>
-															<td class="py-3">2</td>
-															<td class="py-3">Jacob</td>
-															<td class="py-3">Thornton</td>
-															<td class="py-3">@fat</td>
-														</tr>
-														<tr>
-															<td class="py-3">3</td>
-															<td class="py-3">Larry</td>
-															<td class="py-3">the Bird</td>
-															<td class="py-3">@twitter</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
-											<div class="tab-pane fade p-4" id="pills-html-3"
-												role="tabpanel" aria-labelledby="pills-html-tab-3">
-											<form>
-												<table class="table">
-													<tr>
-														<td>그룹번호 </td>
-														<td>	 
-														<div class="form-group">
-														     <select class="form-control" id="exampleFormControlSelect1">
-														       <option>1</option>
-														       <option>2</option>
-														       <option>3</option>
-														       <option>4</option>
-														     </select>
-														   </div>
-														 </td>
-													</tr>
-													<tr>
-														<td> 인사코드 </td>
-														<td> <input id="text" type="text" class="form-control" name="password" required=""></td>
-														<td><button type="button" class="btn btn-outline-dark">중복확인</button></td>
-													</tr>
-													<tr>
-														<td> 인사코드명 </td>
-														<td> <input id="text" type="text" class="form-control" name="password" required=""></td>
-														<td><button type="button" class="btn btn-outline-dark">중복확인</button></td>
-													</tr>
-													<tr>
-														<td> 사용상태 </td>
-														<td>	 
-														<div class="form-group">
-														     <select class="form-control" id="exampleFormControlSelect1">
-														       <option>사용</option>
-														       <option>비사용</option>
-														     </select>
-														   </div>
-														 </td>
-													</tr>
-												</table>
-												
-												<div align=center>
-												
-													<button type="button" type="submit" class="btn btn-outline-dark">등록</button>&nbsp;&nbsp;&nbsp;
-													<button type="button" type="reset" class="btn btn-outline-dark">재작성</button>
-												
-												</div>
-												<br>
-											</form>
-										</div>
+											
 										<!-- End Tab Content -->
 									</div>
 								</div>

@@ -306,7 +306,7 @@
 										  <!-- 검색창 끝 -->		
 										  <br>
 										  
-											<table class="table table-striped">
+											<table class="table table-striped" style="text-align:center">
 											    <thead>
 											      <tr>
 											        <th class="font-weight-semi-bold border-top-0 py-2">사번</th>

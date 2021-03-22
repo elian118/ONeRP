@@ -295,7 +295,7 @@
 												aria-labelledby="pills-result-tab-1">
 											
 												<form>
-													<table class="table">
+													<table class="table" style="text-align:center">
 														<tr>
 															<td>사원명 </td>
 															<td><input id="text" type="text" class="form-control" name="password" required=""></td>

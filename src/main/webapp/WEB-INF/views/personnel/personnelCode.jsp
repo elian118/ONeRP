@@ -318,7 +318,7 @@
 											<div class="tab-pane fade p-4 show active"
 												id="pills-result-1" role="tabpanel"
 												aria-labelledby="pills-result-tab-1">
-												<table class="table">
+												<table class="table" style="text-align:center">
 													<thead>
 														<tr>
 															<th class="font-weight-semi-bold border-top-0 py-2">그룹번호</th>
@@ -349,7 +349,7 @@
 											<div class="tab-pane fade p-4" id="pills-html-1"
 												role="tabpanel" aria-labelledby="pills-html-tab-1">
 												<form>
-													<table class="table">
+													<table class="table" style="text-align:center">
 														<tr>
 															<td>그룹명 </td>
 															<td><input id="text" type="text" class="form-control" name="password" required=""></td>
@@ -384,7 +384,7 @@
 											</div>
 											<div class="tab-pane fade p-4" id="pills-html-2"
 												role="tabpanel" aria-labelledby="pills-html-tab-2">
-												<table class="table">
+												<table class="table" style="text-align:center"> 
 													<thead>
 														<tr>
 															<th class="font-weight-semi-bold border-top-0 py-2">그룹번호</th>
@@ -418,7 +418,7 @@
 											<div class="tab-pane fade p-4" id="pills-html-3"
 												role="tabpanel" aria-labelledby="pills-html-tab-3">
 											<form>
-												<table class="table">
+												<table class="table" style="text-align:center">
 													<tr>
 														<td>그룹번호 </td>
 														<td>	 
