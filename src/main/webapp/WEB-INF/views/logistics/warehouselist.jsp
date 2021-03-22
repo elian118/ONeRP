@@ -319,6 +319,45 @@
 									<div class="tab-pane fade p-4 show active"
 										id="pills-result-1" role="tabpanel"
 										aria-labelledby="pills-result-tab-1">
+										<!-- 숨겨진 페이지 -->
+										<div class="col">
+											<div class="collapse multi-collapse"
+												id="multiCollapseExample1">
+												<div class="bg-white p-4">
+													<table class="table table-bordered" style="text-align:center">
+														<tr>
+															<th>창고종류</th>
+															<td>
+																<select class="custom-select custom-select-lg">
+			   														<option>양품창고</option>
+			   														<option>불량품창고</option>
+			   														<option>출고대기창고</option>
+			 													</select>
+															</td>
+														</tr>
+														<tr>
+															<th>창고명</th>
+															<td>
+																<input class="form-control form-control-icon-text" placeholder="창고명" type="text" value="양품창고">
+															</td>
+														</tr>
+														<tr>
+															<th>창고주소</th>
+															<td>
+																<input class="form-control form-control-icon-text" placeholder="창고주소" type="text" value="서울시 강남구 삼성동">
+															</td>
+														</tr>
+														<tr align="center">
+															<th colspan="2">
+																<input type="submit" class="btn btn-outline-dark" value="확인" >
+																<input type="reset" class="btn btn-outline-dark" value="취소" >
+															</th>
+														</tr>	
+													</table>
+												</div>
+											</div>
+										</div>
+										<!-- 숨겨진 페이지 종료 -->
 										<table class="table">
 											<thead>
 												<tr>
@@ -333,7 +372,12 @@
 													<td class="py-3">1001</td>
 													<td class="py-3">양품창고</td>
 													<td class="py-3">서울시 강남구 삼성동</td>
-													<td class="py-3"><button type="button" class="btn btn-outline-dark">수정</button></td>
+													<td class="py-3">
+														<a class="btn btn-outline-dark" data-toggle="collapse"
+														href="#multiCollapseExample1" role="button"
+														aria-expanded="false" aria-controls="multiCollapseExample1">수정
+														</a>
+													</td>
 												</tr>
 												<tr>
 													<td class="py-3">2001</td>

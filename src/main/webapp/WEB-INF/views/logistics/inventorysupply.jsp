@@ -318,11 +318,11 @@
 														<tr>
 															<th class="font-weight-semi-bold border-top-0 py-2">기준일자</th>
 															<th class="font-weight-semi-bold border-top-0 py-2">
-																<input class="form-control" type="text" placeholder="">
+																<input class="form-control" type="text" placeholder="" value="2021-03-21">
 															</th>
 															<th> ~ </th>
 															<th class="font-weight-semi-bold border-top-0 py-2">
-																<input class="form-control" type="text" placeholder="">
+																<input class="form-control" type="text" placeholder="" value="2021-03-21">
 															</th>
 															<th class="font-weight-semi-bold border-top-0 py-2">
 															<select class="custom-select">
@@ -346,17 +346,72 @@
 																<!-- 검색창 시작 -->      
 							                                	<div class="input-group">
 								                                	<div class="input-group-append">
-								                                    <i class="gd-search icon-text icon-text-sm"></i>
+								                                    <i class="gd-search icon-text icon-text-sm" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"></i>
 								                                  	</div>
 								                                  	<input class="form-control form-control-icon-text" placeholder="상품명 검색" type="text" >
 								                                </div>
 															</td>
-															<td class="py-3">상품명1</td>
+														</tr>
+														<tr align="center">
+															<td colspan="5">
+																<input type="button" class="btn btn-outline-dark" value="확인" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+																<input type="button" class="btn btn-outline-dark" value="출력" >
+															</td>
 														</tr>
 													</tbody>
 												</table>
 											</div>
-
+											<div class="collapse" id="collapseExample">
+												<div class="bg-white p-4">
+													<table class="table">
+														<tr align="center">
+															<td colspan="5">기간 : 2021-03-21 ~ 2021-03-21</td>
+														</tr>
+														<tr align="center">
+															<td colspan="5">상품명 : 상품01(상품코드)</td>
+														</tr>
+														<tr align="center">
+															<td>날짜</td>
+															<td>분류</td>
+															<td>수량증가</td>
+															<td>수량감소</td>
+															<td>재고수량</td>
+														</tr>
+														<tr align="center">
+															<td>2021-03-21</td>
+															<td>재고조정</td>
+															<td>0</td>
+															<td>10</td>
+															<td>90</td>
+														</tr>
+														<tr align="center">
+															<td>2021-03-21</td>
+															<td>창고이동</td>
+															<td>0</td>
+															<td>10</td>
+															<td>80</td>
+														</tr>
+													</table>
+													<br>
+													<table class="table">
+														<tr align="center">
+															<td>총 수량증가</td>
+															<td>총 수량감소</td>
+															<td>총 재고수량</td>
+														</tr>
+														<tr align="center">
+															<td>0</td>
+															<td>20</td>
+															<td>80</td>
+														</tr>
+													</table>
+												</div>
+											</div>
+											
+											
+											
+											
+<!---------------------------------------------------------------------- 여기서부터 뭔데? ------------------------>
 											<div class="tab-pane fade p-4" id="pills-html-1"
 												role="tabpanel" aria-labelledby="pills-html-tab-1">
 												<table class="table">
