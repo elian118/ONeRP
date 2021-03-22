@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 //출고 관리
 @Controller
 public class SalesController {
-private static final Logger logger = LoggerFactory.getLogger(PersonnelController.class);
+private static final Logger logger = LoggerFactory.getLogger(SalesController.class);
 	
 	// 거래처 
 	@RequestMapping("/client")
@@ -19,5 +19,13 @@ private static final Logger logger = LoggerFactory.getLogger(PersonnelController
 		logger.info("url ==> 거래처");
 	
 		return "sales/client";
+	}
+	
+	// 상품
+	@RequestMapping("/salesproduct")
+	public String salesproduct(HttpServletRequest req, Model model) {
+		logger.info("url ==> 상품");
+		
+		return "sales/salesproduct";
 	}
 }

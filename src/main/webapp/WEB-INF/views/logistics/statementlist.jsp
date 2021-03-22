@@ -81,7 +81,7 @@
                 <!-- Pages: subPages -->
                 <ul id="subPages" class="side-nav-menu side-nav-menu-second-level mb-0">
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="login.html">사원목록</a>
+                         <a class="side-nav-menu-link" href="${path}/listofemployees">사원목록</a>
                     </li>
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="register.html">휴가신청</a>
@@ -207,7 +207,7 @@
 
                 <!-- Users: subUsers -->
                 <ul id="zxc" class="side-nav-menu side-nav-menu-second-level mb-0" style="display: block;">
-                    <li class="side-nav-menu-item active">
+                    <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/accountinquiry">거래처 조회</a>
                     </li>
                     <li class="side-nav-menu-item">
@@ -216,7 +216,7 @@
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/inventorystatus">재고 현황</a>
                     </li>
-                    <li class="side-nav-menu-item">
+                    <li class="side-nav-menu-item active">
                         <a class="side-nav-menu-link" href="${path}/statementlist">전표 리스트</a>
                     </li>
                     <li class="side-nav-menu-item">
@@ -240,7 +240,7 @@
             <!-- UI Components -->
             <li class="side-nav-menu-item side-nav-has-menu">
                 <a class="side-nav-menu-link media align-items-center" href="#"
-                   data-target="#gg">
+                   data-target="#subUsers">
                   <span class="side-nav-menu-icon d-flex mr-3">
                     <i class="gd-user"></i>
                   </span>
@@ -252,7 +252,7 @@
                 </a>
 
                 <!-- UI Components: subComponents -->
-                <ul id="gg" class="side-nav-menu side-nav-menu-second-level mb-0">
+                <ul id="subUsers" class="side-nav-menu side-nav-menu-second-level mb-0">
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/accountingreport">회계보고서</a>
                     </li>
@@ -263,7 +263,7 @@
                         <a class="side-nav-menu-link" href="${path}/accountManagement">계정 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="${path}/statementManagement">전표 조회</a>
+                        <a class="side-nav-menu-link" href="${path}/statementManagement">전표 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/bonddebtManagement">채권/채무 조회</a>
@@ -275,15 +275,14 @@
         </ul>
     </aside>
     <!-- End Sidebar Nav -->
-
-    <div class="content">
+		<div class="content">
 			<div class="py-4 px-3 px-md-4">
 				<div class="card">
 					<div class="card-body">
 					<nav aria-label="breadcrumb">
 							<ol class="breadcrumb">
 								<li class="breadcrumb-item"><a href="#">물류 관리</a></li>
-								<li class="breadcrumb-item active" aria-current="page">거래처 조회</li>
+								<li class="breadcrumb-item active" aria-current="page">전표 리스트</li>
 							</ol>
 						</nav>
 						<div class="row">
@@ -292,7 +291,7 @@
 
 								<div id="example" class="mb-9">
 									<h2 class="h4">
-										거래처 조회 <a class="anchorjs-link" href="#example"
+										전표 리스트 <a class="anchorjs-link" href="#example"
 											aria-label="Anchor" data-anchorjs-icon="#"></a>
 									</h2>
 									<div class="mb-3">
@@ -300,11 +299,16 @@
 										<ul class="nav nav-v2 nav-primary d-block d-xl-flex"
 											id="pills-tab-1" role="tablist">
 											<li class="nav-item border-bottom border-xl-bottom-0"><a
-												class="nav-link d-flex align-items-center py-2 px-3 active"
-												id="pills-result-tab-1" data-toggle="pill"
-												href="#pills-result-1" role="tab"
-												aria-controls="pills-result-1" aria-selected="true">
-													거래처 조회</a></li>
+												class="nav-link d-flex align-items-center py-2 px-3"
+												id="pills-html-tab-3" data-toggle="pill"
+												href="#pills-html-3" role="tab" aria-controls="pills-html-3"
+												aria-selected="false">입고 내역 </a></li>
+												
+											<li class="nav-item border-bottom border-xl-bottom-0"><a
+												class="nav-link d-flex align-items-center py-2 px-3"
+												id="pills-html-tab-4" data-toggle="pill"
+												href="#pills-html-4" role="tab" aria-controls="pills-html-4"
+												aria-selected="false">출고 내역 </a></li>
 										</ul>
 										<!-- End Nav Classic -->
 
@@ -313,125 +317,206 @@
 											<div class="tab-pane fade p-4 show active"
 												id="pills-result-1" role="tabpanel"
 												aria-labelledby="pills-result-tab-1">
-												<!-- 검색창 시작 -->      
-			                                	<div class="input-group">
-				                                	<div class="input-group-append">
-				                                    <i class="gd-search icon-text icon-text-sm"></i>
-				                                  	</div>
-				                                  	<input class="form-control form-control-icon-text" placeholder="거래처명 검색" type="text" >
-				                                </div>
-				                                <br>
-				                                <!-- 검색창 끝 --> 
 												<div class="row">
 													<div class="col">
 														<div class="collapse multi-collapse"
 															id="multiCollapseExample1">
 															<div class="bg-white p-4">
-																<table class="table table-bordered" style="text-align:center">
-																	<tbody>
-																		<tr>
-																			<td colspan="4" align="center"> 거래처명1 </td>
-																		</tr>
-																		<tr>
-																			<th colspan="1" align="center">NO.</td>
-																			<td colspan="3" align="center">10</td>
-																		</tr>
-																		<tr>
-																			<th scope="col">사업자등록번호</td>
-																			<td scope="col">1234567890</td>
-																			<th scope="col">대표자명</td>
-																			<td scope="col"> 최유성 </td>
-																		</tr>
-																		<tr>
-																			<th colspan="2" align="center">업태</td>
-																			<td colspan="2">업태1</td>
-
-																		</tr>
-																		<tr>
-																			<th colspan="2" align="center">주요거래품목</td>
-																			<td colspan="2">품목1</td>
-																		</tr>
-																		<tr>
-																			<th colspan="2" align="center">사용상태</td>
-																			<td colspan="2" align="center">사용중</td>
-																		</tr>
-																		<tr>
-																			<th colspan="2">회사규모</th>
-																			<td colspan="2">n명</td>
-																		</tr>
-																		<tr>
-																			<th colspan="2">등록일</th>
-																			<td colspan="2">2017-08-21</td>
-																		</tr>
-																	</tbody>
-																</table>
+																
 															</div>
 														</div>
 													</div>
+												</div>
+											</div>
+											<div class="tab-pane fade p-4" id="pills-html-3"
+												role="tabpanel" aria-labelledby="pills-html-tab-3">
+												<div class="px-3">
+													<ul id="tabs2" class="nav nav-tabs nav-v2 nav-primary mb-3"
+														role="tablist">
+														<li class="nav-item"><a
+															class="nav-link px-2 pb-2 active" href="#tabs2-tab3"
+															role="tab" aria-selected="true" data-toggle="tab">
+																입고 요청 처리내역 </a></li>
+														<li class="nav-item ml-4"><a
+															class="nav-link px-2 pb-2" href="#tabs2-tab4" role="tab"
+															aria-selected="false" data-toggle="tab">물류 입고 요청 </a></li>
+													</ul>
+													<div id="tabsContent2" class="card-body tab-content p-0">
+														<div class="tab-pane fade show active" id="tabs2-tab3"
+															role="tabpanel">
+															<table class="table">
+                                                <thead>
+                                                   <tr>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">주문번호</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">구매번호</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">상품명</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">구매수량</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">창고명</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">입고일</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">담당자명</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">등록일</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">최종수정일</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">상태</th>
+                                                   </tr>
+                                                </thead>
+                                                <tbody>
+                                                   <tr>
+                                                      <td class="py-3">123456</td>
+                                                      <td class="py-3">12345</td>
+                                                      <td class="py-3">상품명1</td>
+                                                      <td class="py-3">100</td>
+                                                      <td class="py-3">양품창고</td>
+                                                      <td class="py-3">2017-09-03</td>
+                                                      <td class="py-3">김민수</td>
+                                                      <td class="py-3">2017-09-03</td>
+                                                      <td class="py-3">2017-09-03</td>
+                                                      <td class="py-3">입고완료</td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+														</div>
 
+														<div class="tab-pane fade" id="tabs2-tab4" role="tabpanel">
+															<table class="table">
+                                                <thead>
+                                                   <tr>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">구매번호</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">상품명</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">구매수량</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">입고일</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">담당자명</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">승인버튼</th>
+                                                   </tr>
+                                                </thead>
+                                                <tbody>
+                                                   <tr>
+                                                      <td class="py-3">12345</td>
+                                                      <td class="py-3">상품명1</td>
+                                                      <td class="py-3">100</td>
+                                                      <td class="py-3">2017-09-03</td>
+                                                      <td class="py-3">김민수</td>
+                                                      <td class="py-3">
+                                                      <button type="button" class="btn btn-outline-dark"
+                                                         style='float: middle;'>등록하기</button>
+                                                      </td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="tab-pane fade p-4" id="pills-html-4"
+												role="tabpanel" aria-labelledby="pills-html-tab-4">
+												<div class="px-3">
+													<ul id="tabs2" class="nav nav-tabs nav-v2 nav-primary mb-3"
+														role="tablist">
+														<li class="nav-item"><a
+															class="nav-link px-2 pb-2 active" href="#tabs2-tab5"
+															role="tab" aria-selected="true" data-toggle="tab">
+																출고 요청 처리내역 </a></li>
+														<li class="nav-item ml-4"><a
+															class="nav-link px-2 pb-2" href="#tabs2-tab6" role="tab"
+															aria-selected="false" data-toggle="tab">물류 출고 요청 </a></li>
+														<li class="nav-item ml-4"><a
+															class="nav-link px-2 pb-2" href="#tabs2-tab7" role="tab"
+															aria-selected="false" data-toggle="tab">출고 완료 요청 </a></li>
+													</ul>
+													<div id="tabsContent2" class="card-body tab-content p-0">
+														<div class="tab-pane fade show active" id="tabs2-tab5"
+															role="tabpanel">
+															<table class="table">
+                                                <thead>
+                                                   <tr>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">주문번호</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">구매번호</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">상품명</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">구매수량</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">창고명</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">입고일</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">담당자명</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">등록일</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">최종수정일</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">상태</th>
+                                                   </tr>
+                                                </thead>
+                                                <tbody>
+                                                   <tr>
+                                                      <td class="py-3">121212</td>
+                                                      <td class="py-3">121211</td>
+                                                      <td class="py-3">상품명1</td>
+                                                      <td class="py-3">100</td>
+                                                      <td class="py-3">양품창고</td>
+                                                      <td class="py-3">2017-09-03</td>
+                                                      <td class="py-3">김민수</td>
+                                                      <td class="py-3">2017-09-03</td>
+                                                      <td class="py-3">2017-09-03</td>
+                                                      <td class="py-3">입고완료</td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+														</div>
+
+											<div class="tab-pane fade" id="tabs2-tab6" role="tabpanel">
 													<table class="table">
-														<thead>
-															<tr>
-																<th class="font-weight-semi-bold border-top-0 py-2">거래처번호</th>
-																<th class="font-weight-semi-bold border-top-0 py-2">거래처명</th>
-																<th class="font-weight-semi-bold border-top-0 py-2">대표자명</th>
-																<th class="font-weight-semi-bold border-top-0 py-2">업태</th>
-																<th class="font-weight-semi-bold border-top-0 py-2">사용상태</th>
-																<th class="font-weight-semi-bold border-top-0 py-2">등록일</th>
-															</tr>
-														</thead>
-														<tbody>
-															<tr>
-																<td class="py-3">10</td>
-																<td class="py-3">
-																	<p>
-																		<a class="btn" data-toggle="collapse"
-																			href="#multiCollapseExample1" role="button"
-																			aria-expanded="false"
-																			aria-controls="multiCollapseExample1">거래처명1</a>
-																	</p>
-																</td>
-																<td class="py-3">최유성</td>
-																<td class="py-3">업태1</td>
-																<td class="py-3">사용중</td>
-																<td class="py-3">2017-08-21</td>
-															</tr>
-															<tr>
-																<td class="py-3">11</td>
-																<td class="py-3">
-																	<p>
-																		<a class="btn" data-toggle="collapse"
-																			href="#multiCollapseExample12" role="button"
-																			aria-expanded="false"
-																			aria-controls="multiCollapseExample1">거래처명2</a>
-																	</p>
-																</td>
-																<td class="py-3">조명재</td>
-																<td class="py-3">업태2</td>
-																<td class="py-3">사용중</td>
-																<td class="py-3">2018-01-01</td>
-															</tr>
-															<tr>
-																<td class="py-3">12</td>
-																<td class="py-3">
-																	<p>
-																		<a class="btn" data-toggle="collapse"
-																			href="#multiCollapseExample13" role="button"
-																			aria-expanded="false"
-																			aria-controls="multiCollapseExample1">거래처명3</a>
-																	</p>
-																</td>
-																<td class="py-3">김은희</td>
-																<td class="py-3">업태3</td>
-																<td class="py-3">사용중</td>
-																<td class="py-3">2018-02-22</td>
-															</tr>
-														</tbody>
-													</table>
+                                                <thead>
+                                                   <tr>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">구매번호</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">상품명</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">구매수량</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">입고일</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">담당자명</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">승인버튼</th>
+                                                   </tr>
+                                                </thead>
+                                                <tbody>
+                                                   <tr>
+                                                      <td class="py-3">0988909</td>
+                                                      <td class="py-3">0809801</td>
+                                                      <td class="py-3">100</td>
+                                                      <td class="py-3">2017-09-03</td>
+                                                      <td class="py-3">김민수</td>
+                                                      <td class="py-3">
+                                                      <button type="button" class="btn btn-outline-dark"
+                                                         style='float: middle;'>등록하기</button>
+                                                      </td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+														</div>
+														
+											<div class="tab-pane fade" id="tabs2-tab7" role="tabpanel">
+													<table class="table">
+                                                <thead>
+                                                   <tr>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">구매번호</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">상품명</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">구매수량</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">입고일</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">담당자명</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">승인버튼</th>
+                                                   </tr>
+                                                </thead>
+                                                <tbody>
+                                                   <tr>
+                                                      <td class="py-3">0988909</td>
+                                                      <td class="py-3">0809801</td>
+                                                      <td class="py-3">100</td>
+                                                      <td class="py-3">2017-09-03</td>
+                                                      <td class="py-3">김민수</td>
+                                                      <td class="py-3">
+                                                      <button type="button" class="btn btn-outline-dark"
+                                                         style='float: middle;'>등록하기</button>
+                                                      </td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+														</div>
+													</div>
 												</div>
 											</div>
 										</div>
-										<!— End Tab Content —>
+										<!-- End Tab Content -->
 									</div>
 								</div>
 							</div>
@@ -440,8 +525,6 @@
 				</div>
 			</div>
 		</div>
-    
-    
 </main>
 
 <%@ include file = "../common/footer.jsp" %> 

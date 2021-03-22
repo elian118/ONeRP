@@ -11,14 +11,21 @@ import org.springframework.web.bind.annotation.RequestMapping;
 //물류 관리
 @Controller
 public class PurchasingController {
-private static final Logger logger = LoggerFactory.getLogger(PersonnelController.class);
+private static final Logger logger = LoggerFactory.getLogger(PurchasingController.class);
 	
 	// 거래처 
 	@RequestMapping("/client2")
 	public String client2(HttpServletRequest req, Model model) {
 		logger.info("url ==> 거래처");
 	
-		return "purchasing/client";
+		return "purchasing/client2";
 	}
 
+	// 상품
+	@RequestMapping("/purchproduct")
+	public String purchproduct(HttpServletRequest req, Model model) {
+		logger.info("url ==> 상품");
+		
+		return "purchasing/purchproduct";
+	}
 }
