@@ -371,7 +371,7 @@
 											<div class="tab-pane fade p-4" id="pills-html-1"
 												role="tabpanel" aria-labelledby="pills-html-tab-1">
 											
-											<h3><center><label>인사카드</label></center></h3>
+											<h3><center><label><b>인사카드</b></label></center></h3>
 											
 											<br>
 											
@@ -386,14 +386,96 @@
 													<th>사원명</th>
 													<td><input type="text" class="form-control"></td>
 												</tr>
-																								<tr>
-													<th>사원명</th>
+												<tr>
+													<th>부서명</th>
+													<td><div class="form-group">
+														     <select class="form-control" id="exampleFormControlSelect1">
+														       <option>영업부</option>
+														       <option>회계부</option>
+														     </select>
+														   </div>
+														 </td>
+												</tr>
+												<tr>
+													<th>직급</th>
+													<td><div class="form-group">
+														     <select class="form-control" id="exampleFormControlSelect1">
+														       <option>인턴사원</option>
+														       <option>팀장</option>
+														     </select>
+														   </div>
+														 </td>
+												</tr>
+												<tr>
+													<th>사진</th>
 													<td><input type="text" class="form-control"></td>
 												</tr>
-												
-												
+											     <tr>
+													<th>주민등록번호</th>
+													<td><input class="form-control" type="text" maxlength="6"
+										                  style="width:50px" >
+										               -
+										               <input class="form-control" type="text" maxlength="7"
+										                  style="width:60px" ></td>
+												</tr>
+												<tr>
+													<th>입사일</th>
+													<td><input type="date" class="form-control"></td>
+												</tr>
+												<tr>
+													<th>전화번호</th>
+													<td><input class="form-control" type="text"  maxlength="3"
+										                  style="width:30px" >
+										                -
+										                <input class="form-control" type="text"  maxlength="4"
+										                  style="width:40px" >
+										                -    
+										               <input class="form-control" type="text"  maxlength="4"
+										                  style="width:40px" ></td>
+												</tr>
+												<tr>
+													<th>휴대전화</th>
+													<td><input type="tel" class="form-control"></td>
+												</tr>
+												<tr>
+													<th>여권번호</th>
+													<td><input type="text" class="form-control"></td>
+												</tr>
+												<tr>												
+													<th>이메일</th>
+													<td><input class="form-control" type="text" maxlength="20"
+											                  style="width:60px">
+											               @
+											               <input class="form-control" type="text" maxlength="20"
+											                  style="width:70px">
+											               <select class="form-control" name="email3" onchange="selectEmailChk();">
+											                  <option value="0">직접입력</option>
+											                  <option value="naver.com">네이버</option>
+											                  <option value="gmail.com">구글</option>
+											                  <option value="nate.com">네이트</option>
+											                  <option value="daum.com">다음</option>
+											               </select>   </td>
+												</tr>
+												<tr>												
+													<th>주소</th>
+													<td><input type="text" class="form-control"></td>
+												</tr>
+												<tr>												
+													<th>시급</th>
+													<td><input type="text" class="form-control"></td>
+												</tr>
+												<tr>												
+													<th>급여계좌</th>
+													<td><input type="text" class="form-control"></td>
+												</tr>
 										</table>
-										<button type="button" type="submit" class="btn btn-outline-dark">등록</button>
+										
+										<br>
+										
+										<div align=center>
+											<button type="button" type="submit" class="btn btn-outline-dark">등록</button>&nbsp;&nbsp;&nbsp;
+											<button type="button" type="reset" class="btn btn-outline-dark">재작성</button>
+										</div>
 											</form>
 											</div>
 											<div class="tab-pane fade p-4" id="pills-html-2"
