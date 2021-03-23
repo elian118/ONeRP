@@ -263,13 +263,13 @@
 													<div class="col">
 														<div class="collapse multi-collapse"
 															id="multiCollapseExample1">
-															<div class="bg-white p-4">
+															
 															 
-																<table class="table table-bordered"
+																<table class="table table-bordered bg-white"
 																	style="text-align: center">
 																	
 																	<tbody>
-																		<tr>
+																		<tr class="text-dark"style="background-color:#CCE5FF">
 																			<th colspan="4">입금전표</th>
 																		</tr>
 																		<tr>
@@ -283,13 +283,13 @@
 																			<td scope="col">식대</td>
 																		</tr>
 																		<tr>
-																			<th colspan="2">연결ID</th>
-																			<td colspan="2">음?</td>
+																			<th colspan="1">연결ID</th>
+																			<td colspan="3">음?</td>
 
 																		</tr>
 																		<tr>
-																			<th colspan="2">계정ID</th>
-																			<td colspan="2">??</td>
+																			<th colspan="1">계정ID</th>
+																			<td colspan="3">??</td>
 																		</tr>
 																		<tr>
 																			<th colspan="3">적요</th>
@@ -316,13 +316,13 @@
 																	
 																</table>
 																
-															</div>
+														
 														</div>
 													</div>
 
-													<table class="table table-bordered" style="text-align: center">
+													<table class="table table-bordered bg-white" style="text-align: center">
 														<tbody>
-															<tr>
+															<tr class="text-dark"style="background-color:#B5D3FF">
 																<th class="font-weight-semi-bold border-top-0 py-2">전표번호</th>
 																<th class="font-weight-semi-bold border-top-0 py-2">전표종류</th>
 																<th class="font-weight-semi-bold border-top-0 py-2">연결
@@ -405,7 +405,7 @@
 																<table class="table table-bordered"
 																	style="text-align: center">
 																	<tbody>
-																		<tr>
+																		<tr class="text-dark"style="background-color:#CCE5FF">
 																			<th colspan="4">입금전표</th>
 																		</tr>
 																		<tr>
@@ -419,13 +419,13 @@
 																			<td scope="col">식대</td>
 																		</tr>
 																		<tr>
-																			<th colspan="2">연결ID</th>
-																			<td colspan="2">음?</td>
+																			<th colspan="1">연결ID</th>
+																			<td colspan="3">음?</td>
 
 																		</tr>
 																		<tr>
-																			<th colspan="2">계정ID</th>
-																			<td colspan="2">??</td>
+																			<th colspan="1">계정ID</th>
+																			<td colspan="3">??</td>
 																		</tr>
 																		<tr>
 																			<th colspan="3">적요</th>
@@ -457,9 +457,9 @@
 															</div>
 														</div>
 													</div>
-													<table class="table table-bordered" style="text-align: center">
+													<table class="table table-bordered bg-white" style="text-align: center">
 														<tbody>
-															<tr>
+															<tr class="text-dark"style="background-color:#B5D3FF">
 																<th class="font-weight-semi-bold border-top-0 py-2">전표번호</th>
 																<th class="font-weight-semi-bold border-top-0 py-2">전표종류</th>
 																<th class="font-weight-semi-bold border-top-0 py-2">연결
@@ -507,11 +507,11 @@
 													<div class="col">
 														<div class="collapse multi-collapse"
 															id="multiCollapseExample3">
-															<div class="bg-white p-4">
-																<table class="table table-bordered"
+															
+																<table class="table table-bordered bg-white"
 																	style="text-align: center">
 																	<tbody>
-																		<tr>
+																		<tr class="text-dark"style="background-color:#B5D3FF">
 																			<th colspan="4">입금전표</th>
 																		</tr>
 																		<tr>
@@ -556,12 +556,12 @@
 																		</tr>
 																	</tbody>
 																</table>
-															</div>
+														
 														</div>
 													</div>
-													<table class="table table-bordered" style="text-align: center">
+													<table class="table table-bordered bg-white" style="text-align: center">
 														<tbody>
-															<tr>
+															<tr class="text-dark"style="background-color:#B5D3FF">
 																<th class="font-weight-semi-bold border-top-0 py-2">전표번호</th>
 																<th class="font-weight-semi-bold border-top-0 py-2">전표종류</th>
 																<th class="font-weight-semi-bold border-top-0 py-2">연결
@@ -619,30 +619,30 @@
 													<div id="tabsContent2" class="card-body tab-content p-0">
 														<div class="tab-pane fade show active" id="tabs2-tab3"
 															role="tabpanel">
-															<table class="table table-bordered"
+															<table class="table table-bordered bg-white"
 																style="text-align: center">
 																<tbody>
-																	<tr>
+																	<tr class="text-dark"style="background-color:#B5D3FF">
 																		<th scope="col" colspan="4">입금전표</th>
 																	</tr>
 																	<tr>
 																		<th scope="col">과목</th>
 																		<td scope="col"><input id="text" type="text"
-																			class="form-control" name="password" required=""></td>
+																			class="form-control" name="password"></td>
 																		<th scope="col">항목</th>
 																		<td scope="col"><input id="text" type="text"
-																			class="form-control" name="password" required=""></td>
+																			class="form-control" name="password" ></td>
 																	</tr>
 																	<tr>
 																		<th colspan="3" align="center">연결ID</th>
 																		<td><input id="text" type="text"
-																			class="form-control" name="password" required=""></td>
+																			class="form-control" name="password" ></td>
 
 																	</tr>
 																	<tr>
 																		<th colspan="3" align="center">계정ID</th>
 																		<td><input id="text" type="text"
-																			class="form-control" name="text" required=""></td>
+																			class="form-control" name="text" ></td>
 																	</tr>
 																	<tr>
 																		<th colspan="3" align="center">적요</th>
@@ -651,26 +651,26 @@
 																	</tr>
 																	<tr>
 																		<td colspan="3"><input id="text" type="text"
-																			class="form-control" name="password" required=""></td>
+																			class="form-control" name="password" ></td>
 																		<td><input id="text" type="text"
-																			class="form-control" name="text" required=""></td>
+																			class="form-control" name="text" ></td>
 																	</tr>
 																	<tr>
 																		<td colspan="3"><input id="text" type="text"
-																			class="form-control" name="password" required=""></td>
+																			class="form-control" name="password" ></td>
 																		<td><input id="text" type="text"
-																			class="form-control" name="text" required=""></td>
+																			class="form-control" name="text"></td>
 																	</tr>
 																	<tr>
 																		<td colspan="3"><input id="text" type="text"
-																			class="form-control" name="password" required=""></td>
+																			class="form-control" name="password" ></td>
 																		<td><input id="text" type="text"
-																			class="form-control" name="text" required=""></td>
+																			class="form-control" name="text" ></td>
 																	</tr>
 																	<tr>
 																		<th colspan="3">합계</th>
 																		<td><input id="text" type="text"
-																			class="form-control" name="text" required=""></td>
+																			class="form-control" name="text" ></td>
 																	</tr>
 																</tbody>
 															</table>
@@ -679,30 +679,30 @@
 														</div>
 
 														<div class="tab-pane fade" id="tabs2-tab4" role="tabpanel">
-															<table class="table table-bordered"
+															<table class="table table-bordered bg-white"
 																style="text-align: center">
 																<tbody>
-																	<tr>
+																	<tr class="text-dark"style="background-color:#B5D3FF">
 																		<th scope="col" colspan="4">출금전표</th>
 																	</tr>
 																	<tr>
 																		<th scope="col">과목</th>
 																		<td scope="col"><input id="text" type="text"
-																			class="form-control" name="password" required=""></td>
+																			class="form-control" name="password" ></td>
 																		<th scope="col">항목</th>
 																		<td scope="col"><input id="text" type="text"
-																			class="form-control" name="password" required=""></td>
+																			class="form-control" name="password" ></td>
 																	</tr>
 																	<tr>
 																		<th colspan="3" align="center">연결ID</th>
 																		<td><input id="text" type="text"
-																			class="form-control" name="password" required=""></td>
+																			class="form-control" name="password" ></td>
 
 																	</tr>
 																	<tr>
 																		<th colspan="3" align="center">계정ID</th>
 																		<td><input id="text" type="text"
-																			class="form-control" name="text" required=""></td>
+																			class="form-control" name="text" ></td>
 																	</tr>
 																	<tr>
 																		<th colspan="3" align="center">적요</th>
@@ -711,26 +711,26 @@
 																	</tr>
 																	<tr>
 																		<td colspan="3"><input id="text" type="text"
-																			class="form-control" name="password" required=""></td>
+																			class="form-control" name="password" ></td>
 																		<td><input id="text" type="text"
-																			class="form-control" name="text" required=""></td>
+																			class="form-control" name="text" ></td>
 																	</tr>
 																	<tr>
 																		<td colspan="3"><input id="text" type="text"
-																			class="form-control" name="password" required=""></td>
+																			class="form-control" name="password" ></td>
 																		<td><input id="text" type="text"
-																			class="form-control" name="text" required=""></td>
+																			class="form-control" name="text" ></td>
 																	</tr>
 																	<tr>
 																		<td colspan="3"><input id="text" type="text"
-																			class="form-control" name="password" required=""></td>
+																			class="form-control" name="password" ></td>
 																		<td><input id="text" type="text"
-																			class="form-control" name="text" required=""></td>
+																			class="form-control" name="text" ></td>
 																	</tr>
 																	<tr>
 																		<th colspan="3">합계</th>
 																		<td><input id="text" type="text"
-																			class="form-control" name="text" required=""></td>
+																			class="form-control" name="text" ></td>
 																	</tr>
 																</tbody>
 															</table>
