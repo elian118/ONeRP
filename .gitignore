@@ -2,13 +2,12 @@
 
 *.properties
 
-### Java ###
-# Compiled class file
 *.class
-.classpath
 
-# Log file
 *.log
 
 target/
+
 pom.properties
+
+.classpath

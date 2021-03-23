@@ -11,13 +11,21 @@ import org.springframework.web.bind.annotation.RequestMapping;
 //근태관리
 @Controller
 public class AbsenteeismController {
-	private static final Logger logger = LoggerFactory.getLogger(AbsenteeismController.class);
-	
-	// 사원 목록 
-	@RequestMapping("/listofemployees")
-	public String listofemployees(HttpServletRequest req, Model model) {
-		logger.info("url ==> 사원 목록");
+   private static final Logger logger = LoggerFactory.getLogger(AbsenteeismController.class);
+   
+   // 조회
+   @RequestMapping("/abSelect")
+   public String abSelect(HttpServletRequest req, Model model) {
+      logger.info("url ==> 조회");
 
-		return "absenteeism/listofemployees";
-	}
+      return "absenteeism/abSelect";
+   }
+   
+   // 등록
+   @RequestMapping("/abApplication")
+   public String abApplication(HttpServletRequest req, Model model) {
+      logger.info("url ==> 조회");
+
+      return "absenteeism/abApplication";
+   }
 }

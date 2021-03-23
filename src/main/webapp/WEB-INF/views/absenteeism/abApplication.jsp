@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
-<%@ include file = "./setting.jsp" %> 
+<%@ include file = "../setting.jsp" %> 
 <head>
     <!-- Title -->
     <title>Users | Graindashboard UI Kit</title>
@@ -20,7 +20,7 @@
 
 <body class="has-sidebar has-fixed-sidebar-and-header">
 
-<%@ include file = "./common/header.jsp" %> 
+<%@ include file = "../common/header.jsp" %> 
 <main class="main">
     <!-- Sidebar Nav -->
     <aside id="sidebar" class="js-custom-scroll side-nav">
@@ -58,17 +58,16 @@
                         <a class="side-nav-menu-link" href="${path}/personnelSalary">급여</a>
                     </li>
                 </ul>
-
                 <!-- End UI Components: subComponents -->
             </li>
             <!-- End UI Components -->
-          <!-- Authentication -->
-            <li class="side-nav-menu-item side-nav-has-menu">
+         <!-- Users -->
+            <li class="side-nav-menu-item side-nav-has-menu active side-nav-opened">
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#subPages">
-              <span class="side-nav-menu-icon d-flex mr-3">
-                <i class="gd-timer"></i>
-              </span>
+                  <span class="side-nav-menu-icon d-flex mr-3">
+                    <i class="gd-timer"></i>
+                  </span>
                     <span class="side-nav-fadeout-on-closed media-body">근태 관리</span>
                     <span class="side-nav-control-icon d-flex">
                 <i class="gd-angle-right side-nav-fadeout-on-closed"></i>
@@ -76,18 +75,19 @@
                     <span class="side-nav__indicator side-nav-fadeout-on-closed"></span>
                 </a>
 
-                <!-- Pages: subPages -->
-                 <ul id="subPages" class="side-nav-menu side-nav-menu-second-level mb-0">
-                    <li class="side-nav-menu-item">
-                         <a class="side-nav-menu-link" href="${path}/abSelect">조회</a>
+                <!-- Users: subUsers -->
+                <ul id="subPages" class="side-nav-menu side-nav-menu-second-level mb-0" style="display: block;">
+                    <li class="side-nav-menu-item ">
+                        <a class="side-nav-menu-link" href="${path}/abSelect">조회</a>
                     </li>
-                    <li class="side-nav-menu-item">
+                    <li class="side-nav-menu-item active">
                         <a class="side-nav-menu-link" href="${path}/abApplication">신청</a>
                     </li>
+                   
                 </ul>
-                <!-- End Pages: subPages -->
+                <!-- End Users: subUsers -->
             </li>
-            <!-- End Authentication -->
+            <!-- End Users -->
             <!-- UI Components -->
             <li class="side-nav-menu-item side-nav-has-menu">
                 <a class="side-nav-menu-link media align-items-center" href="#"
@@ -95,7 +95,7 @@
                   <span class="side-nav-menu-icon d-flex mr-3">
                     <i class="gd-money"></i>
                   </span>
-                    <span class="side-nav-fadeout-on-closed media-body">출고  관리</span>
+                    <span class="side-nav-fadeout-on-closed media-body">출고 관리</span>
                     <span class="side-nav-control-icon d-flex">
                 <i class="gd-angle-right side-nav-fadeout-on-closed"></i>
               </span>
@@ -198,12 +198,14 @@
                     </li>
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/inventoryadjustment">재고 조정</a>
-                    </li>        
+                    </li>         
                 </ul>
                 <!-- End UI Components: subComponents -->
             </li>
             <!-- End UI Components -->
-             <!-- UI Components -->
+           
+            <!-- End UI Components -->
+            <!-- UI Components -->
             <li class="side-nav-menu-item side-nav-has-menu">
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#subUsers">
@@ -238,38 +240,103 @@
                 <!-- End UI Components: subComponents -->
             </li>
             <!-- End UI Components -->
-            
-
-            
-
-            
-
         </ul>
     </aside>
     <!-- End Sidebar Nav -->
 
+    <!-- 근태 신청 시작 -->
     <div class="content">
-        <div class="py-4 px-3 px-md-4">
-            <div class="card mb-3 mb-md-4">
-
-                <div class="card-body">
-                    <div class="mb-3 mb-md-4 d-flex justify-content-between">
-                        <div class="h3 mb-0">MAIN</div>
-                    </div>
-
-
-                    메인 
-                </div>
-            </div>
-
-
-        </div>
-
-        
-    </div>
+			<div class="py-4 px-3 px-md-4">
+				<div class="card">
+					<div class="card-body">
+						<div class="row">
+							<div class="col-xl-12">
+								<div id="example" class="mb-9">
+									<h2 class="h4">근태 신청 <a class="anchorjs-link" href="#example"aria-label="Anchor" data-anchorjs-icon="#"></a>
+									</h2>
+									
+									<br>
+									
+									<div class="mb-3">
+										<!-- Tab Content -->
+										<div class="tab-content bg-lighter" id="pills-tabContent-1">
+											<div class="tab-pane fade p-4 show active"
+												id="pills-result-1" role="tabpanel"
+												aria-labelledby="pills-result-tab-1">
+											
+												<form>
+													<table class="table" style="text-align:center">
+														<tr>
+															<td>사원명 </td>
+															<td><input id="text" type="text" class="form-control" name="password" required=""></td>
+															<td><button type="button"  class="btn btn-outline-dark">사원확인</button></td>
+														</tr>
+														<tr>
+															<td>부서명</td>
+															<td>	 
+															<div class="form-group">
+															     <select class="form-control" id="exampleFormControlSelect1">
+															       <option>영업부</option>
+															       <option>인사부</option>
+															       <option>회계부</option>
+															     </select>
+															   </div>
+															 </td>
+														</tr>
+														<tr>
+															<td> 근태 유형</td>
+															<td>	 
+															<div class="form-group">
+															     <select class="form-control" id="exampleFormControlSelect1">
+															       <option>병가</option>
+															       <option>조퇴</option>
+															       <option>연차</option>
+															       <option>경조사</option>
+															     </select>
+															   </div>
+															 </td>
+														</tr>
+														<tr>
+															<td> <label> 시작일 &nbsp;&nbsp;&nbsp; </label> <input type="date" width=""></td>
+															<td> <label> 종료일&nbsp;&nbsp;&nbsp;</label>  <input type="date" > </td>
+														</tr>
+														<tr>
+															<td> 사유 </td>
+															<td>
+																<div class="form-group">
+      																<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+   															 	</div>
+															</td>
+														</tr>
+														
+													</table>
+													
+													<br>
+												
+												<div align=center>
+												
+													<button type="button" type="submit" class="btn btn-outline-dark">신청</button>&nbsp;&nbsp;&nbsp;
+													<button type="button" type="reset" class="btn btn-outline-dark">재작성</button>
+												
+												</div>
+												<br>
+											</form>
+											 
+											</div>
+										</div>
+										<!-- End Tab Content -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- 근태 신청 끝-->
 </main>
 
-<%@ include file = "./common/footer.jsp" %> 
+<%@ include file = "../common/footer.jsp" %> 
 <script src="${project}js/graindashboard.js"></script>
 <script src="${project}js/graindashboard.vendor.js"></script>
 

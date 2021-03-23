@@ -31,7 +31,7 @@
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#gg">
                   <span class="side-nav-menu-icon d-flex mr-3">
-                    <i class="gd-panel"></i>
+                    <i class="gd-themify-favicon"></i>
                   </span>
                     <span class="side-nav-fadeout-on-closed media-body">인사 관리</span>
                     <span class="side-nav-control-icon d-flex">
@@ -41,24 +41,21 @@
                 </a>
 
                 <!-- UI Components: subComponents -->
-                <ul id="gg" class="side-nav-menu side-nav-menu-second-level mb-0">
-                    <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="${path}/personnelcodeManagement">인사코드 관리</a>
+                 <ul id="gg" class="side-nav-menu side-nav-menu-second-level mb-0">
+                    <li class="side-nav-menu-item ">
+                        <a class="side-nav-menu-link" href="${path}/personnelCode">인사코드 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">인사발령 관리</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelDep">부서 관리</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">인사카드관리(조회)</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelAppointment">인사 발령</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">급여 관리</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelCard">인사 카드</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">부서 관리</a>
-                    </li>
-                    <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="user-edit.html">퇴사/휴직자 관리</a>
+                        <a class="side-nav-menu-link" href="${path}/personnelSalary">급여</a>
                     </li>
                 </ul>
                 <!-- End UI Components: subComponents -->
@@ -69,7 +66,7 @@
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#subPages">
               <span class="side-nav-menu-icon d-flex mr-3">
-                <i class="gd-lock"></i>
+                <i class="gd-timer"></i>
               </span>
                     <span class="side-nav-fadeout-on-closed media-body">근태 관리</span>
                     <span class="side-nav-control-icon d-flex">
@@ -81,10 +78,10 @@
                 <!-- Pages: subPages -->
                 <ul id="subPages" class="side-nav-menu side-nav-menu-second-level mb-0">
                     <li class="side-nav-menu-item">
-                         <a class="side-nav-menu-link" href="${path}/listofemployees">사원목록</a>
+                         <a class="side-nav-menu-link" href="${path}/abSelect">조회</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="register.html">휴가신청</a>
+                        <a class="side-nav-menu-link" href="${path}/abApplication">신청</a>
                     </li>
                 </ul>
                 <!-- End Pages: subPages -->
@@ -95,9 +92,9 @@
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#subComponents">
                   <span class="side-nav-menu-icon d-flex mr-3">
-                    <i class="gd-panel"></i>
+                    <i class="gd-money"></i>
                   </span>
-                    <span class="side-nav-fadeout-on-closed media-body">출고관리</span>
+                    <span class="side-nav-fadeout-on-closed media-body">출고 관리</span>
                     <span class="side-nav-control-icon d-flex">
                 <i class="gd-angle-right side-nav-fadeout-on-closed"></i>
               </span>
@@ -107,34 +104,19 @@
                 <!-- UI Components: subComponents -->
                 <ul id="subComponents" class="side-nav-menu side-nav-menu-second-level mb-0">
                 	<li class="side-nav-menu-item">
-                       <a class="side-nav-menu-link" href="${path}/client">거래처 조회</a>
+                        <a class="side-nav-menu-link" href="${path}/client">거래처</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="avatars.html">상품</a>
+                        <a class="side-nav-menu-link" href="${path}/salesproduct">상품</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="avatars.html">재고 현황</a>
+                        <a class="side-nav-menu-link" href="#">재고 현황</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="avatars.html">판매 현황</a>
+                        <a class="side-nav-menu-link" href="${path}/salesStatus">판매 현황</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="alerts.html">판매 입력</a>
-                    </li>
-                    <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="buttons.html">승인 내역</a>
-                    </li>
-                    <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="breadcrumbs.html">출고 요청</a>
-                    </li>
-                    <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="badges.html">출고 현황</a>
-                    </li>
-                    <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="cards.html">출고 승인</a>
-                    </li>
-                    <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="collapse.html">수금 상황</a>
+                        <a class="side-nav-menu-link" href="${path}/releaseStatus">출고 현황</a>
                     </li>
                     
                 </ul>
@@ -146,7 +128,7 @@
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#asd">
                   <span class="side-nav-menu-icon d-flex mr-3">
-                    <i class="gd-brush-alt"></i>
+                    <i class="gd-shopping-cart"></i>
                   </span>
                     <span class="side-nav-fadeout-on-closed media-body">매입 관리</span>
                     <span class="side-nav-control-icon d-flex">
@@ -158,34 +140,19 @@
                 <!-- Utils: subUtils -->
                 <ul id="asd" class="side-nav-menu side-nav-menu-second-level mb-0">
                 	<li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="${path}/client2">거래처 조회</a>
+                        <a class="side-nav-menu-link" href="${path}/client2">거래처</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="avatars.html">상품</a>
+                        <a class="side-nav-menu-link" href="${path}/purchproduct">상품</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="avatars.html">재고 현황</a>
+                        <a class="side-nav-menu-link" href="#">재고 현황</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="background.html">구매 현황</a>
+                        <a class="side-nav-menu-link" href="${path}/purStatus">구매 현황</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="borders.html">구매 입력</a>
-                    </li>
-                    <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="borders.html">승인 내역</a>
-                    </li>
-                    <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="borders.html">입고 요청</a>
-                    </li>
-                    <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="borders.html">입고 현황</a>
-                    </li>
-                    <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="borders.html">입고 승인</a>
-                    </li>
-                    <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="borders.html">채무 상황</a>
+                        <a class="side-nav-menu-link" href="${path}/receiveStatus">입고 현황</a>
                     </li>
                 </ul>
                 <!-- End Utils: subUtils -->
@@ -196,7 +163,7 @@
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#zxc">
                   <span class="side-nav-menu-icon d-flex mr-3">
-                    <i class="gd-user"></i>
+                    <i class="gd-truck"></i>
                   </span>
                     <span class="side-nav-fadeout-on-closed media-body">물류 관리</span>
                     <span class="side-nav-control-icon d-flex">
@@ -211,25 +178,25 @@
                         <a class="side-nav-menu-link" href="${path}/accountinquiry">거래처 조회</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="avatars.html">상품 조회</a>
+                        <a class="side-nav-menu-link" href="${path}/productinquiry">상품 조회</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="avatars.html">재고 현황</a>
+                        <a class="side-nav-menu-link" href="${path}/inventorystatus">재고 현황</a>
                     </li>
                     <li class="side-nav-menu-item active">
                         <a class="side-nav-menu-link" href="${path}/statementlist">전표 리스트</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="buttons.html">재고 수불부</a>
+                        <a class="side-nav-menu-link" href="${path}/inventorysupply">재고 수불부</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="breadcrumbs.html">창고 리스트</a>
+                        <a class="side-nav-menu-link" href="${path}/warehouselist">창고 리스트</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="badges.html">창고 이동</a>
+                        <a class="side-nav-menu-link" href="${path}/movewarehouse">창고 이동</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="cards.html">재고 조정</a>
+                        <a class="side-nav-menu-link" href="${path}/inventoryadjustment">재고 조정</a>
                     </li> 
                 </ul>
                 <!-- End Users: subUsers -->
@@ -418,6 +385,9 @@
 														<li class="nav-item ml-4"><a
 															class="nav-link px-2 pb-2" href="#tabs2-tab6" role="tab"
 															aria-selected="false" data-toggle="tab">물류 출고 요청 </a></li>
+														<li class="nav-item ml-4"><a
+															class="nav-link px-2 pb-2" href="#tabs2-tab7" role="tab"
+															aria-selected="false" data-toggle="tab">출고 완료 요청 </a></li>
 													</ul>
 													<div id="tabsContent2" class="card-body tab-content p-0">
 														<div class="tab-pane fade show active" id="tabs2-tab5"
@@ -454,8 +424,36 @@
                                              </table>
 														</div>
 
-														<div class="tab-pane fade" id="tabs2-tab6" role="tabpanel">
-															<table class="table">
+											<div class="tab-pane fade" id="tabs2-tab6" role="tabpanel">
+													<table class="table">
+                                                <thead>
+                                                   <tr>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">구매번호</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">상품명</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">구매수량</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">입고일</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">담당자명</th>
+                                                      <th class="font-weight-semi-bold border-top-0 py-2">승인버튼</th>
+                                                   </tr>
+                                                </thead>
+                                                <tbody>
+                                                   <tr>
+                                                      <td class="py-3">0988909</td>
+                                                      <td class="py-3">0809801</td>
+                                                      <td class="py-3">100</td>
+                                                      <td class="py-3">2017-09-03</td>
+                                                      <td class="py-3">김민수</td>
+                                                      <td class="py-3">
+                                                      <button type="button" class="btn btn-outline-dark"
+                                                         style='float: middle;'>등록하기</button>
+                                                      </td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+														</div>
+														
+											<div class="tab-pane fade" id="tabs2-tab7" role="tabpanel">
+													<table class="table">
                                                 <thead>
                                                    <tr>
                                                       <th class="font-weight-semi-bold border-top-0 py-2">구매번호</th>

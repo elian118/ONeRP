@@ -81,23 +81,23 @@
                 <!-- Pages: subPages -->
                 <ul id="subPages" class="side-nav-menu side-nav-menu-second-level mb-0">
                     <li class="side-nav-menu-item">
-                         <a class="side-nav-menu-link" href="${path}/abSelect">조회</a>
+                         <a class="side-nav-menu-link" href="${path}/listofemployees">사원목록</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="${path}/abApplication">신청</a>
+                        <a class="side-nav-menu-link" href="register.html">휴가신청</a>
                     </li>
                 </ul>
                 <!-- End Pages: subPages -->
             </li>
             <!-- End Authentication -->
-            <!-- Users -->
+            <!-- UI Components -->
             <li class="side-nav-menu-item side-nav-has-menu">
                 <a class="side-nav-menu-link media align-items-center" href="#"
                    data-target="#subComponents">
                   <span class="side-nav-menu-icon d-flex mr-3">
                     <i class="gd-money"></i>
                   </span>
-                    <span class="side-nav-fadeout-on-closed media-body">출고 관리</span>
+                    <span class="side-nav-fadeout-on-closed media-body">출고관리</span>
                     <span class="side-nav-control-icon d-flex">
                 <i class="gd-angle-right side-nav-fadeout-on-closed"></i>
               </span>
@@ -105,15 +105,15 @@
                 </a>
 
                 <!-- UI Components: subComponents -->
-                <ul id="subComponents" class="side-nav-menu side-nav-menu-second-level mb-0" style="display: block;">
-                	<li class="side-nav-menu-item active">
+                <ul id="subComponents" class="side-nav-menu side-nav-menu-second-level mb-0">
+                	<li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/client">거래처</a>
                     </li>
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/salesproduct">상품</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="${path}/salesInvenStatus">재고 현황</a>
+                        <a class="side-nav-menu-link" href="#">재고 현황</a>
                     </li>
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/salesStatus">판매 현황</a>
@@ -121,6 +121,7 @@
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/releaseStatus">출고 현황</a>
                     </li>
+                    
                 </ul>
                 <!-- End UI Components: subComponents -->
             </li>
@@ -140,15 +141,15 @@
                 </a>
 
                 <!-- Utils: subUtils -->
-                <ul id="asd" class="side-nav-menu side-nav-menu-second-level mb-0">
-                	<li class="side-nav-menu-item">
+                <ul id="asd" class="side-nav-menu side-nav-menu-second-level mb-0" style="display: block;">
+                	<li class="side-nav-menu-item active">
                         <a class="side-nav-menu-link" href="${path}/client2">거래처</a>
                     </li>
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/purchproduct">상품</a>
                     </li>
                     <li class="side-nav-menu-item">
-                        <a class="side-nav-menu-link" href="${path}/purInvenStatus">재고 현황</a>
+                        <a class="side-nav-menu-link" href="${path}/salesInvenStatus">재고 현황</a>
                     </li>
                     <li class="side-nav-menu-item">
                         <a class="side-nav-menu-link" href="${path}/purStatus">구매 현황</a>
@@ -159,7 +160,7 @@
                 </ul>
                 <!-- End Utils: subUtils -->
             </li>
-            <!-- End Utils -->
+            <!-- End Users -->
              <!-- UI Components -->
             <li class="side-nav-menu-item side-nav-has-menu">
                 <a class="side-nav-menu-link media align-items-center" href="#"
@@ -239,12 +240,6 @@
                 <!-- End UI Components: subComponents -->
             </li>
             <!-- End UI Components -->
-            
-
-            
-
-            
-
         </ul>
     </aside>
     <!-- End Sidebar Nav -->
@@ -255,7 +250,7 @@
 					<div class="card-body">
 					<nav aria-label="breadcrumb">
 							<ol class="breadcrumb">
-								<li class="breadcrumb-item"><a href="#">출고 관리</a></li>
+								<li class="breadcrumb-item"><a href="#">매입 관리</a></li>
 								<li class="breadcrumb-item active" aria-current="page">거래처</li>
 							</ol>
 						</nav>
@@ -276,12 +271,12 @@
 												class="nav-link d-flex align-items-center py-2 px-3 active"
 												id="pills-result-tab-1" data-toggle="pill"
 												href="#pills-result-1" role="tab"
-												aria-controls="pills-result-1" aria-selected="true"> 판매 거래처 관리 </a></li>
+												aria-controls="pills-result-1" aria-selected="true"> 구매 거래처 관리 </a></li>
 											<li class="nav-item border-bottom border-xl-bottom-0"><a
 												class="nav-link d-flex align-items-center py-2 px-3"
 												id="pills-html-tab-1" data-toggle="pill"
 												href="#pills-html-1" role="tab" aria-controls="pills-html-1"
-												aria-selected="false"> 판매 거래처 등록 </a></li>
+												aria-selected="false"> 구매 거래처 등록 </a></li>
 										</ul>
 										<!-- End Nav Classic -->
 
@@ -497,7 +492,7 @@
 												</div>
 											</div>
 										</div>
-										<!-- End Tab Content -->
+										<!— End Tab Content —>
 									</div>
 								</div>
 							</div>
